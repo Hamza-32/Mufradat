@@ -1,0 +1,175 @@
+# Added to extend quran-core-300 toward its namesake 300. Every gloss below was
+# written by hand: the plain Bengali word first, then the borrowed Arabic form a
+# Bangladeshi learner already knows.
+#
+# TODO: verify — frequencyRank is an editorial ordering by how early a learner
+# is likely to meet the word, not a corpus count.
+
+words:
+  - id: din
+    arabic: 'دِين'
+    transliteration: 'dīn'
+    pos: noun
+    bn: ['ধর্ম', 'দীন']
+    en: ['religion', 'way of life']
+    root: 'د ي ن'
+    gender: masculine
+    plural: { arabic: 'أَدْيَان', type: broken }
+    frequencyRank: 55
+    audio: audio/words/din.mp3
+    tags: [quran, faith]
+    editorNote: "কুরআনে শুধু 'ধর্ম' নয় — জীবনব্যবস্থা আর প্রতিদানের দিন, দুই অর্থেই আসে।"
+  - id: dunya
+    arabic: 'دُنْيَا'
+    transliteration: 'dunyā'
+    pos: noun
+    bn: ['দুনিয়া', 'ইহকাল']
+    en: ['this world', 'the present life']
+    root: 'د ن و'
+    gender: feminine
+    frequencyRank: 60
+    audio: audio/words/dunya.mp3
+    tags: [quran, faith]
+    editorNote: "মূল অর্থ 'নিকটতর' — আখিরাতের তুলনায় কাছের জীবন। তাই সবসময় آخِرَة-এর বিপরীতে পড়ুন।"
+  - id: akhirah
+    arabic: 'آخِرَة'
+    transliteration: 'ākhirah'
+    pos: noun
+    bn: ['পরকাল', 'আখিরাত']
+    en: ['the hereafter', 'the life to come']
+    root: 'أ خ ر'
+    gender: feminine
+    frequencyRank: 65
+    audio: audio/words/akhirah.mp3
+    tags: [quran, faith]
+    editorNote: 'دُنْيَا-এর জোড়া শব্দ। কুরআনে প্রায়ই একই আয়াতে দুটো পাশাপাশি আসে।'
+  - id: bayt
+    arabic: 'بَيْت'
+    transliteration: 'bayt'
+    pos: noun
+    bn: ['ঘর', 'বাড়ি']
+    en: ['house', 'home']
+    root: 'ب ي ت'
+    gender: masculine
+    plural: { arabic: 'بُيُوت', type: broken }
+    frequencyRank: 50
+    audio: audio/words/bayt.mp3
+    tags: [quran, places]
+    editorNote: 'بَيْت الله মানে কাবা। বহুবচন بُيُوت — ভাঙা বহুবচন, শব্দের সাথেই শিখুন।'
+  - id: salam
+    arabic: 'سَلَام'
+    transliteration: 'salām'
+    pos: noun
+    bn: ['শান্তি', 'সালাম']
+    en: ['peace', 'greeting of peace']
+    root: 'س ل م'
+    gender: masculine
+    frequencyRank: 75
+    audio: audio/words/salam.mp3
+    tags: [quran, faith]
+    editorNote: 'একই মূল থেকে إِسْلَام আর مُسْلِم — আত্মসমর্পণের মধ্য দিয়ে শান্তি।'
+  - id: hamd
+    arabic: 'حَمْد'
+    transliteration: 'ḥamd'
+    pos: noun
+    bn: ['প্রশংসা', 'হামদ']
+    en: ['praise']
+    root: 'ح م د'
+    gender: masculine
+    frequencyRank: 85
+    audio: audio/words/hamd.mp3
+    tags: [quran, faith]
+    editorNote: 'الْحَمْدُ لِلَّٰه — সূরা ফাতিহার প্রথম শব্দ। একই মূল থেকে মুহাম্মদ ও আহমদ নাম।'
+  - id: dhikr
+    arabic: 'ذِكْر'
+    transliteration: 'dhikr'
+    pos: noun
+    bn: ['স্মরণ', 'জিকির']
+    en: ['remembrance', 'mention']
+    root: 'ذ ك ر'
+    gender: masculine
+    frequencyRank: 95
+    audio: audio/words/dhikr.mp3
+    tags: [quran, faith]
+  - id: mal
+    arabic: 'مَال'
+    transliteration: 'māl'
+    pos: noun
+    bn: ['সম্পদ', 'মাল']
+    en: ['wealth', 'property']
+    root: 'م و ل'
+    gender: masculine
+    plural: { arabic: 'أَمْوَال', type: broken }
+    frequencyRank: 70
+    audio: audio/words/mal.mp3
+    tags: [quran, everyday]
+  - id: hidayah
+    arabic: 'هِدَايَة'
+    transliteration: 'hidāyah'
+    pos: noun
+    bn: ['পথনির্দেশ', 'হেদায়েত']
+    en: ['guidance']
+    root: 'ه د ي'
+    gender: feminine
+    frequencyRank: 110
+    audio: audio/words/hidayah.mp3
+    tags: [quran, faith]
+  - id: hubb
+    arabic: 'حُبّ'
+    transliteration: 'ḥubb'
+    pos: noun
+    bn: ['ভালোবাসা', 'মহব্বত']
+    en: ['love']
+    root: 'ح ب ب'
+    gender: masculine
+    frequencyRank: 115
+    audio: audio/words/hubb.mp3
+    tags: [quran, feelings]
+  - id: sirat
+    arabic: 'صِرَاط'
+    transliteration: 'ṣirāṭ'
+    pos: noun
+    bn: ['পথ', 'সিরাত']
+    en: ['path', 'way']
+    root: 'ص ر ط'
+    gender: masculine
+    frequencyRank: 120
+    audio: audio/words/sirat.mp3
+    tags: [quran, faith]
+    editorNote: 'الصِّرَاط الْمُسْتَقِيم — সরল পথ, সূরা ফাতিহায়।'
+  - id: khawf
+    arabic: 'خَوْف'
+    transliteration: 'khawf'
+    pos: noun
+    bn: ['ভয়']
+    en: ['fear']
+    root: 'خ و ف'
+    gender: masculine
+    frequencyRank: 125
+    audio: audio/words/khawf.mp3
+    tags: [quran, feelings]
+  - id: tawbah
+    arabic: 'تَوْبَة'
+    transliteration: 'tawbah'
+    pos: noun
+    bn: ['অনুশোচনা', 'তওবা']
+    en: ['repentance', 'turning back']
+    root: 'ت و ب'
+    gender: feminine
+    frequencyRank: 130
+    audio: audio/words/tawbah.mp3
+    tags: [quran, faith]
+    editorNote: "মূল অর্থ 'ফিরে আসা' — পাপ থেকে আল্লাহর দিকে ফেরা।"
+  - id: sadaqah
+    arabic: 'صَدَقَة'
+    transliteration: 'ṣadaqah'
+    pos: noun
+    bn: ['দান', 'সদকা']
+    en: ['charity', 'alms']
+    root: 'ص د ق'
+    gender: feminine
+    plural: { arabic: 'صَدَقَات', type: sound_feminine }
+    frequencyRank: 140
+    audio: audio/words/sadaqah.mp3
+    tags: [quran, faith]
+    editorNote: 'একই মূল থেকে صِدْق (সত্য) — দান সত্যের প্রমাণ।'

@@ -1,0 +1,206 @@
+# Generated from the table in scripts/content-source (kept in git history).
+# Every gloss below was written by hand; anything marked needsReview is one I am
+# not confident about and would like checked.
+#
+# TODO: verify — frequencyRank is an editorial ordering by how early a learner
+# is likely to meet the word, not a corpus count. Replace from a published
+# Quranic frequency list before launch.
+#
+# People, family and trades.
+
+words:
+  - id: ibn
+    arabic: 'اِبْن'
+    transliteration: 'ibn'
+    pos: noun
+    bn: ['ছেলে', 'পুত্র']
+    en: ['son']
+    root: 'ب ن ي'
+    gender: masculine
+    plural: { arabic: 'أَبْنَاء', type: broken }
+    frequencyRank: 110
+    audio: audio/words/ibn.mp3
+    tags: [quran, family]
+    editorNote: 'নামের মাঝে এলে হরকত পড়ে যায়: عَبْدُ اللهِ بْنُ عُمَرَ।'
+  - id: bint
+    arabic: 'بِنْت'
+    transliteration: 'bint'
+    pos: noun
+    bn: ['মেয়ে']
+    en: ['daughter', 'girl']
+    root: 'ب ن ي'
+    gender: feminine
+    plural: { arabic: 'بَنَات', type: broken }
+    frequencyRank: 180
+    audio: audio/words/bint.mp3
+    tags: [quran, family]
+  - id: akh
+    arabic: 'أَخ'
+    transliteration: 'akh'
+    pos: noun
+    bn: ['ভাই']
+    en: ['brother']
+    root: 'أ خ و'
+    gender: masculine
+    plural: { arabic: 'إِخْوَة', type: broken }
+    frequencyRank: 145
+    audio: audio/words/akh.mp3
+    tags: [quran, family]
+  - id: ukht
+    arabic: 'أُخْت'
+    transliteration: 'ukht'
+    pos: noun
+    bn: ['বোন']
+    en: ['sister']
+    root: 'أ خ و'
+    gender: feminine
+    plural: { arabic: 'أَخَوَات', type: sound_feminine }
+    frequencyRank: 340
+    audio: audio/words/ukht.mp3
+    tags: [quran, family]
+  - id: sadiq
+    arabic: 'صَدِيق'
+    transliteration: 'ṣadīq'
+    pos: noun
+    bn: ['বন্ধু']
+    en: ['friend']
+    root: 'ص د ق'
+    gender: masculine
+    plural: { arabic: 'أَصْدِقَاء', type: broken }
+    frequencyRank: 355
+    audio: audio/words/sadiq.mp3
+    tags: [people, everyday]
+  - id: jar
+    arabic: 'جَار'
+    transliteration: 'jār'
+    pos: noun
+    bn: ['প্রতিবেশী']
+    en: ['neighbour']
+    root: 'ج و ر'
+    gender: masculine
+    plural: { arabic: 'جِيرَان', type: broken }
+    frequencyRank: 450
+    audio: audio/words/jar.mp3
+    tags: [people, everyday]
+  - id: muallim
+    arabic: 'مُعَلِّم'
+    transliteration: 'muʿallim'
+    pos: noun
+    bn: ['শিক্ষক']
+    en: ['teacher']
+    root: 'ع ل م'
+    gender: masculine
+    plural: { arabic: 'مُعَلِّمُون', type: sound_masculine }
+    frequencyRank: 375
+    audio: audio/words/muallim.mp3
+    tags: [people, work, learning]
+  - id: talib
+    arabic: 'طَالِب'
+    transliteration: 'ṭālib'
+    pos: noun
+    bn: ['ছাত্র']
+    en: ['student']
+    root: 'ط ل ب'
+    gender: masculine
+    plural: { arabic: 'طُلَّاب', type: broken }
+    frequencyRank: 365
+    audio: audio/words/talib.mp3
+    tags: [people, learning]
+  - id: tabib
+    arabic: 'طَبِيب'
+    transliteration: 'ṭabīb'
+    pos: noun
+    bn: ['ডাক্তার']
+    en: ['doctor']
+    root: 'ط ب ب'
+    gender: masculine
+    plural: { arabic: 'أَطِبَّاء', type: broken }
+    frequencyRank: 490
+    audio: audio/words/tabib.mp3
+    tags: [people, work]
+  - id: malik
+    arabic: 'مَلِك'
+    transliteration: 'malik'
+    pos: noun
+    bn: ['রাজা', 'বাদশাহ']
+    en: ['king']
+    root: 'م ل ك'
+    gender: masculine
+    plural: { arabic: 'مُلُوك', type: broken }
+    frequencyRank: 200
+    audio: audio/words/malik.mp3
+    tags: [quran, people]
+  - id: abd
+    arabic: 'عَبْد'
+    transliteration: 'ʿabd'
+    pos: noun
+    bn: ['দাস', 'বান্দা']
+    en: ['servant', 'slave']
+    root: 'ع ب د'
+    gender: masculine
+    plural: { arabic: 'عِبَاد', type: broken }
+    frequencyRank: 98
+    audio: audio/words/abd.mp3
+    tags: [quran, people]
+    editorNote: 'عِبَاد (আল্লাহর বান্দা) আর عَبِيد (দাস) — দুটো বহুবচনের ব্যবহার আলাদা।'
+  - id: sahib
+    arabic: 'صَاحِب'
+    transliteration: 'ṣāḥib'
+    pos: noun
+    bn: ['সঙ্গী', 'মালিক']
+    en: ['companion', 'owner']
+    root: 'ص ح ب'
+    gender: masculine
+    plural: { arabic: 'أَصْحَاب', type: broken }
+    frequencyRank: 165
+    audio: audio/words/sahib.mp3
+    tags: [quran, people]
+  - id: zawj
+    arabic: 'زَوْج'
+    transliteration: 'zawj'
+    pos: noun
+    bn: ['স্বামী', 'জোড়া']
+    en: ['husband', 'pair']
+    root: 'ز و ج'
+    gender: masculine
+    plural: { arabic: 'أَزْوَاج', type: broken }
+    frequencyRank: 188
+    audio: audio/words/zawj.mp3
+    tags: [quran, family]
+  - id: zawja
+    arabic: 'زَوْجَة'
+    transliteration: 'zawjah'
+    pos: noun
+    bn: ['স্ত্রী']
+    en: ['wife']
+    root: 'ز و ج'
+    gender: feminine
+    plural: { arabic: 'زَوْجَات', type: sound_feminine }
+    frequencyRank: 395
+    audio: audio/words/zawja.mp3
+    tags: [family, everyday]
+  - id: tifl
+    arabic: 'طِفْل'
+    transliteration: 'ṭifl'
+    pos: noun
+    bn: ['শিশু']
+    en: ['child', 'infant']
+    root: 'ط ف ل'
+    gender: masculine
+    plural: { arabic: 'أَطْفَال', type: broken }
+    frequencyRank: 405
+    audio: audio/words/tifl.mp3
+    tags: [family, people]
+  - id: nafar
+    arabic: 'نَفَر'
+    transliteration: 'nafar'
+    pos: noun
+    bn: ['কয়েকজন লোক']
+    en: ['a few people', 'group']
+    root: 'ن ف ر'
+    gender: masculine
+    plural: { arabic: 'أَنْفَار', type: broken }
+    frequencyRank: 620
+    audio: audio/words/nafar.mp3
+    tags: [quran, people]
+    needsReview: true # TODO: verify — বাংলা অর্থটা যাচাই করা দরকার

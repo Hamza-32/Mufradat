@@ -1,0 +1,436 @@
+# Deck two, the created world: weather and metal, fruit and cattle, the body
+# the Quran keeps pointing at as evidence. These are the nouns of the "signs"
+# verses — أَفَلَا يَنْظُرُونَ, do they not look?
+
+words:
+  - id: zill
+    arabic: 'ظِلّ'
+    transliteration: 'ẓill'
+    pos: noun
+    bn: ['ছায়া']
+    en: ['shade', 'shadow']
+    root: 'ظ ل ل'
+    gender: masculine
+    plural: { arabic: 'ظِلَال', type: broken }
+    frequencyRank: 405
+    audio: audio/words/zill.mp3
+    tags: [quran, nature]
+  - id: bard
+    arabic: 'بَرْد'
+    transliteration: 'bard'
+    pos: noun
+    bn: ['শীত', 'ঠান্ডা']
+    en: ['cold']
+    root: 'ب ر د'
+    gender: masculine
+    frequencyRank: 407
+    audio: audio/words/bard.mp3
+    tags: [quran, nature]
+    editorNote: 'حَرّ (গরম)-এর জোড়া, আর بَارِد (ঠান্ডা) একই মূল।'
+  - id: barq
+    arabic: 'بَرْق'
+    transliteration: 'barq'
+    pos: noun
+    bn: ['বিদ্যুৎ', 'বিজলি']
+    en: ['lightning']
+    root: 'ب ر ق'
+    gender: masculine
+    frequencyRank: 409
+    audio: audio/words/barq.mp3
+    tags: [quran, nature]
+  - id: raad
+    arabic: 'رَعْد'
+    transliteration: 'raʿd'
+    pos: noun
+    bn: ['বজ্র', 'মেঘগর্জন']
+    en: ['thunder']
+    root: 'ر ع د'
+    gender: masculine
+    frequencyRank: 411
+    audio: audio/words/raad.mp3
+    tags: [quran, nature]
+    editorNote: 'সূরা আর-রাদের নাম। بَرْق-এর সাথে জোড়ায় আসে।'
+  - id: thalj
+    arabic: 'ثَلْج'
+    transliteration: 'thalj'
+    pos: noun
+    bn: ['বরফ']
+    en: ['snow', 'ice']
+    root: 'ث ل ج'
+    gender: masculine
+    frequencyRank: 413
+    audio: audio/words/thalj.mp3
+    tags: [quran, nature]
+  - id: wadi
+    arabic: 'وَادِي'
+    transliteration: 'wādī'
+    pos: noun
+    bn: ['উপত্যকা']
+    en: ['valley']
+    root: 'و د ي'
+    gender: masculine
+    plural: { arabic: 'أَوْدِيَة', type: broken }
+    frequencyRank: 415
+    audio: audio/words/wadi.mp3
+    tags: [quran, nature, places]
+  - id: hadid
+    arabic: 'حَدِيد'
+    transliteration: 'ḥadīd'
+    pos: noun
+    bn: ['লোহা']
+    en: ['iron']
+    root: 'ح د د'
+    gender: masculine
+    frequencyRank: 417
+    audio: audio/words/hadid.mp3
+    tags: [quran, nature]
+    editorNote: 'সূরা আল-হাদিদের নাম। حَدّ (সীমা, ধার) একই মূল।'
+  - id: dhahab
+    arabic: 'ذَهَب'
+    transliteration: 'dhahab'
+    pos: noun
+    bn: ['স্বর্ণ', 'সোনা']
+    en: ['gold']
+    root: 'ذ ه ب'
+    gender: masculine
+    frequencyRank: 419
+    audio: audio/words/dhahab.mp3
+    tags: [quran, nature]
+    editorNote: 'ذَهَبَ (যাওয়া) ক্রিয়ার সাথে হরফ এক, অর্থ আলাদা — প্রসঙ্গে চিনুন।'
+  - id: fiddah
+    arabic: 'فِضَّة'
+    transliteration: 'fiḍḍah'
+    pos: noun
+    bn: ['রৌপ্য', 'রুপা']
+    en: ['silver']
+    root: 'ف ض ض'
+    gender: feminine
+    frequencyRank: 421
+    audio: audio/words/fiddah.mp3
+    tags: [quran, nature]
+  - id: thamar
+    arabic: 'ثَمَر'
+    transliteration: 'thamar'
+    pos: noun
+    bn: ['ফল']
+    en: ['fruit']
+    root: 'ث م ر'
+    gender: masculine
+    plural: { arabic: 'ثِمَار', type: broken }
+    frequencyRank: 423
+    audio: audio/words/thamar.mp3
+    tags: [quran, nature, food]
+  - id: zar
+    arabic: 'زَرْع'
+    transliteration: 'zarʿ'
+    pos: noun
+    bn: ['ফসল', 'শস্য']
+    en: ['crop', 'tillage']
+    root: 'ز ر ع'
+    gender: masculine
+    frequencyRank: 425
+    audio: audio/words/zar.mp3
+    tags: [quran, nature, food]
+  - id: habb
+    arabic: 'حَبّ'
+    transliteration: 'ḥabb'
+    pos: noun
+    bn: ['দানা', 'বীজ']
+    en: ['grain', 'seed']
+    root: 'ح ب ب'
+    gender: masculine
+    frequencyRank: 427
+    audio: audio/words/habb.mp3
+    tags: [quran, nature, food]
+    editorNote: 'حُبّ (ভালোবাসা) একই হরফ — দানা থেকেই যা অঙ্কুরিত হয়।'
+  - id: nakhl
+    arabic: 'نَخْل'
+    transliteration: 'nakhl'
+    pos: noun
+    bn: ['খেজুর গাছ']
+    en: ['date palm']
+    root: 'ن خ ل'
+    gender: masculine
+    frequencyRank: 429
+    audio: audio/words/nakhl.mp3
+    tags: [quran, nature, food]
+  - id: inab
+    arabic: 'عِنَب'
+    transliteration: 'ʿinab'
+    pos: noun
+    bn: ['আঙুর']
+    en: ['grapes']
+    root: 'ع ن ب'
+    gender: masculine
+    frequencyRank: 431
+    audio: audio/words/inab.mp3
+    tags: [quran, nature, food]
+  - id: zaytun
+    arabic: 'زَيْتُون'
+    transliteration: 'zaytūn'
+    pos: noun
+    bn: ['জলপাই', 'জয়তুন']
+    en: ['olive']
+    root: 'ز ي ت'
+    gender: masculine
+    frequencyRank: 433
+    audio: audio/words/zaytun.mp3
+    tags: [quran, nature, food]
+    editorNote: 'সূরা আত-তীনের وَالتِّينِ وَالزَّيْتُونِ — ডুমুর ও জলপাইয়ের শপথ।'
+  - id: rumman
+    arabic: 'رُمَّان'
+    transliteration: 'rummān'
+    pos: noun
+    bn: ['ডালিম', 'আনার']
+    en: ['pomegranate']
+    root: 'ر م ن'
+    gender: masculine
+    frequencyRank: 435
+    audio: audio/words/rumman.mp3
+    tags: [quran, nature, food]
+  - id: asal
+    arabic: 'عَسَل'
+    transliteration: 'ʿasal'
+    pos: noun
+    bn: ['মধু']
+    en: ['honey']
+    root: 'ع س ل'
+    gender: masculine
+    frequencyRank: 437
+    audio: audio/words/asal.mp3
+    tags: [quran, nature, food]
+    editorNote: 'সূরা আন-নাহলে মৌমাছির পেট থেকে বেরোনো شَرَابٌ مُخْتَلِفٌ أَلْوَانُهُ।'
+  - id: khamr
+    arabic: 'خَمْر'
+    transliteration: 'khamr'
+    pos: noun
+    bn: ['মদ', 'মাদক']
+    en: ['wine', 'intoxicant']
+    root: 'خ م ر'
+    gender: feminine
+    frequencyRank: 439
+    audio: audio/words/khamr.mp3
+    tags: [quran, food, faith]
+    editorNote: "মূল অর্থ 'ঢেকে ফেলা' — যা বুদ্ধিকে ঢেকে দেয়।"
+  - id: anaam
+    arabic: 'أَنْعَام'
+    transliteration: 'anʿām'
+    pos: noun
+    bn: ['গবাদি পশু']
+    en: ['cattle', 'livestock']
+    root: 'ن ع م'
+    gender: masculine
+    frequencyRank: 441
+    audio: audio/words/anaam.mp3
+    tags: [quran, nature]
+    editorNote: 'সূরা আল-আনআমের নাম। نِعْمَة (নিয়ামত) একই মূল — পশুও একটি অনুগ্রহ।'
+  - id: dabbah
+    arabic: 'دَابَّة'
+    transliteration: 'dābbah'
+    pos: noun
+    bn: ['জীবজন্তু', 'বিচরণশীল প্রাণী']
+    en: ['creature', 'beast']
+    root: 'د ب ب'
+    gender: feminine
+    plural: { arabic: 'دَوَابّ', type: broken }
+    frequencyRank: 443
+    audio: audio/words/dabbah.mp3
+    tags: [quran, nature]
+    editorNote: "মূল অর্থ 'যে হেঁটে চলে' — মাটিতে চলাচলকারী সব প্রাণী।"
+  - id: tayr
+    arabic: 'طَيْر'
+    transliteration: 'ṭayr'
+    pos: noun
+    bn: ['পাখি']
+    en: ['bird', 'birds']
+    root: 'ط ي ر'
+    gender: masculine
+    frequencyRank: 445
+    audio: audio/words/tayr.mp3
+    tags: [quran, nature]
+  - id: naml
+    arabic: 'نَمْل'
+    transliteration: 'naml'
+    pos: noun
+    bn: ['পিঁপড়া']
+    en: ['ants']
+    root: 'ن م ل'
+    gender: masculine
+    frequencyRank: 447
+    audio: audio/words/naml.mp3
+    tags: [quran, nature]
+    editorNote: 'সূরা আন-নামলের নাম — সুলাইমান (আ.) ও পিঁপড়ার কথোপকথন।'
+  - id: nahl
+    arabic: 'نَحْل'
+    transliteration: 'naḥl'
+    pos: noun
+    bn: ['মৌমাছি']
+    en: ['bees']
+    root: 'ن ح ل'
+    gender: masculine
+    frequencyRank: 449
+    audio: audio/words/nahl.mp3
+    tags: [quran, nature]
+  - id: baqarah
+    arabic: 'بَقَرَة'
+    transliteration: 'baqarah'
+    pos: noun
+    bn: ['গাভি', 'গরু']
+    en: ['cow']
+    root: 'ب ق ر'
+    gender: feminine
+    frequencyRank: 451
+    audio: audio/words/baqarah.mp3
+    tags: [quran, nature]
+    editorNote: 'কুরআনের দীর্ঘতম সূরার নাম, বনি ইসরাইলের গাভির ঘটনা থেকে।'
+  - id: ibil
+    arabic: 'إِبِل'
+    transliteration: 'ibil'
+    pos: noun
+    bn: ['উট']
+    en: ['camels']
+    gender: feminine
+    frequencyRank: 453
+    audio: audio/words/ibil.mp3
+    tags: [quran, nature]
+    editorNote: "أَفَلَا يَنْظُرُونَ إِلَى الْإِبِلِ كَيْفَ خُلِقَتْ — 'উটের দিকে কি তারা তাকায় না?'"
+  - id: khayl
+    arabic: 'خَيْل'
+    transliteration: 'khayl'
+    pos: noun
+    bn: ['ঘোড়া']
+    en: ['horses']
+    root: 'خ ي ل'
+    gender: feminine
+    frequencyRank: 455
+    audio: audio/words/khayl.mp3
+    tags: [quran, nature]
+  - id: safinah
+    arabic: 'سَفِينَة'
+    transliteration: 'safīnah'
+    pos: noun
+    bn: ['নৌকা', 'জাহাজ']
+    en: ['ship', 'boat']
+    root: 'س ف ن'
+    gender: feminine
+    frequencyRank: 457
+    audio: audio/words/safinah.mp3
+    tags: [quran, nature]
+  - id: fulk
+    arabic: 'فُلْك'
+    transliteration: 'fulk'
+    pos: noun
+    bn: ['নৌযান', 'জাহাজ']
+    en: ['ship', 'ark']
+    root: 'ف ل ك'
+    gender: masculine
+    frequencyRank: 459
+    audio: audio/words/fulk.mp3
+    tags: [quran, nature]
+    editorNote: 'একবচন ও বহুবচনে রূপ একই থাকে — নূহ (আ.)-এর নৌকার শব্দ।'
+  - id: jasad
+    arabic: 'جَسَد'
+    transliteration: 'jasad'
+    pos: noun
+    bn: ['দেহ', 'শরীর']
+    en: ['body']
+    root: 'ج س د'
+    gender: masculine
+    frequencyRank: 461
+    audio: audio/words/jasad.mp3
+    tags: [quran, body]
+  - id: jild
+    arabic: 'جِلْد'
+    transliteration: 'jild'
+    pos: noun
+    bn: ['চামড়া', 'ত্বক']
+    en: ['skin']
+    root: 'ج ل د'
+    gender: masculine
+    plural: { arabic: 'جُلُود', type: broken }
+    frequencyRank: 463
+    audio: audio/words/jild.mp3
+    tags: [quran, body]
+  - id: damm
+    arabic: 'دَم'
+    transliteration: 'dam'
+    pos: noun
+    bn: ['রক্ত']
+    en: ['blood']
+    root: 'د م ي'
+    gender: masculine
+    plural: { arabic: 'دِمَاء', type: broken }
+    frequencyRank: 465
+    audio: audio/words/damm.mp3
+    tags: [quran, body]
+  - id: azm
+    arabic: 'عَظْم'
+    transliteration: 'ʿaẓm'
+    pos: noun
+    bn: ['হাড়']
+    en: ['bone']
+    root: 'ع ظ م'
+    gender: masculine
+    plural: { arabic: 'عِظَام', type: broken }
+    frequencyRank: 467
+    audio: audio/words/azm.mp3
+    tags: [quran, body]
+    editorNote: 'عَظِيم (মহান) একই মূল — হাড়ই দেহের শক্ত কাঠামো।'
+  - id: kaff
+    arabic: 'كَفّ'
+    transliteration: 'kaff'
+    pos: noun
+    bn: ['হাতের তালু']
+    en: ['palm of the hand']
+    root: 'ك ف ف'
+    gender: masculine
+    frequencyRank: 469
+    audio: audio/words/kaff.mp3
+    tags: [quran, body]
+  - id: qadam
+    arabic: 'قَدَم'
+    transliteration: 'qadam'
+    pos: noun
+    bn: ['পা', 'পদ']
+    en: ['foot']
+    root: 'ق د م'
+    gender: feminine
+    plural: { arabic: 'أَقْدَام', type: broken }
+    frequencyRank: 471
+    audio: audio/words/qadam.mp3
+    tags: [quran, body]
+  - id: zahr
+    arabic: 'ظَهْر'
+    transliteration: 'ẓahr'
+    pos: noun
+    bn: ['পিঠ']
+    en: ['back']
+    root: 'ظ ه ر'
+    gender: masculine
+    plural: { arabic: 'ظُهُور', type: broken }
+    frequencyRank: 473
+    audio: audio/words/zahr.mp3
+    tags: [quran, body]
+    editorNote: 'ظَاهِر (প্রকাশ্য) একই মূল — যা সামনে দেখা যায়, আর যা পিছনে থাকে।'
+  - id: anf
+    arabic: 'أَنْف'
+    transliteration: 'anf'
+    pos: noun
+    bn: ['নাক']
+    en: ['nose']
+    root: 'أ ن ف'
+    gender: masculine
+    frequencyRank: 475
+    audio: audio/words/anf.mp3
+    tags: [quran, body]
+  - id: shaar
+    arabic: 'شَعْر'
+    transliteration: 'shaʿr'
+    pos: noun
+    bn: ['চুল']
+    en: ['hair']
+    root: 'ش ع ر'
+    gender: masculine
+    frequencyRank: 477
+    audio: audio/words/shaar.mp3
+    tags: [quran, body]

@@ -1,0 +1,17 @@
+# Normalise to LF in the repository. Without this the line endings a file is
+# committed with depend on the contributor's core.autocrlf, and CI's
+# `git diff --exit-code` checks start failing for reasons unrelated to content.
+* text=auto eol=lf
+
+# Binary: never touch these, and do not try to diff them as text.
+*.png binary
+*.woff binary
+*.woff2 binary
+*.mp3 binary
+*.ico binary
+
+# Generated. Collapsed in review and excluded from language statistics, so the
+# repository is reported as the TypeScript project it is.
+package-lock.json linguist-generated=true
+drizzle/meta/** linguist-generated=true
+public/audio/** linguist-generated=true

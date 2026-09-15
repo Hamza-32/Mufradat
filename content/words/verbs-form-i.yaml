@@ -1,0 +1,93 @@
+# Form I verbs. Listed in the dictionary form (3rd person masculine past), with
+# the present tense stored separately because the vowel on the middle radical
+# is unpredictable and has to be learned with the word.
+#
+# The Bengali gloss is the verbal noun (লেখা), because that is how a Bengali
+# speaker names a verb. The past-tense sense is carried by the example.
+
+words:
+  - id: kataba
+    arabic: 'كَتَبَ'
+    transliteration: 'kataba'
+    pos: verb
+    bn: ['লেখা']
+    en: ['to write', 'he wrote']
+    root: 'ك ت ب'
+    verb: { form: 1, present: 'يَكْتُبُ', masdar: 'كِتَابَة' }
+    frequencyRank: 230
+    audio: audio/words/kataba.mp3
+    tags: [verbs, form-i, learning, quran]
+    editorNote: 'Present vowel is ُ (yaktubu). Gives كِتَاب, كَاتِب (writer), مَكْتَب (office), مَكْتَبَة (library).'
+    examples:
+      - arabic: 'كَتَبَ الطَّالِبُ الدَّرْسَ'
+        bn: 'ছাত্রটি পাঠটি লিখল।'
+        en: 'The student wrote the lesson.'
+
+  - id: qaraa
+    arabic: 'قَرَأَ'
+    transliteration: 'qaraʾa'
+    pos: verb
+    bn: ['পড়া', 'পাঠ করা']
+    en: ['to read', 'to recite']
+    root: 'ق ر أ'
+    verb: { form: 1, present: 'يَقْرَأُ', masdar: 'قِرَاءَة' }
+    frequencyRank: 250
+    audio: audio/words/qaraa.mp3
+    tags: [verbs, form-i, learning, quran]
+    editorNote: "Same root as قُرْآن — literally 'the recitation'."
+    examples:
+      - arabic: 'قَرَأَ الْقُرْآنَ بِصَوْتٍ جَمِيلٍ'
+        bn: 'সে সুন্দর কণ্ঠে কুরআন পড়ল।'
+        en: 'He recited the Quran in a beautiful voice.'
+
+  - id: akala
+    arabic: 'أَكَلَ'
+    transliteration: 'akala'
+    pos: verb
+    bn: ['খাওয়া']
+    en: ['to eat']
+    root: 'أ ك ل'
+    verb: { form: 1, present: 'يَأْكُلُ', masdar: 'أَكْل' }
+    frequencyRank: 290
+    audio: audio/words/akala.mp3
+    tags: [verbs, form-i, food, quran]
+    editorNote: 'Hamza-initial: the imperative is كُلْ, with the hamza dropped.'
+    examples:
+      - arabic: 'أَكَلْتُ التَّمْرَ'
+        bn: 'আমি খেজুর খেলাম।'
+        en: 'I ate the dates.'
+
+  - id: dhahaba
+    arabic: 'ذَهَبَ'
+    transliteration: 'dhahaba'
+    pos: verb
+    bn: ['যাওয়া']
+    en: ['to go', 'to depart']
+    root: 'ذ ه ب'
+    verb: { form: 1, present: 'يَذْهَبُ', masdar: 'ذَهَاب' }
+    frequencyRank: 270
+    audio: audio/words/dhahaba.mp3
+    tags: [verbs, form-i, movement, quran]
+    editorNote: 'Unrelated in sense to ذَهَب (gold), which is spelled identically without vowels — a good harakat-challenge item.'
+    examples:
+      - arabic: 'ذَهَبَ إِلَى السُّوقِ'
+        bn: 'সে বাজারে গেল।'
+        en: 'He went to the market.'
+
+  - id: alima
+    arabic: 'عَلِمَ'
+    transliteration: 'ʿalima'
+    pos: verb
+    bn: ['জানা']
+    en: ['to know', 'to learn of']
+    root: 'ع ل م'
+    verb: { form: 1, present: 'يَعْلَمُ', masdar: 'عِلْم' }
+    frequencyRank: 45
+    audio: audio/words/alima.mp3
+    tags: [verbs, form-i, learning, quran]
+    editorNote: 'Middle radical takes kasra in the past and fatha in the present: ʿalima / yaʿlamu. Contrast عَلَّمَ (form II, to teach).'
+    examples:
+      - arabic: 'عَلِمَ الطَّالِبُ الْجَوَابَ'
+        bn: 'ছাত্রটি উত্তরটি জেনে গেল।'
+        en: 'The student came to know the answer.'
+        needsReview: true # TODO: verify — "জেনে গেল" vs "জানতে পারল"; which reads more naturally here?

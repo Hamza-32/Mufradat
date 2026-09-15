@@ -1,0 +1,221 @@
+# Generated from the table in scripts/content-source (kept in git history).
+# Every gloss below was written by hand; anything marked needsReview is one I am
+# not confident about and would like checked.
+#
+# TODO: verify — frequencyRank is an editorial ordering by how early a learner
+# is likely to meet the word, not a corpus count. Replace from a published
+# Quranic frequency list before launch.
+#
+# Food, market and the words for paying for things.
+
+words:
+  - id: lahm
+    arabic: 'لَحْم'
+    transliteration: 'laḥm'
+    pos: noun
+    bn: ['মাংস']
+    en: ['meat']
+    root: 'ل ح م'
+    gender: masculine
+    plural: { arabic: 'لُحُوم', type: broken }
+    frequencyRank: 540
+    audio: audio/words/lahm.mp3
+    tags: [food, market]
+  - id: samak
+    arabic: 'سَمَك'
+    transliteration: 'samak'
+    pos: noun
+    bn: ['মাছ']
+    en: ['fish']
+    root: 'س م ك'
+    gender: masculine
+    frequencyRank: 545
+    audio: audio/words/samak.mp3
+    tags: [food, market]
+    editorNote: 'সমষ্টিবাচক; একটি মাছ سَمَكَة।'
+  - id: aruzz
+    arabic: 'أَرُزّ'
+    transliteration: 'aruzz'
+    pos: noun
+    bn: ['ভাত', 'চাল']
+    en: ['rice']
+    root: 'أ ر ز'
+    gender: masculine
+    frequencyRank: 560
+    audio: audio/words/aruzz.mp3
+    tags: [food, market]
+    editorNote: 'বাংলায় রান্না করা হলে ভাত, কাঁচা হলে চাল — আরবিতে একই শব্দ।'
+  - id: bayd
+    arabic: 'بَيْض'
+    transliteration: 'bayḍ'
+    pos: noun
+    bn: ['ডিম']
+    en: ['eggs']
+    root: 'ب ي ض'
+    gender: masculine
+    frequencyRank: 565
+    audio: audio/words/bayd.mp3
+    tags: [food, market]
+    editorNote: 'সমষ্টিবাচক; একটি ডিম بَيْضَة।'
+  - id: fakiha
+    arabic: 'فَاكِهَة'
+    transliteration: 'fākihah'
+    pos: noun
+    bn: ['ফল']
+    en: ['fruit']
+    root: 'ف ك ه'
+    gender: feminine
+    plural: { arabic: 'فَوَاكِه', type: broken }
+    frequencyRank: 550
+    audio: audio/words/fakiha.mp3
+    tags: [food, market, quran]
+  - id: khudar
+    arabic: 'خُضَار'
+    transliteration: 'khuḍār'
+    pos: noun
+    bn: ['সবজি']
+    en: ['vegetables']
+    root: 'خ ض ر'
+    gender: masculine
+    frequencyRank: 570
+    audio: audio/words/khudar.mp3
+    tags: [food, market]
+  - id: milh
+    arabic: 'مِلْح'
+    transliteration: 'milḥ'
+    pos: noun
+    bn: ['লবণ']
+    en: ['salt']
+    root: 'م ل ح'
+    gender: masculine
+    frequencyRank: 590
+    audio: audio/words/milh.mp3
+    tags: [food, market]
+  - id: sukkar
+    arabic: 'سُكَّر'
+    transliteration: 'sukkar'
+    pos: noun
+    bn: ['চিনি']
+    en: ['sugar']
+    root: 'س ك ر'
+    gender: masculine
+    frequencyRank: 585
+    audio: audio/words/sukkar.mp3
+    tags: [food, market]
+  - id: shay
+    arabic: 'شَاي'
+    transliteration: 'shāy'
+    pos: noun
+    bn: ['চা']
+    en: ['tea']
+    gender: masculine
+    frequencyRank: 575
+    audio: audio/words/shay.mp3
+    tags: [food, everyday]
+  - id: qahwa
+    arabic: 'قَهْوَة'
+    transliteration: 'qahwah'
+    pos: noun
+    bn: ['কফি']
+    en: ['coffee']
+    root: 'ق ه و'
+    gender: feminine
+    frequencyRank: 580
+    audio: audio/words/qahwa.mp3
+    tags: [food, everyday]
+  - id: thaman
+    arabic: 'ثَمَن'
+    transliteration: 'thaman'
+    pos: noun
+    bn: ['দাম']
+    en: ['price']
+    root: 'ث م ن'
+    gender: masculine
+    plural: { arabic: 'أَثْمَان', type: broken }
+    frequencyRank: 455
+    audio: audio/words/thaman.mp3
+    tags: [market, quran]
+  - id: nuqud
+    arabic: 'نُقُود'
+    transliteration: 'nuqūd'
+    pos: noun
+    bn: ['টাকা']
+    en: ['money']
+    root: 'ن ق د'
+    gender: masculine
+    frequencyRank: 465
+    audio: audio/words/nuqud.mp3
+    tags: [market, everyday]
+    editorNote: 'বহুবচন রূপেই ব্যবহার হয়; একবচন نَقْد মানে নগদ।'
+  - id: dukkan
+    arabic: 'دُكَّان'
+    transliteration: 'dukkān'
+    pos: noun
+    bn: ['দোকান']
+    en: ['shop']
+    root: 'د ك ن'
+    gender: masculine
+    plural: { arabic: 'دَكَاكِين', type: broken }
+    frequencyRank: 600
+    audio: audio/words/dukkan.mp3
+    tags: [market, places]
+  - id: mataam
+    arabic: 'مَطْعَم'
+    transliteration: 'maṭʿam'
+    pos: noun
+    bn: ['রেস্তোরাঁ']
+    en: ['restaurant']
+    root: 'ط ع م'
+    gender: masculine
+    plural: { arabic: 'مَطَاعِم', type: broken }
+    frequencyRank: 530
+    audio: audio/words/mataam.mp3
+    tags: [market, places]
+    editorNote: 'طَعَام (খাবার) এর সাথে একই মূল — “খাবার জায়গা”।'
+  - id: sikkin
+    arabic: 'سِكِّين'
+    transliteration: 'sikkīn'
+    pos: noun
+    bn: ['ছুরি']
+    en: ['knife']
+    root: 'س ك ن'
+    gender: masculine
+    plural: { arabic: 'سَكَاكِين', type: broken }
+    frequencyRank: 640
+    audio: audio/words/sikkin.mp3
+    tags: [food, objects]
+  - id: kas
+    arabic: 'كَأْس'
+    transliteration: 'kaʾs'
+    pos: noun
+    bn: ['গ্লাস']
+    en: ['cup', 'glass']
+    root: 'ك أ س'
+    gender: masculine
+    plural: { arabic: 'كُؤُوس', type: broken }
+    frequencyRank: 610
+    audio: audio/words/kas.mp3
+    tags: [food, objects, quran]
+  - id: sahn
+    arabic: 'صَحْن'
+    transliteration: 'ṣaḥn'
+    pos: noun
+    bn: ['প্লেট']
+    en: ['plate', 'dish']
+    root: 'ص ح ن'
+    gender: masculine
+    plural: { arabic: 'صُحُون', type: broken }
+    frequencyRank: 630
+    audio: audio/words/sahn.mp3
+    tags: [food, objects]
+  - id: hisab
+    arabic: 'حِسَاب'
+    transliteration: 'ḥisāb'
+    pos: noun
+    bn: ['হিসাব', 'বিল']
+    en: ['account', 'reckoning', 'bill']
+    root: 'ح س ب'
+    gender: masculine
+    frequencyRank: 275
+    audio: audio/words/hisab.mp3
+    tags: [quran, market]

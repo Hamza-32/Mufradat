@@ -1,0 +1,311 @@
+# Deck three, adjectives — mostly the divine attributes that close verses, plus
+# the comparatives (أَكْبَر, أَعْلَى, أَدْنَى) that carry so much of the Quran's argument.
+
+words:
+  - id: qayyum
+    arabic: 'قَيُّوم'
+    transliteration: 'qayyūm'
+    pos: adjective
+    bn: ['চিরস্থায়ী অভিভাবক']
+    en: ['the Sustainer', 'self-subsisting']
+    root: 'ق و م'
+    frequencyRank: 805
+    audio: audio/words/qayyum.mp3
+    tags: [quran, adjectives, faith]
+    editorNote: 'الْحَيُّ الْقَيُّومُ — আয়াতুল কুরসির জোড়া নাম। قَامَ একই মূল।'
+  - id: samad
+    arabic: 'صَمَد'
+    transliteration: 'ṣamad'
+    pos: adjective
+    bn: ['অমুখাপেক্ষী', 'সবার আশ্রয়']
+    en: ['the Eternal Refuge']
+    root: 'ص م د'
+    frequencyRank: 807
+    audio: audio/words/samad.mp3
+    tags: [quran, adjectives, faith]
+    editorNote: 'اللَّهُ الصَّمَدُ — সূরা ইখলাসের দ্বিতীয় আয়াত।'
+  - id: khaliq
+    arabic: 'خَالِق'
+    transliteration: 'khāliq'
+    pos: adjective
+    bn: ['স্রষ্টা']
+    en: ['Creator']
+    root: 'خ ل ق'
+    frequencyRank: 809
+    audio: audio/words/khaliq.mp3
+    tags: [quran, adjectives, faith]
+  - id: razzaq
+    arabic: 'رَزَّاق'
+    transliteration: 'razzāq'
+    pos: adjective
+    bn: ['রিজিকদাতা']
+    en: ['the Provider']
+    root: 'ر ز ق'
+    frequencyRank: 811
+    audio: audio/words/razzaq.mp3
+    tags: [quran, adjectives, faith]
+  - id: wahhab
+    arabic: 'وَهَّاب'
+    transliteration: 'wahhāb'
+    pos: adjective
+    bn: ['মহাদাতা']
+    en: ['the Bestower']
+    root: 'و ه ب'
+    frequencyRank: 813
+    audio: audio/words/wahhab.mp3
+    tags: [quran, adjectives, faith]
+  - id: fattah
+    arabic: 'فَتَّاح'
+    transliteration: 'fattāḥ'
+    pos: adjective
+    bn: ['মীমাংসাকারী', 'উন্মুক্তকারী']
+    en: ['the Opener', 'the Judge']
+    root: 'ف ت ح'
+    frequencyRank: 815
+    audio: audio/words/fattah.mp3
+    tags: [quran, adjectives, faith]
+  - id: jabbar
+    arabic: 'جَبَّار'
+    transliteration: 'jabbār'
+    pos: adjective
+    bn: ['পরাক্রমশালী', 'দাম্ভিক']
+    en: ['the Compeller', 'a tyrant']
+    root: 'ج ب ر'
+    frequencyRank: 817
+    audio: audio/words/jabbar.mp3
+    tags: [quran, adjectives, faith]
+    editorNote: 'আল্লাহর গুণ হিসেবে প্রশংসা, মানুষের বেলায় নিন্দা — প্রসঙ্গ ঠিক করে দেয়।'
+  - id: rauf
+    arabic: 'رَءُوف'
+    transliteration: 'raʾūf'
+    pos: adjective
+    bn: ['অতি স্নেহশীল']
+    en: ['most kind', 'compassionate']
+    root: 'ر أ ف'
+    frequencyRank: 819
+    audio: audio/words/rauf.mp3
+    tags: [quran, adjectives, faith]
+    editorNote: 'رَحِيم-এর সাথে জোড়ায় আসে: رَءُوفٌ رَحِيمٌ।'
+  - id: wadud
+    arabic: 'وَدُود'
+    transliteration: 'wadūd'
+    pos: adjective
+    bn: ['প্রেমময়']
+    en: ['the Loving']
+    root: 'و د د'
+    frequencyRank: 821
+    audio: audio/words/wadud.mp3
+    tags: [quran, adjectives, faith]
+  - id: majid
+    arabic: 'مَجِيد'
+    transliteration: 'majīd'
+    pos: adjective
+    bn: ['মহিমান্বিত']
+    en: ['glorious']
+    root: 'م ج د'
+    frequencyRank: 823
+    audio: audio/words/majid.mp3
+    tags: [quran, adjectives, faith]
+    editorNote: 'الْقُرْآنِ الْمَجِيدِ — মহিমান্বিত কুরআন।'
+  - id: matin
+    arabic: 'مَتِين'
+    transliteration: 'matīn'
+    pos: adjective
+    bn: ['সুদৃঢ়', 'মজবুত']
+    en: ['firm', 'strong']
+    root: 'م ت ن'
+    frequencyRank: 825
+    audio: audio/words/matin.mp3
+    tags: [quran, adjectives, faith]
+  - id: hafeez
+    arabic: 'حَفِيظ'
+    transliteration: 'ḥafīẓ'
+    pos: adjective
+    bn: ['সংরক্ষক', 'হেফাজতকারী']
+    en: ['the Preserver', 'watchful']
+    root: 'ح ف ظ'
+    frequencyRank: 827
+    audio: audio/words/hafeez.mp3
+    tags: [quran, adjectives, faith]
+  - id: asim
+    arabic: 'عَاصِم'
+    transliteration: 'ʿāṣim'
+    pos: adjective
+    bn: ['রক্ষাকারী']
+    en: ['protector', 'one who shields']
+    root: 'ع ص م'
+    frequencyRank: 829
+    audio: audio/words/asim.mp3
+    tags: [quran, adjectives]
+    editorNote: 'لَا عَاصِمَ الْيَوْمَ مِنْ أَمْرِ اللَّهِ — নূহের কাহিনিতে।'
+  - id: mubarak
+    arabic: 'مُبَارَك'
+    transliteration: 'mubārak'
+    pos: adjective
+    bn: ['বরকতময়']
+    en: ['blessed']
+    root: 'ب ر ك'
+    frequencyRank: 831
+    audio: audio/words/mubarak.mp3
+    tags: [quran, adjectives, faith]
+  - id: munir
+    arabic: 'مُنِير'
+    transliteration: 'munīr'
+    pos: adjective
+    bn: ['আলোকিত', 'উজ্জ্বল']
+    en: ['luminous', 'giving light']
+    root: 'ن و ر'
+    frequencyRank: 833
+    audio: audio/words/munir.mp3
+    tags: [quran, adjectives]
+    editorNote: 'চাঁদকে قَمَرًا مُنِيرًا বলা হয়েছে। نُور একই মূল।'
+  - id: thabit
+    arabic: 'ثَابِت'
+    transliteration: 'thābit'
+    pos: adjective
+    bn: ['অটল', 'সুদৃঢ়']
+    en: ['firm', 'steadfast']
+    root: 'ث ب ت'
+    frequencyRank: 835
+    audio: audio/words/thabit.mp3
+    tags: [quran, adjectives]
+    editorNote: 'أَصْلُهَا ثَابِتٌ — উত্তম বাক্যের উপমায় গাছের অটল শিকড়।'
+  - id: qanit
+    arabic: 'قَانِت'
+    transliteration: 'qānit'
+    pos: adjective
+    bn: ['অনুগত', 'বিনীত']
+    en: ['devoutly obedient']
+    root: 'ق ن ت'
+    frequencyRank: 837
+    audio: audio/words/qanit.mp3
+    tags: [quran, adjectives, faith]
+  - id: munib
+    arabic: 'مُنِيب'
+    transliteration: 'munīb'
+    pos: adjective
+    bn: ['প্রত্যাবর্তনকারী']
+    en: ['turning (to God) in repentance']
+    root: 'ن و ب'
+    frequencyRank: 839
+    audio: audio/words/munib.mp3
+    tags: [quran, adjectives, faith]
+  - id: awwab
+    arabic: 'أَوَّاب'
+    transliteration: 'awwāb'
+    pos: adjective
+    bn: ['বারবার প্রত্যাবর্তনকারী']
+    en: ['ever-returning (to God)']
+    root: 'أ و ب'
+    frequencyRank: 841
+    audio: audio/words/awwab.mp3
+    tags: [quran, adjectives, faith]
+  - id: hanif
+    arabic: 'حَنِيف'
+    transliteration: 'ḥanīf'
+    pos: adjective
+    bn: ['একনিষ্ঠ', 'হানিফ']
+    en: ['upright', 'inclining to truth']
+    root: 'ح ن ف'
+    frequencyRank: 843
+    audio: audio/words/hanif.mp3
+    tags: [quran, adjectives, faith]
+    editorNote: 'ইবরাহিমের বর্ণনায়: كَانَ حَنِيفًا مُسْلِمًا — একনিষ্ঠ, আত্মসমর্পিত।'
+  - id: ummi
+    arabic: 'أُمِّيّ'
+    transliteration: 'ummiyy'
+    pos: adjective
+    bn: ['নিরক্ষর', 'উম্মি']
+    en: ['unlettered']
+    root: 'أ م م'
+    frequencyRank: 845
+    audio: audio/words/ummi.mp3
+    tags: [quran, adjectives]
+    editorNote: 'النَّبِيَّ الْأُمِّيَّ — নিরক্ষর নবী, যিনি লিখতে-পড়তে জানতেন না।'
+  - id: nasuh
+    arabic: 'نَصُوح'
+    transliteration: 'naṣūḥ'
+    pos: adjective
+    bn: ['আন্তরিক', 'খাঁটি']
+    en: ['sincere']
+    root: 'ن ص ح'
+    frequencyRank: 847
+    audio: audio/words/nasuh.mp3
+    tags: [quran, adjectives, faith]
+    editorNote: 'تَوْبَةً نَصُوحًا — আন্তরিক তওবা।'
+  - id: daim
+    arabic: 'دَائِم'
+    transliteration: 'dāʾim'
+    pos: adjective
+    bn: ['চিরস্থায়ী', 'নিরবচ্ছিন্ন']
+    en: ['lasting', 'constant']
+    root: 'د و م'
+    frequencyRank: 849
+    audio: audio/words/daim.mp3
+    tags: [quran, adjectives]
+  - id: wasat
+    arabic: 'وَسَط'
+    transliteration: 'wasaṭ'
+    pos: adjective
+    bn: ['মধ্যপন্থী', 'ভারসাম্যপূর্ণ']
+    en: ['middle', 'balanced']
+    root: 'و س ط'
+    frequencyRank: 851
+    audio: audio/words/wasat.mp3
+    tags: [quran, adjectives]
+    editorNote: 'أُمَّةً وَسَطًا — মধ্যপন্থী উম্মত।'
+  - id: akbar
+    arabic: 'أَكْبَر'
+    transliteration: 'akbar'
+    pos: adjective
+    bn: ['মহত্তর', 'সবচেয়ে বড়']
+    en: ['greater', 'greatest']
+    root: 'ك ب ر'
+    frequencyRank: 853
+    audio: audio/words/akbar.mp3
+    tags: [quran, adjectives]
+    editorNote: "كَبِير-এর তুলনামূলক রূপ। আরবিতে أَفْعَل ওজন 'চেয়ে বেশি' বোঝায়।"
+  - id: aala
+    arabic: 'أَعْلَى'
+    transliteration: 'aʿlā'
+    pos: adjective
+    bn: ['সর্বোচ্চ', 'সুউচ্চ']
+    en: ['highest', 'most exalted']
+    root: 'ع ل و'
+    frequencyRank: 855
+    audio: audio/words/aala.mp3
+    tags: [quran, adjectives, faith]
+    editorNote: 'سَبِّحِ اسْمَ رَبِّكَ الْأَعْلَى — সূরা আল-আলার শুরু।'
+  - id: adna
+    arabic: 'أَدْنَى'
+    transliteration: 'adnā'
+    pos: adjective
+    bn: ['নিকটতর', 'নিম্নতর']
+    en: ['nearer', 'lower']
+    root: 'د ن و'
+    frequencyRank: 857
+    audio: audio/words/adna.mp3
+    tags: [quran, adjectives]
+    editorNote: "دُنْيَا এই ওজনেরই স্ত্রীলিঙ্গ রূপ — 'নিকটতর' জীবন।"
+  - id: asfal
+    arabic: 'أَسْفَل'
+    transliteration: 'asfal'
+    pos: adjective
+    bn: ['নিম্নতম', 'সবচেয়ে নিচু']
+    en: ['lowest']
+    root: 'س ف ل'
+    frequencyRank: 859
+    audio: audio/words/asfal.mp3
+    tags: [quran, adjectives]
+    editorNote: 'أَسْفَلَ سَافِلِينَ — নিচুদের মধ্যে নিচুতম, সূরা আত-তীন।'
+  - id: khayr-better
+    arabic: 'أَحْسَن'
+    transliteration: 'aḥsan'
+    pos: adjective
+    bn: ['উত্তমতর', 'সবচেয়ে সুন্দর']
+    en: ['better', 'best']
+    root: 'ح س ن'
+    frequencyRank: 861
+    audio: audio/words/khayr-better.mp3
+    tags: [quran, adjectives]
+    editorNote: 'أَحْسَنِ تَقْوِيمٍ — সর্বোত্তম গঠনে মানুষ সৃষ্টি।'

@@ -1,0 +1,470 @@
+# Deck three opens with the names, because they were the largest hole in the
+# whole collection: مُوسَى alone occurs more often than almost any noun in the
+# Quran, and a reader who cannot recognise فِرْعَوْن or بَنِي إِسْرَائِيل cannot follow a
+# single narrative passage. Bengali spellings follow the forms a Bangladeshi
+# learner already meets in translation and khutbah.
+
+words:
+  - id: adam
+    arabic: 'آدَم'
+    transliteration: 'ādam'
+    pos: proper_noun
+    bn: ['আদম']
+    en: ['Adam']
+    frequencyRank: 705
+    audio: audio/words/adam.mp3
+    tags: [quran, prophets]
+  - id: nuh
+    arabic: 'نُوح'
+    transliteration: 'nūḥ'
+    pos: proper_noun
+    bn: ['নূহ']
+    en: ['Noah']
+    frequencyRank: 707
+    audio: audio/words/nuh.mp3
+    tags: [quran, prophets]
+    editorNote: 'সূরা নূহের নাম। তাঁর কাহিনিতে فُلْك (নৌকা) আর طُوفَان (প্লাবন) ফিরে ফিরে আসে।'
+  - id: ibrahim
+    arabic: 'إِبْرَاهِيم'
+    transliteration: 'ibrāhīm'
+    pos: proper_noun
+    bn: ['ইবরাহিম']
+    en: ['Abraham']
+    frequencyRank: 703
+    audio: audio/words/ibrahim.mp3
+    tags: [quran, prophets]
+    editorNote: 'مِلَّةَ إِبْرَاهِيمَ — ইবরাহিমের মিল্লাত, কুরআনে বারবার আদর্শ হিসেবে।'
+  - id: ismail
+    arabic: 'إِسْمَاعِيل'
+    transliteration: 'ismāʿīl'
+    pos: proper_noun
+    bn: ['ইসমাইল']
+    en: ['Ishmael']
+    frequencyRank: 711
+    audio: audio/words/ismail.mp3
+    tags: [quran, prophets]
+  - id: ishaq
+    arabic: 'إِسْحَاق'
+    transliteration: 'isḥāq'
+    pos: proper_noun
+    bn: ['ইসহাক']
+    en: ['Isaac']
+    frequencyRank: 713
+    audio: audio/words/ishaq.mp3
+    tags: [quran, prophets]
+  - id: yaqub
+    arabic: 'يَعْقُوب'
+    transliteration: 'yaʿqūb'
+    pos: proper_noun
+    bn: ['ইয়াকুব']
+    en: ['Jacob']
+    frequencyRank: 715
+    audio: audio/words/yaqub.mp3
+    tags: [quran, prophets]
+  - id: yusuf
+    arabic: 'يُوسُف'
+    transliteration: 'yūsuf'
+    pos: proper_noun
+    bn: ['ইউসুফ']
+    en: ['Joseph']
+    frequencyRank: 709
+    audio: audio/words/yusuf.mp3
+    tags: [quran, prophets]
+    editorNote: 'সূরা ইউসুফ — কুরআনের একমাত্র সূরা যা একটানা একটি কাহিনি বলে।'
+  - id: musa
+    arabic: 'مُوسَى'
+    transliteration: 'mūsā'
+    pos: proper_noun
+    bn: ['মুসা']
+    en: ['Moses']
+    frequencyRank: 701
+    audio: audio/words/musa.mp3
+    tags: [quran, prophets]
+    editorNote: 'কুরআনে সবচেয়ে বেশিবার নাম নেওয়া নবী।'
+  - id: harun
+    arabic: 'هَارُون'
+    transliteration: 'hārūn'
+    pos: proper_noun
+    bn: ['হারুন']
+    en: ['Aaron']
+    frequencyRank: 717
+    audio: audio/words/harun.mp3
+    tags: [quran, prophets]
+    editorNote: 'মুসার ভাই — وَأَخِي هَارُونُ هُوَ أَفْصَحُ مِنِّي لِسَانًا।'
+  - id: dawud
+    arabic: 'دَاوُد'
+    transliteration: 'dāwūd'
+    pos: proper_noun
+    bn: ['দাউদ']
+    en: ['David']
+    frequencyRank: 719
+    audio: audio/words/dawud.mp3
+    tags: [quran, prophets]
+  - id: sulayman
+    arabic: 'سُلَيْمَان'
+    transliteration: 'sulaymān'
+    pos: proper_noun
+    bn: ['সুলাইমান']
+    en: ['Solomon']
+    frequencyRank: 721
+    audio: audio/words/sulayman.mp3
+    tags: [quran, prophets]
+    editorNote: 'সূরা আন-নামলে তাঁর সাথে পিঁপড়া ও হুদহুদের কথোপকথন।'
+  - id: ayyub
+    arabic: 'أَيُّوب'
+    transliteration: 'ayyūb'
+    pos: proper_noun
+    bn: ['আইয়ুব']
+    en: ['Job']
+    frequencyRank: 723
+    audio: audio/words/ayyub.mp3
+    tags: [quran, prophets]
+    editorNote: 'صَبْر-এর দৃষ্টান্ত: إِنَّا وَجَدْنَاهُ صَابِرًا।'
+  - id: yunus
+    arabic: 'يُونُس'
+    transliteration: 'yūnus'
+    pos: proper_noun
+    bn: ['ইউনুস']
+    en: ['Jonah']
+    frequencyRank: 725
+    audio: audio/words/yunus.mp3
+    tags: [quran, prophets]
+    editorNote: 'صَاحِبُ الْحُوتِ — মাছওয়ালা, তাঁরই উপাধি।'
+  - id: zakariyya
+    arabic: 'زَكَرِيَّا'
+    transliteration: 'zakariyyā'
+    pos: proper_noun
+    bn: ['যাকারিয়া']
+    en: ['Zechariah']
+    frequencyRank: 727
+    audio: audio/words/zakariyya.mp3
+    tags: [quran, prophets]
+  - id: yahya
+    arabic: 'يَحْيَى'
+    transliteration: 'yaḥyā'
+    pos: proper_noun
+    bn: ['ইয়াহইয়া']
+    en: ['John']
+    frequencyRank: 729
+    audio: audio/words/yahya.mp3
+    tags: [quran, prophets]
+  - id: isa
+    arabic: 'عِيسَى'
+    transliteration: 'ʿīsā'
+    pos: proper_noun
+    bn: ['ঈসা']
+    en: ['Jesus']
+    frequencyRank: 706
+    audio: audio/words/isa.mp3
+    tags: [quran, prophets]
+    editorNote: 'কুরআনে সবসময় ابْنُ مَرْيَمَ — মারইয়ামের পুত্র হিসেবে।'
+  - id: maryam
+    arabic: 'مَرْيَم'
+    transliteration: 'maryam'
+    pos: proper_noun
+    bn: ['মারইয়াম']
+    en: ['Mary']
+    frequencyRank: 708
+    audio: audio/words/maryam.mp3
+    tags: [quran, people]
+    editorNote: 'কুরআনে নাম ধরে উল্লেখ করা একমাত্র নারী, আর একটি সূরার নাম।'
+  - id: muhammad
+    arabic: 'مُحَمَّد'
+    transliteration: 'muḥammad'
+    pos: proper_noun
+    bn: ['মুহাম্মদ']
+    en: ['Muhammad']
+    root: 'ح م د'
+    frequencyRank: 704
+    audio: audio/words/muhammad.mp3
+    tags: [quran, prophets]
+    editorNote: "حَمْد (প্রশংসা) একই মূল — 'যাঁর বারবার প্রশংসা করা হয়'।"
+  - id: lut
+    arabic: 'لُوط'
+    transliteration: 'lūṭ'
+    pos: proper_noun
+    bn: ['লুত']
+    en: ['Lot']
+    frequencyRank: 731
+    audio: audio/words/lut.mp3
+    tags: [quran, prophets]
+  - id: hud
+    arabic: 'هُود'
+    transliteration: 'hūd'
+    pos: proper_noun
+    bn: ['হুদ']
+    en: ['Hud']
+    frequencyRank: 733
+    audio: audio/words/hud.mp3
+    tags: [quran, prophets]
+    editorNote: 'আদ জাতির নবী। সূরা হুদের নাম।'
+  - id: salih-nabi
+    arabic: 'صَالِح'
+    transliteration: 'ṣāliḥ'
+    pos: proper_noun
+    bn: ['সালিহ']
+    en: ['Salih']
+    root: 'ص ل ح'
+    frequencyRank: 735
+    audio: audio/words/salih-nabi.mp3
+    tags: [quran, prophets]
+    editorNote: 'সামুদ জাতির নবী। বিশেষণ صَالِح (সৎ) একই শব্দ — প্রসঙ্গে আলাদা করুন।'
+  - id: shuayb
+    arabic: 'شُعَيْب'
+    transliteration: 'shuʿayb'
+    pos: proper_noun
+    bn: ['শুআইব']
+    en: ['Shuayb']
+    frequencyRank: 737
+    audio: audio/words/shuayb.mp3
+    tags: [quran, prophets]
+    editorNote: 'মাদইয়ানের নবী — কম মাপায় ও ওজনে সতর্ক করেছিলেন।'
+  - id: idris
+    arabic: 'إِدْرِيس'
+    transliteration: 'idrīs'
+    pos: proper_noun
+    bn: ['ইদরিস']
+    en: ['Enoch']
+    frequencyRank: 739
+    audio: audio/words/idris.mp3
+    tags: [quran, prophets]
+  - id: ilyas
+    arabic: 'إِلْيَاس'
+    transliteration: 'ilyās'
+    pos: proper_noun
+    bn: ['ইলিয়াস']
+    en: ['Elijah']
+    frequencyRank: 741
+    audio: audio/words/ilyas.mp3
+    tags: [quran, prophets]
+  - id: luqman
+    arabic: 'لُقْمَان'
+    transliteration: 'luqmān'
+    pos: proper_noun
+    bn: ['লুকমান']
+    en: ['Luqman']
+    frequencyRank: 743
+    audio: audio/words/luqman.mp3
+    tags: [quran, people]
+    editorNote: 'নবী নন, কিন্তু حِكْمَة দেওয়া হয়েছিল। একটি সূরার নাম।'
+  - id: jibril
+    arabic: 'جِبْرِيل'
+    transliteration: 'jibrīl'
+    pos: proper_noun
+    bn: ['জিবরিল']
+    en: ['Gabriel']
+    frequencyRank: 745
+    audio: audio/words/jibril.mp3
+    tags: [quran, faith]
+    editorNote: 'الرُّوحُ الْأَمِينُ — বিশ্বস্ত রুহ, তাঁরই আরেক নাম।'
+  - id: mikal
+    arabic: 'مِيكَال'
+    transliteration: 'mīkāl'
+    pos: proper_noun
+    bn: ['মিকাইল']
+    en: ['Michael']
+    frequencyRank: 747
+    audio: audio/words/mikal.mp3
+    tags: [quran, faith]
+  - id: iblis
+    arabic: 'إِبْلِيس'
+    transliteration: 'iblīs'
+    pos: proper_noun
+    bn: ['ইবলিস']
+    en: ['Iblis', 'Satan']
+    frequencyRank: 749
+    audio: audio/words/iblis.mp3
+    tags: [quran, faith]
+    editorNote: 'شَيْطَان শ্রেণিবাচক, إِبْلِيس সেই নির্দিষ্ট সত্তার নাম।'
+  - id: firawn
+    arabic: 'فِرْعَوْن'
+    transliteration: 'firʿawn'
+    pos: proper_noun
+    bn: ['ফিরআউন']
+    en: ['Pharaoh']
+    frequencyRank: 702
+    audio: audio/words/firawn.mp3
+    tags: [quran, people]
+    editorNote: 'কুরআনে অহংকার ও জুলুমের স্থায়ী প্রতীক, মুসার কাহিনির প্রতিপক্ষ।'
+  - id: haman
+    arabic: 'هَامَان'
+    transliteration: 'hāmān'
+    pos: proper_noun
+    bn: ['হামান']
+    en: ['Haman']
+    frequencyRank: 751
+    audio: audio/words/haman.mp3
+    tags: [quran, people]
+  - id: qarun
+    arabic: 'قَارُون'
+    transliteration: 'qārūn'
+    pos: proper_noun
+    bn: ['কারুন']
+    en: ['Korah']
+    frequencyRank: 753
+    audio: audio/words/qarun.mp3
+    tags: [quran, people]
+    editorNote: 'সম্পদের অহংকারের দৃষ্টান্ত — كُنُوز (ভান্ডার) তাকে বাঁচায়নি।'
+  - id: talut
+    arabic: 'طَالُوت'
+    transliteration: 'ṭālūt'
+    pos: proper_noun
+    bn: ['তালুত']
+    en: ['Saul']
+    frequencyRank: 755
+    audio: audio/words/talut.mp3
+    tags: [quran, people]
+  - id: jalut
+    arabic: 'جَالُوت'
+    transliteration: 'jālūt'
+    pos: proper_noun
+    bn: ['জালুত']
+    en: ['Goliath']
+    frequencyRank: 757
+    audio: audio/words/jalut.mp3
+    tags: [quran, people]
+  - id: israil
+    arabic: 'إِسْرَائِيل'
+    transliteration: 'isrāʾīl'
+    pos: proper_noun
+    bn: ['ইসরাইল']
+    en: ['Israel']
+    frequencyRank: 710
+    audio: audio/words/israil.mp3
+    tags: [quran, people]
+    editorNote: 'بَنِي إِسْرَائِيل — ইসরাইলের বংশধর, ইয়াকুব (আ.)-এর আরেক নাম।'
+  - id: ad
+    arabic: 'عَاد'
+    transliteration: 'ʿād'
+    pos: proper_noun
+    bn: ['আদ']
+    en: ['Ad']
+    frequencyRank: 759
+    audio: audio/words/ad.mp3
+    tags: [quran, people]
+  - id: thamud
+    arabic: 'ثَمُود'
+    transliteration: 'thamūd'
+    pos: proper_noun
+    bn: ['সামুদ']
+    en: ['Thamud']
+    frequencyRank: 761
+    audio: audio/words/thamud.mp3
+    tags: [quran, people]
+    editorNote: 'عَاد-এর সাথে জোড়ায় আসে — ধ্বংস হওয়া দুই প্রাচীন জাতি।'
+  - id: quraysh
+    arabic: 'قُرَيْش'
+    transliteration: 'quraysh'
+    pos: proper_noun
+    bn: ['কুরাইশ']
+    en: ['Quraysh']
+    frequencyRank: 763
+    audio: audio/words/quraysh.mp3
+    tags: [quran, people]
+  - id: rum
+    arabic: 'رُوم'
+    transliteration: 'rūm'
+    pos: proper_noun
+    bn: ['রোম']
+    en: ['the Romans', 'Byzantines']
+    frequencyRank: 765
+    audio: audio/words/rum.mp3
+    tags: [quran, people]
+  - id: makkah
+    arabic: 'مَكَّة'
+    transliteration: 'makkah'
+    pos: proper_noun
+    bn: ['মক্কা']
+    en: ['Mecca']
+    frequencyRank: 767
+    audio: audio/words/makkah.mp3
+    tags: [quran, places]
+  - id: madinah
+    arabic: 'مَدِينَة'
+    transliteration: 'madīnah'
+    pos: noun
+    bn: ['শহর', 'মদিনা']
+    en: ['city', 'Medina']
+    root: 'م د ن'
+    gender: feminine
+    plural: { arabic: 'مَدَائِن', type: broken }
+    frequencyRank: 712
+    audio: audio/words/madinah.mp3
+    tags: [quran, places]
+  - id: misr
+    arabic: 'مِصْر'
+    transliteration: 'miṣr'
+    pos: proper_noun
+    bn: ['মিসর']
+    en: ['Egypt']
+    frequencyRank: 769
+    audio: audio/words/misr.mp3
+    tags: [quran, places]
+  - id: tur
+    arabic: 'طُور'
+    transliteration: 'ṭūr'
+    pos: proper_noun
+    bn: ['তূর পাহাড়']
+    en: ['Mount Tur', 'Sinai']
+    frequencyRank: 771
+    audio: audio/words/tur.mp3
+    tags: [quran, places]
+    editorNote: 'যেখানে মুসা (আ.) রবের সাথে কথা বলেছিলেন। একটি সূরার নাম।'
+  - id: saba
+    arabic: 'سَبَأ'
+    transliteration: 'sabaʾ'
+    pos: proper_noun
+    bn: ['সাবা']
+    en: ['Sheba']
+    frequencyRank: 773
+    audio: audio/words/saba.mp3
+    tags: [quran, places]
+  - id: babil
+    arabic: 'بَابِل'
+    transliteration: 'bābil'
+    pos: proper_noun
+    bn: ['বাবিল']
+    en: ['Babylon']
+    frequencyRank: 775
+    audio: audio/words/babil.mp3
+    tags: [quran, places]
+  - id: tawrat
+    arabic: 'تَوْرَاة'
+    transliteration: 'tawrāt'
+    pos: proper_noun
+    bn: ['তাওরাত']
+    en: ['the Torah']
+    frequencyRank: 714
+    audio: audio/words/tawrat.mp3
+    tags: [quran, faith]
+  - id: injil
+    arabic: 'إِنْجِيل'
+    transliteration: 'injīl'
+    pos: proper_noun
+    bn: ['ইঞ্জিল']
+    en: ['the Gospel']
+    frequencyRank: 716
+    audio: audio/words/injil.mp3
+    tags: [quran, faith]
+  - id: zabur
+    arabic: 'زَبُور'
+    transliteration: 'zabūr'
+    pos: proper_noun
+    bn: ['যাবুর']
+    en: ['the Psalms']
+    frequencyRank: 777
+    audio: audio/words/zabur.mp3
+    tags: [quran, faith]
+    editorNote: 'দাউদ (আ.)-কে দেওয়া কিতাব।'
+  - id: furqan
+    arabic: 'فُرْقَان'
+    transliteration: 'furqān'
+    pos: noun
+    bn: ['ফুরকান', 'সত্য-মিথ্যার পার্থক্যকারী']
+    en: ['the Criterion']
+    root: 'ف ر ق'
+    gender: masculine
+    frequencyRank: 718
+    audio: audio/words/furqan.mp3
+    tags: [quran, faith]
+    editorNote: 'فَرَّقَ (পৃথক করা) একই মূল — যা হক ও বাতিল আলাদা করে।'

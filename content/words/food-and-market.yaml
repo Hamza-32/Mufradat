@@ -1,0 +1,90 @@
+# Everyday MSA: food and market. This is the deck for a learner heading to the
+# Gulf — the words they will need in the first week, not the first year.
+
+words:
+  - id: taam
+    arabic: 'طَعَام'
+    transliteration: 'ṭaʿām'
+    pos: noun
+    bn: ['খাবার', 'খাদ্য']
+    en: ['food', 'meal']
+    root: 'ط ع م'
+    gender: masculine
+    plural: { arabic: 'أَطْعِمَة', type: broken }
+    frequencyRank: 210
+    audio: audio/words/taam.mp3
+    tags: [food, market, quran]
+    editorNote: 'Same root as مَطْعَم (restaurant) and طَعْم (taste).'
+    examples:
+      - arabic: 'الطَّعَامُ لَذِيذٌ'
+        bn: 'খাবারটা সুস্বাদু।'
+        en: 'The food is delicious.'
+
+  - id: suq
+    arabic: 'سُوق'
+    transliteration: 'sūq'
+    pos: noun
+    bn: ['বাজার']
+    en: ['market', 'souk']
+    root: 'س و ق'
+    gender: both
+    plural: { arabic: 'أَسْوَاق', type: broken }
+    frequencyRank: 340
+    audio: audio/words/suq.mp3
+    tags: [market, places]
+    editorNote: 'Usually treated as feminine, but masculine agreement is also attested — so both are marked here.'
+    examples:
+      - arabic: 'أَشْتَرِي الْخُبْزَ مِنَ السُّوقِ'
+        bn: 'আমি বাজার থেকে রুটি কিনি।'
+        en: 'I buy bread from the market.'
+
+  - id: khubz
+    arabic: 'خُبْز'
+    transliteration: 'khubz'
+    pos: noun
+    bn: ['রুটি']
+    en: ['bread']
+    root: 'خ ب ز'
+    gender: masculine
+    frequencyRank: 520
+    audio: audio/words/khubz.mp3
+    tags: [food, market]
+    editorNote: 'Collective: one loaf is خُبْزَة. مَخْبَز is the bakery.'
+    examples:
+      - arabic: 'الْخُبْزُ سَاخِنٌ'
+        bn: 'রুটিটা গরম।'
+        en: 'The bread is hot.'
+
+  - id: laban
+    arabic: 'لَبَن'
+    transliteration: 'laban'
+    pos: noun
+    bn: ['দুধ']
+    en: ['milk']
+    root: 'ل ب ن'
+    gender: masculine
+    frequencyRank: 480
+    audio: audio/words/laban.mp3
+    tags: [food, market]
+    editorNote: 'Careful: in written MSA and the Levant لَبَن is milk, but in Egypt and much of the Gulf لَبَن means buttermilk or yoghurt drink and milk is حَلِيب. Teach both.'
+    examples:
+      - arabic: 'أَشْرَبُ اللَّبَنَ فِي الصَّبَاحِ'
+        bn: 'আমি সকালে দুধ পান করি।'
+        en: 'I drink milk in the morning.'
+
+  - id: tamr
+    arabic: 'تَمْر'
+    transliteration: 'tamr'
+    pos: noun
+    bn: ['খেজুর']
+    en: ['dates', 'dried dates']
+    root: 'ت م ر'
+    gender: masculine
+    frequencyRank: 610
+    audio: audio/words/tamr.mp3
+    tags: [food, market, quran]
+    editorNote: 'Collective; a single date is تَمْرَة. رُطَب is the fresh, soft date.'
+    examples:
+      - arabic: 'التَّمْرُ حُلْوٌ'
+        bn: 'খেজুর মিষ্টি।'
+        en: 'Dates are sweet.'

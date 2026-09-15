@@ -1,0 +1,90 @@
+# Nature words: the ones that carry both a plain everyday sense and a Quranic
+# sense. Useful early because the Quranic sense is usually the literal one.
+
+words:
+  - id: maa
+    arabic: 'مَاء'
+    transliteration: 'māʾ'
+    pos: noun
+    bn: ['পানি', 'জল']
+    en: ['water']
+    root: 'م و ه'
+    gender: masculine
+    frequencyRank: 55
+    audio: audio/words/maa.mp3
+    tags: [quran, nature, food]
+    editorNote: 'The root is م و ه, not م ا ء — surprising, but it explains مِيَاه (waters). In Bangladesh পানি is everyday; জল is more West Bengali / literary.'
+    examples:
+      - arabic: 'أَشْرَبُ الْمَاءَ الْبَارِدَ'
+        bn: 'আমি ঠান্ডা পানি পান করি।'
+        en: 'I drink cold water.'
+
+  - id: ard
+    arabic: 'أَرْض'
+    transliteration: 'arḍ'
+    pos: noun
+    bn: ['জমিন', 'মাটি', 'পৃথিবী']
+    en: ['earth', 'land', 'ground']
+    root: 'أ ر ض'
+    gender: feminine
+    frequencyRank: 30
+    audio: audio/words/ard.mp3
+    tags: [quran, nature]
+    editorNote: 'Feminine although it has no ة — one of the words a learner must simply memorise as feminine.'
+    examples:
+      - arabic: 'نَزَلَ الْمَطَرُ عَلَى الْأَرْضِ'
+        bn: 'মাটিতে বৃষ্টি নামল।'
+        en: 'The rain fell on the ground.'
+
+  - id: samaa
+    arabic: 'سَمَاء'
+    transliteration: 'samāʾ'
+    pos: noun
+    bn: ['আকাশ', 'আসমান']
+    en: ['sky', 'heaven']
+    root: 'س م و'
+    gender: feminine
+    plural: { arabic: 'سَمَاوَات', type: sound_feminine }
+    frequencyRank: 35
+    audio: audio/words/samaa.mp3
+    tags: [quran, nature]
+    editorNote: 'Almost always paired with أَرْض in the Quran: السَّمَاوَاتِ وَالْأَرْضِ.'
+    examples:
+      - arabic: 'السَّمَاءُ صَافِيَةٌ الْيَوْمَ'
+        bn: 'আজ আকাশ পরিষ্কার।'
+        en: 'The sky is clear today.'
+
+  - id: layl
+    arabic: 'لَيْل'
+    transliteration: 'layl'
+    pos: noun
+    bn: ['রাত']
+    en: ['night', 'night-time']
+    root: 'ل ي ل'
+    gender: masculine
+    frequencyRank: 90
+    audio: audio/words/layl.mp3
+    tags: [quran, time, nature]
+    editorNote: 'لَيْل is night as a stretch of time; لَيْلَة is one particular night (لَيْلَةُ الْقَدْر).'
+    examples:
+      - arabic: 'أَقْرَأُ فِي اللَّيْلِ'
+        bn: 'আমি রাতে পড়ি।'
+        en: 'I read at night.'
+
+  - id: shams
+    arabic: 'شَمْس'
+    transliteration: 'shams'
+    pos: noun
+    bn: ['সূর্য']
+    en: ['sun']
+    root: 'ش م س'
+    gender: feminine
+    plural: { arabic: 'شُمُوس', type: broken }
+    frequencyRank: 180
+    audio: audio/words/shams.mp3
+    tags: [quran, nature, time]
+    editorNote: 'Feminine, while قَمَر (moon) is masculine — a useful pair for teaching gender.'
+    examples:
+      - arabic: 'تَطْلُعُ الشَّمْسُ مِنَ الْمَشْرِقِ'
+        bn: 'সূর্য পূর্ব দিকে ওঠে।'
+        en: 'The sun rises in the east.'

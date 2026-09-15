@@ -1,0 +1,305 @@
+# Pronouns, particles and prepositions. These are the highest-yield words in
+# the whole book: a handful of them account for a very large share of the
+# running text, and a reader who knows every noun in a verse still cannot read
+# it without these. Plain Bengali gloss first.
+
+words:
+  - id: huwa
+    arabic: 'هُوَ'
+    transliteration: 'huwa'
+    pos: pronoun
+    bn: ['সে', 'তিনি']
+    en: ['he', 'it']
+    frequencyRank: 8
+    audio: audio/words/huwa.mp3
+    tags: [quran, grammar, pronouns]
+    editorNote: "কুরআনে আল্লাহর জন্য সম্মানার্থে 'তিনি' — قُلْ هُوَ اللَّهُ أَحَد।"
+  - id: hiya
+    arabic: 'هِيَ'
+    transliteration: 'hiya'
+    pos: pronoun
+    bn: ['সে (স্ত্রীলিঙ্গ)']
+    en: ['she', 'it']
+    frequencyRank: 30
+    audio: audio/words/hiya.mp3
+    tags: [quran, grammar, pronouns]
+  - id: hum
+    arabic: 'هُمْ'
+    transliteration: 'hum'
+    pos: pronoun
+    bn: ['তারা']
+    en: ['they']
+    frequencyRank: 10
+    audio: audio/words/hum.mp3
+    tags: [quran, grammar, pronouns]
+  - id: ana
+    arabic: 'أَنَا'
+    transliteration: 'anā'
+    pos: pronoun
+    bn: ['আমি']
+    en: ['I']
+    frequencyRank: 26
+    audio: audio/words/ana.mp3
+    tags: [quran, grammar, pronouns]
+  - id: nahnu
+    arabic: 'نَحْنُ'
+    transliteration: 'naḥnu'
+    pos: pronoun
+    bn: ['আমরা']
+    en: ['we']
+    frequencyRank: 28
+    audio: audio/words/nahnu.mp3
+    tags: [quran, grammar, pronouns]
+  - id: anta
+    arabic: 'أَنْتَ'
+    transliteration: 'anta'
+    pos: pronoun
+    bn: ['তুমি (পুরুষ)']
+    en: ['you (m. sg.)']
+    frequencyRank: 24
+    audio: audio/words/anta.mp3
+    tags: [quran, grammar, pronouns]
+  - id: antum
+    arabic: 'أَنْتُمْ'
+    transliteration: 'antum'
+    pos: pronoun
+    bn: ['তোমরা']
+    en: ['you (pl.)']
+    frequencyRank: 27
+    audio: audio/words/antum.mp3
+    tags: [quran, grammar, pronouns]
+  - id: alladhi
+    arabic: 'الَّذِي'
+    transliteration: 'alladhī'
+    pos: pronoun
+    bn: ['যে', 'যিনি']
+    en: ['who', 'which (m. sg.)']
+    frequencyRank: 12
+    audio: audio/words/alladhi.mp3
+    tags: [quran, grammar, pronouns]
+    editorNote: 'সম্বন্ধবাচক সর্বনাম। পরের বাক্যটি এর পরিচয় দেয়।'
+  - id: allati
+    arabic: 'الَّتِي'
+    transliteration: 'allatī'
+    pos: pronoun
+    bn: ['যে (স্ত্রীলিঙ্গ)']
+    en: ['who', 'which (f. sg.)']
+    frequencyRank: 34
+    audio: audio/words/allati.mp3
+    tags: [quran, grammar, pronouns]
+  - id: alladhina
+    arabic: 'الَّذِينَ'
+    transliteration: 'alladhīna'
+    pos: pronoun
+    bn: ['যারা']
+    en: ['those who']
+    frequencyRank: 9
+    audio: audio/words/alladhina.mp3
+    tags: [quran, grammar, pronouns]
+    editorNote: 'কুরআনের সবচেয়ে ঘন শব্দগুলোর একটি — الَّذِينَ آمَنُوا, যারা ঈমান এনেছে।'
+  - id: an-about
+    arabic: 'عَنْ'
+    transliteration: 'ʿan'
+    pos: preposition
+    bn: ['সম্পর্কে', 'থেকে']
+    en: ['about', 'from', 'away from']
+    frequencyRank: 18
+    audio: audio/words/an-about.mp3
+    tags: [quran, grammar, particles]
+    editorNote: 'أَنْ (যে) আর عَنْ (সম্পর্কে) আলাদা শব্দ — হরফ আর অর্থ দুটোই ভিন্ন।'
+  - id: illa
+    arabic: 'إِلَّا'
+    transliteration: 'illā'
+    pos: particle
+    bn: ['ছাড়া', 'ব্যতীত']
+    en: ['except', 'but']
+    frequencyRank: 14
+    audio: audio/words/illa.mp3
+    tags: [quran, grammar, particles]
+    editorNote: "লা ইলাহা ইল্লাল্লাহ — এই 'ইল্লা'ই অস্বীকারের পর প্রতিষ্ঠা আনে।"
+  - id: inda
+    arabic: 'عِنْدَ'
+    transliteration: 'ʿinda'
+    pos: preposition
+    bn: ['কাছে', 'নিকট']
+    en: ['at', 'with', 'in the sight of']
+    frequencyRank: 22
+    audio: audio/words/inda.mp3
+    tags: [quran, grammar, particles]
+  - id: qad
+    arabic: 'قَدْ'
+    transliteration: 'qad'
+    pos: particle
+    bn: ['নিশ্চয়ই', 'ইতিমধ্যে']
+    en: ['indeed', 'already']
+    frequencyRank: 25
+    audio: audio/words/qad.mp3
+    tags: [quran, grammar, particles]
+    editorNote: "অতীত ক্রিয়ার আগে 'ইতিমধ্যে', বর্তমানের আগে 'কখনও কখনও'।"
+  - id: aw
+    arabic: 'أَوْ'
+    transliteration: 'aw'
+    pos: particle
+    bn: ['অথবা', 'কিংবা']
+    en: ['or']
+    frequencyRank: 20
+    audio: audio/words/aw.mp3
+    tags: [quran, grammar, particles]
+  - id: lakin
+    arabic: 'لَكِنْ'
+    transliteration: 'lākin'
+    pos: particle
+    bn: ['কিন্তু']
+    en: ['but', 'however']
+    frequencyRank: 40
+    audio: audio/words/lakin.mp3
+    tags: [quran, grammar, particles]
+  - id: hatta
+    arabic: 'حَتَّى'
+    transliteration: 'ḥattā'
+    pos: particle
+    bn: ['পর্যন্ত', 'এমনকি']
+    en: ['until', 'even']
+    frequencyRank: 33
+    audio: audio/words/hatta.mp3
+    tags: [quran, grammar, particles]
+  - id: idha
+    arabic: 'إِذَا'
+    transliteration: 'idhā'
+    pos: particle
+    bn: ['যখন', 'যদি']
+    en: ['when', 'if']
+    frequencyRank: 16
+    audio: audio/words/idha.mp3
+    tags: [quran, grammar, particles]
+  - id: idh
+    arabic: 'إِذْ'
+    transliteration: 'idh'
+    pos: particle
+    bn: ['যখন (অতীতে)']
+    en: ['when (in the past)']
+    frequencyRank: 32
+    audio: audio/words/idh.mp3
+    tags: [quran, grammar, particles]
+    editorNote: 'إِذْ অতীতের দিকে তাকায়, إِذَا ভবিষ্যতের দিকে।'
+  - id: anna
+    arabic: 'أَنَّ'
+    transliteration: 'anna'
+    pos: particle
+    bn: ['যে']
+    en: ['that']
+    frequencyRank: 19
+    audio: audio/words/anna.mp3
+    tags: [quran, grammar, particles]
+  - id: laalla
+    arabic: 'لَعَلَّ'
+    transliteration: 'laʿalla'
+    pos: particle
+    bn: ['যাতে', 'হয়তো']
+    en: ['perhaps', 'so that']
+    frequencyRank: 44
+    audio: audio/words/laalla.mp3
+    tags: [quran, grammar, particles]
+    editorNote: "لَعَلَّكُمْ تَتَّقُونَ — 'যাতে তোমরা তাকওয়া অবলম্বন করো', কুরআনে বারবার আসে।"
+  - id: lawla
+    arabic: 'لَوْلَا'
+    transliteration: 'lawlā'
+    pos: particle
+    bn: ['যদি না', 'কেন না']
+    en: ['if not', 'why not']
+    frequencyRank: 52
+    audio: audio/words/lawla.mp3
+    tags: [quran, grammar, particles]
+  - id: am
+    arabic: 'أَمْ'
+    transliteration: 'am'
+    pos: particle
+    bn: ['নাকি']
+    en: ['or (in questions)']
+    frequencyRank: 38
+    audio: audio/words/am.mp3
+    tags: [quran, grammar, particles]
+  - id: bal
+    arabic: 'بَلْ'
+    transliteration: 'bal'
+    pos: particle
+    bn: ['বরং']
+    en: ['rather', 'nay']
+    frequencyRank: 46
+    audio: audio/words/bal.mp3
+    tags: [quran, grammar, particles]
+  - id: bala
+    arabic: 'بَلَى'
+    transliteration: 'balā'
+    pos: particle
+    bn: ['হ্যাঁ (না-প্রশ্নের জবাবে)']
+    en: ['yes indeed (answering a negative)']
+    frequencyRank: 66
+    audio: audio/words/bala.mp3
+    tags: [quran, grammar, particles]
+    editorNote: "নেতিবাচক প্রশ্নের জবাবে نَعَمْ নয়, بَلَى — 'আমি কি তোমাদের রব নই?' 'হ্যাঁ, অবশ্যই।'"
+  - id: kam
+    arabic: 'كَمْ'
+    transliteration: 'kam'
+    pos: particle
+    bn: ['কত', 'কতই না']
+    en: ['how many', 'how much']
+    frequencyRank: 58
+    audio: audio/words/kam.mp3
+    tags: [quran, grammar, particles]
+  - id: kadhalika
+    arabic: 'كَذَٰلِكَ'
+    transliteration: 'kadhālika'
+    pos: adverb
+    bn: ['এভাবে', 'এমনি করে']
+    en: ['thus', 'in this way']
+    frequencyRank: 36
+    audio: audio/words/kadhalika.mp3
+    tags: [quran, grammar, particles]
+  - id: sawfa
+    arabic: 'سَوْفَ'
+    transliteration: 'sawfa'
+    pos: particle
+    bn: ['অচিরেই']
+    en: ['shall', 'will soon']
+    frequencyRank: 62
+    audio: audio/words/sawfa.mp3
+    tags: [quran, grammar, particles]
+  - id: dun
+    arabic: 'دُونَ'
+    transliteration: 'dūna'
+    pos: preposition
+    bn: ['ছাড়া', 'বাদ দিয়ে']
+    en: ['besides', 'other than']
+    frequencyRank: 42
+    audio: audio/words/dun.mp3
+    tags: [quran, grammar, particles]
+    editorNote: "مِنْ دُونِ اللَّهِ — 'আল্লাহকে বাদ দিয়ে', শিরকের প্রসঙ্গে বারবার আসে।"
+  - id: ghayr
+    arabic: 'غَيْر'
+    transliteration: 'ghayr'
+    pos: particle
+    bn: ['ছাড়া', 'অন্য']
+    en: ['other than', 'not']
+    frequencyRank: 48
+    audio: audio/words/ghayr.mp3
+    tags: [quran, grammar, particles]
+    editorNote: "সূরা ফাতিহার غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ — 'যাদের উপর গজব পড়েনি তাদের ছাড়া'।"
+  - id: hawla
+    arabic: 'حَوْلَ'
+    transliteration: 'ḥawla'
+    pos: preposition
+    bn: ['চারপাশে']
+    en: ['around']
+    frequencyRank: 88
+    audio: audio/words/hawla.mp3
+    tags: [quran, grammar, particles]
+  - id: ayy
+    arabic: 'أَيّ'
+    transliteration: 'ayy'
+    pos: particle
+    bn: ['কোন', 'যে কোনো']
+    en: ['which', 'whichever']
+    frequencyRank: 64
+    audio: audio/words/ayy.mp3
+    tags: [quran, grammar, particles]

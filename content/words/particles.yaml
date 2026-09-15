@@ -1,0 +1,323 @@
+# Generated from the table in scripts/content-source (kept in git history).
+# Every gloss below was written by hand; anything marked needsReview is one I am
+# not confident about and would like checked.
+#
+# TODO: verify — frequencyRank is an editorial ordering by how early a learner
+# is likely to meet the word, not a corpus count. Replace from a published
+# Quranic frequency list before launch.
+#
+# Particles and pronouns. Small words, enormous payoff: they are the scaffolding
+# of every Quranic sentence, and a learner who knows the nouns but not these
+# still cannot read a verse.
+
+words:
+  - id: fi
+    arabic: 'فِي'
+    transliteration: 'fī'
+    pos: particle
+    bn: ['-তে', 'মধ্যে']
+    en: ['in', 'inside']
+    frequencyRank: 5
+    audio: audio/words/fi.mp3
+    tags: [quran, grammar]
+    editorNote: 'পরের শব্দে জার (কাসরা) আসে: فِي الْبَيْتِ।'
+  - id: min
+    arabic: 'مِنْ'
+    transliteration: 'min'
+    pos: particle
+    bn: ['থেকে']
+    en: ['from', 'of']
+    frequencyRank: 3
+    audio: audio/words/min.mp3
+    tags: [quran, grammar]
+  - id: ila
+    arabic: 'إِلَى'
+    transliteration: 'ilā'
+    pos: particle
+    bn: ['দিকে', 'পর্যন্ত']
+    en: ['to', 'towards']
+    frequencyRank: 8
+    audio: audio/words/ila.mp3
+    tags: [quran, grammar]
+  - id: ala
+    arabic: 'عَلَى'
+    transliteration: 'ʿalā'
+    pos: particle
+    bn: ['উপরে', '-এর উপর']
+    en: ['on', 'upon']
+    frequencyRank: 7
+    audio: audio/words/ala.mp3
+    tags: [quran, grammar]
+  - id: an
+    arabic: 'عَنْ'
+    transliteration: 'ʿan'
+    pos: particle
+    bn: ['সম্পর্কে', 'থেকে']
+    en: ['about', 'away from']
+    frequencyRank: 18
+    audio: audio/words/an.mp3
+    tags: [quran, grammar]
+  - id: maa-with
+    arabic: 'مَعَ'
+    transliteration: 'maʿa'
+    pos: particle
+    bn: ['সাথে']
+    en: ['with']
+    frequencyRank: 48
+    audio: audio/words/maa.mp3
+    tags: [quran, grammar]
+  - id: bi
+    arabic: 'بِـ'
+    transliteration: 'bi'
+    pos: particle
+    bn: ['দিয়ে', '-এর দ্বারা']
+    en: ['with', 'by means of']
+    frequencyRank: 4
+    audio: audio/words/bi.mp3
+    tags: [quran, grammar]
+    editorNote: 'সবসময় পরের শব্দের সাথে জোড়া লাগে: بِالْقَلَمِ।'
+  - id: li
+    arabic: 'لِـ'
+    transliteration: 'li'
+    pos: particle
+    bn: ['জন্য']
+    en: ['for', 'belonging to']
+    frequencyRank: 6
+    audio: audio/words/li.mp3
+    tags: [quran, grammar]
+  - id: wa
+    arabic: 'وَ'
+    transliteration: 'wa'
+    pos: particle
+    bn: ['এবং', 'আর']
+    en: ['and']
+    frequencyRank: 1
+    audio: audio/words/wa.mp3
+    tags: [quran, grammar]
+  - id: fa
+    arabic: 'فَـ'
+    transliteration: 'fa'
+    pos: particle
+    bn: ['তারপর', 'সুতরাং']
+    en: ['then', 'so']
+    frequencyRank: 9
+    audio: audio/words/fa.mp3
+    tags: [quran, grammar]
+  - id: thumma
+    arabic: 'ثُمَّ'
+    transliteration: 'thumma'
+    pos: particle
+    bn: ['তারপর']
+    en: ['then', 'afterwards']
+    frequencyRank: 58
+    audio: audio/words/thumma.mp3
+    tags: [quran, grammar]
+  - id: law
+    arabic: 'لَوْ'
+    transliteration: 'law'
+    pos: particle
+    bn: ['যদি']
+    en: ['if (hypothetical)']
+    frequencyRank: 62
+    audio: audio/words/law.mp3
+    tags: [quran, grammar]
+  - id: in
+    arabic: 'إِنْ'
+    transliteration: 'in'
+    pos: particle
+    bn: ['যদি']
+    en: ['if']
+    frequencyRank: 22
+    audio: audio/words/in.mp3
+    tags: [quran, grammar]
+  - id: inna
+    arabic: 'إِنَّ'
+    transliteration: 'inna'
+    pos: particle
+    bn: ['নিশ্চয়ই']
+    en: ['indeed', 'verily']
+    frequencyRank: 12
+    audio: audio/words/inna.mp3
+    tags: [quran, grammar]
+  - id: la
+    arabic: 'لَا'
+    transliteration: 'lā'
+    pos: particle
+    bn: ['না']
+    en: ['no', 'not']
+    frequencyRank: 2
+    audio: audio/words/la.mp3
+    tags: [quran, grammar]
+  - id: lam
+    arabic: 'لَمْ'
+    transliteration: 'lam'
+    pos: particle
+    bn: ['করেনি']
+    en: ['did not']
+    frequencyRank: 20
+    audio: audio/words/lam.mp3
+    tags: [quran, grammar]
+    editorNote: 'পরের ক্রিয়া বর্তমান রূপে থাকলেও অর্থ অতীত: لَمْ يَكْتُبْ = সে লেখেনি।'
+  - id: lan
+    arabic: 'لَنْ'
+    transliteration: 'lan'
+    pos: particle
+    bn: ['করবে না']
+    en: ['will not']
+    frequencyRank: 82
+    audio: audio/words/lan.mp3
+    tags: [quran, grammar]
+  - id: ma
+    arabic: 'مَا'
+    transliteration: 'mā'
+    pos: particle
+    bn: ['কী', 'যা', 'না']
+    en: ['what', 'that which', 'not']
+    frequencyRank: 14
+    audio: audio/words/ma.mp3
+    tags: [quran, grammar]
+    editorNote: 'প্রশ্নেও আসে, সম্পর্কবাচক অর্থেও, আবার না-বোধকেও — প্রসঙ্গ দেখে বুঝতে হয়।'
+  - id: man
+    arabic: 'مَنْ'
+    transliteration: 'man'
+    pos: particle
+    bn: ['কে', 'যে']
+    en: ['who', 'whoever']
+    frequencyRank: 16
+    audio: audio/words/man.mp3
+    tags: [quran, grammar]
+  - id: hal
+    arabic: 'هَلْ'
+    transliteration: 'hal'
+    pos: particle
+    bn: ['কি']
+    en: ['is it that (question marker)']
+    frequencyRank: 90
+    audio: audio/words/hal.mp3
+    tags: [quran, grammar]
+  - id: kayfa
+    arabic: 'كَيْفَ'
+    transliteration: 'kayfa'
+    pos: particle
+    bn: ['কেমন', 'কীভাবে']
+    en: ['how']
+    frequencyRank: 108
+    audio: audio/words/kayfa.mp3
+    tags: [quran, grammar]
+  - id: ayna
+    arabic: 'أَيْنَ'
+    transliteration: 'ayna'
+    pos: particle
+    bn: ['কোথায়']
+    en: ['where']
+    frequencyRank: 118
+    audio: audio/words/ayna.mp3
+    tags: [quran, grammar]
+  - id: mata
+    arabic: 'مَتَى'
+    transliteration: 'matā'
+    pos: particle
+    bn: ['কখন']
+    en: ['when']
+    frequencyRank: 168
+    audio: audio/words/mata.mp3
+    tags: [quran, grammar]
+  - id: limadha
+    arabic: 'لِمَاذَا'
+    transliteration: 'limādhā'
+    pos: particle
+    bn: ['কেন']
+    en: ['why']
+    frequencyRank: 178
+    audio: audio/words/limadha.mp3
+    tags: [grammar, everyday]
+  - id: hadha
+    arabic: 'هَذَا'
+    transliteration: 'hādhā'
+    pos: particle
+    bn: ['এই', 'এটা']
+    en: ['this (m.)']
+    frequencyRank: 11
+    audio: audio/words/hadha.mp3
+    tags: [quran, grammar]
+  - id: hadhihi
+    arabic: 'هَذِهِ'
+    transliteration: 'hādhihi'
+    pos: particle
+    bn: ['এই', 'এটা']
+    en: ['this (f.)']
+    frequencyRank: 13
+    audio: audio/words/hadhihi.mp3
+    tags: [quran, grammar]
+  - id: dhalika
+    arabic: 'ذَلِكَ'
+    transliteration: 'dhālika'
+    pos: particle
+    bn: ['ওই', 'সেটা']
+    en: ['that (m.)']
+    frequencyRank: 17
+    audio: audio/words/dhalika.mp3
+    tags: [quran, grammar]
+  - id: kull
+    arabic: 'كُلّ'
+    transliteration: 'kull'
+    pos: particle
+    bn: ['সব', 'প্রত্যেক']
+    en: ['every', 'all']
+    frequencyRank: 19
+    audio: audio/words/kull.mp3
+    tags: [quran, grammar]
+  - id: bad
+    arabic: 'بَعْض'
+    transliteration: 'baʿḍ'
+    pos: particle
+    bn: ['কিছু', 'কেউ কেউ']
+    en: ['some', 'part of']
+    frequencyRank: 45
+    audio: audio/words/bad.mp3
+    tags: [quran, grammar]
+  - id: qabla
+    arabic: 'قَبْلَ'
+    transliteration: 'qabla'
+    pos: particle
+    bn: ['আগে']
+    en: ['before']
+    frequencyRank: 38
+    audio: audio/words/qabla.mp3
+    tags: [quran, grammar]
+  - id: bada
+    arabic: 'بَعْدَ'
+    transliteration: 'baʿda'
+    pos: particle
+    bn: ['পরে']
+    en: ['after']
+    frequencyRank: 35
+    audio: audio/words/bada.mp3
+    tags: [quran, grammar]
+  - id: bayna
+    arabic: 'بَيْنَ'
+    transliteration: 'bayna'
+    pos: particle
+    bn: ['মাঝে']
+    en: ['between']
+    frequencyRank: 28
+    audio: audio/words/bayna.mp3
+    tags: [quran, grammar]
+  - id: tahta
+    arabic: 'تَحْتَ'
+    transliteration: 'taḥta'
+    pos: particle
+    bn: ['নিচে']
+    en: ['under']
+    frequencyRank: 76
+    audio: audio/words/tahta.mp3
+    tags: [quran, grammar]
+  - id: fawqa
+    arabic: 'فَوْقَ'
+    transliteration: 'fawqa'
+    pos: particle
+    bn: ['উপরে']
+    en: ['above']
+    frequencyRank: 86
+    audio: audio/words/fawqa.mp3
+    tags: [quran, grammar]

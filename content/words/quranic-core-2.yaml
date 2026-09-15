@@ -1,0 +1,487 @@
+# Generated from the table in scripts/content-source (kept in git history).
+# Every gloss below was written by hand; anything marked needsReview is one I am
+# not confident about and would like checked.
+#
+# TODO: verify — frequencyRank is an editorial ordering by how early a learner
+# is likely to meet the word, not a corpus count. Replace from a published
+# Quranic frequency list before launch.
+#
+# Quranic core, continued.
+
+words:
+  - id: rabb
+    arabic: 'رَبّ'
+    transliteration: 'rabb'
+    pos: noun
+    bn: ['প্রভু', 'রব']
+    en: ['lord', 'master']
+    root: 'ر ب ب'
+    gender: masculine
+    plural: { arabic: 'أَرْبَاب', type: broken }
+    frequencyRank: 15
+    audio: audio/words/rabb.mp3
+    tags: [quran, abstract]
+    editorNote: 'রব: আল্লাহর গুণবাচক নাম হিসেবে সবচেয়ে বেশি আসে। মূল অর্থ লালন-পালনকারী।'
+  - id: nas
+    arabic: 'نَاس'
+    transliteration: 'nās'
+    pos: noun
+    bn: ['মানুষ', 'লোকজন']
+    en: ['people', 'mankind']
+    root: 'ن و س'
+    gender: masculine
+    frequencyRank: 25
+    audio: audio/words/nas.mp3
+    tags: [quran, people]
+    editorNote: 'সমষ্টিবাচক, একবচন إِنْسَان।'
+  - id: qawm
+    arabic: 'قَوْم'
+    transliteration: 'qawm'
+    pos: noun
+    bn: ['জাতি', 'সম্প্রদায়']
+    en: ['people', 'nation', 'folk']
+    root: 'ق و م'
+    gender: masculine
+    plural: { arabic: 'أَقْوَام', type: broken }
+    frequencyRank: 65
+    audio: audio/words/qawm.mp3
+    tags: [quran, people]
+  - id: qalb
+    arabic: 'قَلْب'
+    transliteration: 'qalb'
+    pos: noun
+    bn: ['হৃদয়', 'অন্তর', 'কলব']
+    en: ['heart']
+    root: 'ق ل ب'
+    gender: masculine
+    plural: { arabic: 'قُلُوب', type: broken }
+    frequencyRank: 95
+    audio: audio/words/qalb.mp3
+    tags: [quran, body, abstract]
+  - id: nafs
+    arabic: 'نَفْس'
+    transliteration: 'nafs'
+    pos: noun
+    bn: ['নিজ', 'আত্মা', 'প্রাণ']
+    en: ['self', 'soul']
+    root: 'ن ف س'
+    gender: feminine
+    plural: { arabic: 'أَنْفُس', type: broken }
+    frequencyRank: 75
+    audio: audio/words/nafs.mp3
+    tags: [quran, abstract]
+    editorNote: 'স্ত্রীলিঙ্গ, যদিও শেষে ة নেই। نَفْسِي = আমি নিজে।'
+  - id: ayn
+    arabic: 'عَيْن'
+    transliteration: 'ʿayn'
+    pos: noun
+    bn: ['চোখ', 'ঝর্ণা']
+    en: ['eye', 'spring']
+    root: 'ع ي ن'
+    gender: feminine
+    plural: { arabic: 'عُيُون', type: broken }
+    frequencyRank: 190
+    audio: audio/words/ayn.mp3
+    tags: [quran, body, nature]
+    editorNote: 'একই শব্দে চোখ আর পানির ঝর্ণা — দুটোই “উৎস” অর্থে।'
+  - id: yad
+    arabic: 'يَد'
+    transliteration: 'yad'
+    pos: noun
+    bn: ['হাত']
+    en: ['hand']
+    root: 'ي د ي'
+    gender: feminine
+    plural: { arabic: 'أَيْدِي', type: broken }
+    frequencyRank: 170
+    audio: audio/words/yad.mp3
+    tags: [quran, body]
+  - id: wajh
+    arabic: 'وَجْه'
+    transliteration: 'wajh'
+    pos: noun
+    bn: ['মুখ', 'চেহারা']
+    en: ['face']
+    root: 'و ج ه'
+    gender: masculine
+    plural: { arabic: 'وُجُوه', type: broken }
+    frequencyRank: 185
+    audio: audio/words/wajh.mp3
+    tags: [quran, body]
+  - id: sabil
+    arabic: 'سَبِيل'
+    transliteration: 'sabīl'
+    pos: noun
+    bn: ['পথ']
+    en: ['path', 'way']
+    root: 'س ب ل'
+    gender: masculine
+    plural: { arabic: 'سُبُل', type: broken }
+    frequencyRank: 100
+    audio: audio/words/sabil.mp3
+    tags: [quran, abstract]
+    editorNote: 'فِي سَبِيلِ اللهِ = আল্লাহর পথে — কুরআনে খুব পরিচিত বাক্যাংশ।'
+  - id: tariq
+    arabic: 'طَرِيق'
+    transliteration: 'ṭarīq'
+    pos: noun
+    bn: ['রাস্তা', 'পথ']
+    en: ['road', 'way']
+    root: 'ط ر ق'
+    gender: masculine
+    plural: { arabic: 'طُرُق', type: broken }
+    frequencyRank: 330
+    audio: audio/words/tariq.mp3
+    tags: [places, travel]
+  - id: bab
+    arabic: 'بَاب'
+    transliteration: 'bāb'
+    pos: noun
+    bn: ['দরজা']
+    en: ['door', 'gate']
+    root: 'ب و ب'
+    gender: masculine
+    plural: { arabic: 'أَبْوَاب', type: broken }
+    frequencyRank: 280
+    audio: audio/words/bab.mp3
+    tags: [quran, places]
+  - id: bahr
+    arabic: 'بَحْر'
+    transliteration: 'baḥr'
+    pos: noun
+    bn: ['সমুদ্র', 'সাগর']
+    en: ['sea']
+    root: 'ب ح ر'
+    gender: masculine
+    plural: { arabic: 'بِحَار', type: broken }
+    frequencyRank: 230
+    audio: audio/words/bahr.mp3
+    tags: [quran, nature]
+  - id: nahr
+    arabic: 'نَهْر'
+    transliteration: 'nahr'
+    pos: noun
+    bn: ['নদী']
+    en: ['river']
+    root: 'ن ه ر'
+    gender: masculine
+    plural: { arabic: 'أَنْهَار', type: broken }
+    frequencyRank: 240
+    audio: audio/words/nahr.mp3
+    tags: [quran, nature]
+  - id: jabal
+    arabic: 'جَبَل'
+    transliteration: 'jabal'
+    pos: noun
+    bn: ['পাহাড়']
+    en: ['mountain']
+    root: 'ج ب ل'
+    gender: masculine
+    plural: { arabic: 'جِبَال', type: broken }
+    frequencyRank: 260
+    audio: audio/words/jabal.mp3
+    tags: [quran, nature]
+  - id: shajara
+    arabic: 'شَجَرَة'
+    transliteration: 'shajarah'
+    pos: noun
+    bn: ['গাছ']
+    en: ['tree']
+    root: 'ش ج ر'
+    gender: feminine
+    plural: { arabic: 'أَشْجَار', type: broken }
+    frequencyRank: 380
+    audio: audio/words/shajara.mp3
+    tags: [quran, nature]
+  - id: hayat
+    arabic: 'حَيَاة'
+    transliteration: 'ḥayāh'
+    pos: noun
+    bn: ['জীবন']
+    en: ['life']
+    root: 'ح ي ي'
+    gender: feminine
+    frequencyRank: 85
+    audio: audio/words/hayat.mp3
+    tags: [quran, abstract]
+  - id: mawt
+    arabic: 'مَوْت'
+    transliteration: 'mawt'
+    pos: noun
+    bn: ['মৃত্যু']
+    en: ['death']
+    root: 'م و ت'
+    gender: masculine
+    frequencyRank: 115
+    audio: audio/words/mawt.mp3
+    tags: [quran, abstract]
+  - id: haqq
+    arabic: 'حَقّ'
+    transliteration: 'ḥaqq'
+    pos: noun
+    bn: ['সত্য', 'অধিকার', 'হক']
+    en: ['truth', 'right']
+    root: 'ح ق ق'
+    gender: masculine
+    plural: { arabic: 'حُقُوق', type: broken }
+    frequencyRank: 50
+    audio: audio/words/haqq.mp3
+    tags: [quran, abstract]
+  - id: sabr
+    arabic: 'صَبْر'
+    transliteration: 'ṣabr'
+    pos: noun
+    bn: ['ধৈর্য', 'সবর']
+    en: ['patience', 'endurance']
+    root: 'ص ب ر'
+    gender: masculine
+    frequencyRank: 220
+    audio: audio/words/sabr.mp3
+    tags: [quran, abstract]
+  - id: shukr
+    arabic: 'شُكْر'
+    transliteration: 'shukr'
+    pos: noun
+    bn: ['কৃতজ্ঞতা', 'শুকর']
+    en: ['gratitude', 'thanks']
+    root: 'ش ك ر'
+    gender: masculine
+    frequencyRank: 300
+    audio: audio/words/shukr.mp3
+    tags: [quran, abstract]
+  - id: dua
+    arabic: 'دُعَاء'
+    transliteration: 'duʿāʾ'
+    pos: noun
+    bn: ['দোয়া', 'প্রার্থনা']
+    en: ['supplication', 'prayer']
+    root: 'د ع و'
+    gender: masculine
+    plural: { arabic: 'أَدْعِيَة', type: broken }
+    frequencyRank: 310
+    audio: audio/words/dua.mp3
+    tags: [quran, worship]
+  - id: jannah
+    arabic: 'جَنَّة'
+    transliteration: 'jannah'
+    pos: noun
+    bn: ['জান্নাত', 'বাগান']
+    en: ['garden', 'paradise']
+    root: 'ج ن ن'
+    gender: feminine
+    plural: { arabic: 'جَنَّات', type: sound_feminine }
+    frequencyRank: 78
+    audio: audio/words/jannah.mp3
+    tags: [quran, worship]
+  - id: nar
+    arabic: 'نَار'
+    transliteration: 'nār'
+    pos: noun
+    bn: ['আগুন']
+    en: ['fire']
+    root: 'ن و ر'
+    gender: feminine
+    plural: { arabic: 'نِيرَان', type: broken }
+    frequencyRank: 105
+    audio: audio/words/nar.mp3
+    tags: [quran, nature]
+    editorNote: 'নূর (আলো) আর নার (আগুন) একই মূলের — কিন্তু অর্থ আলাদা, গুলিয়ে ফেলা সহজ।'
+  - id: malak
+    arabic: 'مَلَك'
+    transliteration: 'malak'
+    pos: noun
+    bn: ['ফেরেশতা']
+    en: ['angel']
+    root: 'م ل ك'
+    gender: masculine
+    plural: { arabic: 'مَلَائِكَة', type: broken }
+    frequencyRank: 195
+    audio: audio/words/malak.mp3
+    tags: [quran, worship]
+  - id: rasul
+    arabic: 'رَسُول'
+    transliteration: 'rasūl'
+    pos: noun
+    bn: ['রাসূল', 'বার্তাবাহক']
+    en: ['messenger', 'apostle']
+    root: 'ر س ل'
+    gender: masculine
+    plural: { arabic: 'رُسُل', type: broken }
+    frequencyRank: 68
+    audio: audio/words/rasul.mp3
+    tags: [quran, worship]
+  - id: nabi
+    arabic: 'نَبِيّ'
+    transliteration: 'nabiyy'
+    pos: noun
+    bn: ['নবী']
+    en: ['prophet']
+    root: 'ن ب أ'
+    gender: masculine
+    plural: { arabic: 'أَنْبِيَاء', type: broken }
+    frequencyRank: 125
+    audio: audio/words/nabi.mp3
+    tags: [quran, worship]
+  - id: masjid
+    arabic: 'مَسْجِد'
+    transliteration: 'masjid'
+    pos: noun
+    bn: ['মসজিদ']
+    en: ['mosque']
+    root: 'س ج د'
+    gender: masculine
+    plural: { arabic: 'مَسَاجِد', type: broken }
+    frequencyRank: 290
+    audio: audio/words/masjid.mp3
+    tags: [quran, worship, places]
+    editorNote: 'مَسْجِد = সিজদার জায়গা। একই মূল থেকে سَجَدَ (সিজদা করা)।'
+  - id: sawm
+    arabic: 'صَوْم'
+    transliteration: 'ṣawm'
+    pos: noun
+    bn: ['রোজা', 'সিয়াম']
+    en: ['fasting']
+    root: 'ص و م'
+    gender: masculine
+    frequencyRank: 430
+    audio: audio/words/sawm.mp3
+    tags: [quran, worship]
+  - id: zakat
+    arabic: 'زَكَاة'
+    transliteration: 'zakāh'
+    pos: noun
+    bn: ['যাকাত']
+    en: ['alms', 'purifying dues']
+    root: 'ز ك و'
+    gender: feminine
+    frequencyRank: 360
+    audio: audio/words/zakat.mp3
+    tags: [quran, worship]
+  - id: hajj
+    arabic: 'حَجّ'
+    transliteration: 'ḥajj'
+    pos: noun
+    bn: ['হজ']
+    en: ['pilgrimage']
+    root: 'ح ج ج'
+    gender: masculine
+    frequencyRank: 420
+    audio: audio/words/hajj.mp3
+    tags: [quran, worship]
+  - id: iman
+    arabic: 'إِيمَان'
+    transliteration: 'īmān'
+    pos: noun
+    bn: ['ঈমান', 'বিশ্বাস']
+    en: ['faith', 'belief']
+    root: 'أ م ن'
+    gender: masculine
+    frequencyRank: 140
+    audio: audio/words/iman.mp3
+    tags: [quran, abstract]
+  - id: amal
+    arabic: 'عَمَل'
+    transliteration: 'ʿamal'
+    pos: noun
+    bn: ['কাজ', 'আমল']
+    en: ['deed', 'work']
+    root: 'ع م ل'
+    gender: masculine
+    plural: { arabic: 'أَعْمَال', type: broken }
+    frequencyRank: 88
+    audio: audio/words/amal.mp3
+    tags: [quran, abstract]
+  - id: ajr
+    arabic: 'أَجْر'
+    transliteration: 'ajr'
+    pos: noun
+    bn: ['প্রতিদান', 'পারিশ্রমিক']
+    en: ['reward', 'wage']
+    root: 'أ ج ر'
+    gender: masculine
+    plural: { arabic: 'أُجُور', type: broken }
+    frequencyRank: 250
+    audio: audio/words/ajr.mp3
+    tags: [quran, work]
+  - id: khayr
+    arabic: 'خَيْر'
+    transliteration: 'khayr'
+    pos: noun
+    bn: ['কল্যাণ', 'ভালো']
+    en: ['good', 'better']
+    root: 'خ ي ر'
+    gender: masculine
+    frequencyRank: 92
+    audio: audio/words/khayr.mp3
+    tags: [quran, abstract]
+  - id: sharr
+    arabic: 'شَرّ'
+    transliteration: 'sharr'
+    pos: noun
+    bn: ['মন্দ', 'খারাপ']
+    en: ['evil', 'harm']
+    root: 'ش ر ر'
+    gender: masculine
+    frequencyRank: 270
+    audio: audio/words/sharr.mp3
+    tags: [quran, abstract]
+  - id: amr
+    arabic: 'أَمْر'
+    transliteration: 'amr'
+    pos: noun
+    bn: ['আদেশ', 'বিষয়']
+    en: ['command', 'matter', 'affair']
+    root: 'أ م ر'
+    gender: masculine
+    plural: { arabic: 'أُمُور', type: broken }
+    frequencyRank: 72
+    audio: audio/words/amr.mp3
+    tags: [quran, abstract]
+  - id: hukm
+    arabic: 'حُكْم'
+    transliteration: 'ḥukm'
+    pos: noun
+    bn: ['বিধান', 'রায়']
+    en: ['judgement', 'ruling']
+    root: 'ح ك م'
+    gender: masculine
+    plural: { arabic: 'أَحْكَام', type: broken }
+    frequencyRank: 205
+    audio: audio/words/hukm.mp3
+    tags: [quran, abstract]
+  - id: ism
+    arabic: 'اِسْم'
+    transliteration: 'ism'
+    pos: noun
+    bn: ['নাম']
+    en: ['name']
+    root: 'س م و'
+    gender: masculine
+    plural: { arabic: 'أَسْمَاء', type: broken }
+    frequencyRank: 155
+    audio: audio/words/ism.mp3
+    tags: [quran, language]
+    editorNote: 'مَا اسْمُكَ؟ = তোমার নাম কী?'
+  - id: lisan
+    arabic: 'لِسَان'
+    transliteration: 'lisān'
+    pos: noun
+    bn: ['জিহ্বা', 'ভাষা']
+    en: ['tongue', 'language']
+    root: 'ل س ن'
+    gender: masculine
+    plural: { arabic: 'أَلْسِنَة', type: broken }
+    frequencyRank: 345
+    audio: audio/words/lisan.mp3
+    tags: [quran, body, language]
+  - id: kalam
+    arabic: 'كَلَام'
+    transliteration: 'kalām'
+    pos: noun
+    bn: ['কথা', 'বক্তব্য']
+    en: ['speech', 'words']
+    root: 'ك ل م'
+    gender: masculine
+    frequencyRank: 265
+    audio: audio/words/kalam.mp3
+    tags: [quran, language]

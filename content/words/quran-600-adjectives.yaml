@@ -1,0 +1,330 @@
+# Deck two: adjectives and active participles. Nearly all arrive as opposites —
+# طَيِّب/خَبِيث, حَلَال/حَرَام, ظَاهِر/بَاطِن — and the participles (صَابِر, شَاكِر, ظَالِم)
+# are simply the doer of a verb already learnt, which is how Arabic builds them.
+
+words:
+  - id: tayyib
+    arabic: 'طَيِّب'
+    transliteration: 'ṭayyib'
+    pos: adjective
+    bn: ['পবিত্র', 'উত্তম']
+    en: ['good', 'pure', 'wholesome']
+    root: 'ط ي ب'
+    frequencyRank: 605
+    audio: audio/words/tayyib.mp3
+    tags: [quran, adjectives]
+    editorNote: 'কুরআনে খাবারের প্রসঙ্গে حَلَالًا طَيِّبًا — হালাল এবং পবিত্র।'
+  - id: khabith
+    arabic: 'خَبِيث'
+    transliteration: 'khabīth'
+    pos: adjective
+    bn: ['অপবিত্র', 'নোংরা']
+    en: ['impure', 'foul']
+    root: 'خ ب ث'
+    frequencyRank: 607
+    audio: audio/words/khabith.mp3
+    tags: [quran, adjectives]
+    editorNote: 'طَيِّب-এর বিপরীত জোড়া।'
+  - id: halal
+    arabic: 'حَلَال'
+    transliteration: 'ḥalāl'
+    pos: adjective
+    bn: ['হালাল', 'বৈধ']
+    en: ['lawful', 'permitted']
+    root: 'ح ل ل'
+    frequencyRank: 609
+    audio: audio/words/halal.mp3
+    tags: [quran, adjectives, faith]
+  - id: haram
+    arabic: 'حَرَام'
+    transliteration: 'ḥarām'
+    pos: adjective
+    bn: ['হারাম', 'নিষিদ্ধ']
+    en: ['forbidden', 'sacred']
+    root: 'ح ر م'
+    frequencyRank: 611
+    audio: audio/words/haram.mp3
+    tags: [quran, adjectives, faith]
+    editorNote: "একই শব্দে 'নিষিদ্ধ' আর 'পবিত্র' — الْمَسْجِدِ الْحَرَامِ, যেখানে অনেক কিছু নিষিদ্ধ।"
+  - id: tahir
+    arabic: 'طَاهِر'
+    transliteration: 'ṭāhir'
+    pos: adjective
+    bn: ['পবিত্র', 'পরিষ্কার']
+    en: ['pure', 'clean']
+    root: 'ط ه ر'
+    frequencyRank: 613
+    audio: audio/words/tahir.mp3
+    tags: [quran, adjectives, faith]
+  - id: hasan
+    arabic: 'حَسَن'
+    transliteration: 'ḥasan'
+    pos: adjective
+    bn: ['ভালো', 'সুন্দর']
+    en: ['good', 'beautiful']
+    root: 'ح س ن'
+    frequencyRank: 615
+    audio: audio/words/hasan.mp3
+    tags: [quran, adjectives]
+  - id: sayyi
+    arabic: 'سَيِّئ'
+    transliteration: 'sayyiʾ'
+    pos: adjective
+    bn: ['মন্দ', 'খারাপ']
+    en: ['bad', 'evil']
+    root: 'س و أ'
+    frequencyRank: 617
+    audio: audio/words/sayyi.mp3
+    tags: [quran, adjectives]
+  - id: ghani
+    arabic: 'غَنِيّ'
+    transliteration: 'ghaniyy'
+    pos: adjective
+    bn: ['ধনী', 'অমুখাপেক্ষী']
+    en: ['rich', 'self-sufficient']
+    root: 'غ ن ي'
+    frequencyRank: 619
+    audio: audio/words/ghani.mp3
+    tags: [quran, adjectives]
+    editorNote: "আল্লাহর গুণ হিসেবে অর্থ 'কারও মুখাপেক্ষী নন' — وَاللَّهُ غَنِيٌّ حَمِيدٌ।"
+  - id: faqir
+    arabic: 'فَقِير'
+    transliteration: 'faqīr'
+    pos: adjective
+    bn: ['গরিব', 'মুখাপেক্ষী']
+    en: ['poor', 'in need']
+    root: 'ف ق ر'
+    frequencyRank: 621
+    audio: audio/words/faqir.mp3
+    tags: [quran, adjectives]
+  - id: qarib
+    arabic: 'قَرِيب'
+    transliteration: 'qarīb'
+    pos: adjective
+    bn: ['নিকট', 'কাছের']
+    en: ['near', 'close']
+    root: 'ق ر ب'
+    frequencyRank: 623
+    audio: audio/words/qarib.mp3
+    tags: [quran, adjectives]
+    editorNote: 'وَنَحْنُ أَقْرَبُ إِلَيْهِ مِنْ حَبْلِ الْوَرِيدِ — গলার শিরার চেয়েও নিকটে।'
+  - id: baid
+    arabic: 'بَعِيد'
+    transliteration: 'baʿīd'
+    pos: adjective
+    bn: ['দূর', 'দূরবর্তী']
+    en: ['far', 'distant']
+    root: 'ب ع د'
+    frequencyRank: 625
+    audio: audio/words/baid.mp3
+    tags: [quran, adjectives]
+  - id: zahir
+    arabic: 'ظَاهِر'
+    transliteration: 'ẓāhir'
+    pos: adjective
+    bn: ['প্রকাশ্য', 'বাহ্যিক']
+    en: ['outward', 'manifest']
+    root: 'ظ ه ر'
+    frequencyRank: 627
+    audio: audio/words/zahir.mp3
+    tags: [quran, adjectives]
+  - id: batin
+    arabic: 'بَاطِن'
+    transliteration: 'bāṭin'
+    pos: adjective
+    bn: ['গোপন', 'অভ্যন্তরীণ']
+    en: ['inward', 'hidden']
+    root: 'ب ط ن'
+    frequencyRank: 629
+    audio: audio/words/batin.mp3
+    tags: [quran, adjectives]
+    editorNote: 'الظَّاهِرُ وَالْبَاطِنُ — আল্লাহর দুই নাম, জোড়ায় আসে।'
+  - id: hayy
+    arabic: 'حَيّ'
+    transliteration: 'ḥayy'
+    pos: adjective
+    bn: ['জীবিত', 'চিরঞ্জীব']
+    en: ['living', 'alive']
+    root: 'ح ي ي'
+    frequencyRank: 631
+    audio: audio/words/hayy.mp3
+    tags: [quran, adjectives, faith]
+    editorNote: 'اللَّهُ لَا إِلَٰهَ إِلَّا هُوَ الْحَيُّ الْقَيُّومُ — আয়াতুল কুরসির শুরু।'
+  - id: mayyit
+    arabic: 'مَيِّت'
+    transliteration: 'mayyit'
+    pos: adjective
+    bn: ['মৃত']
+    en: ['dead']
+    root: 'م و ت'
+    frequencyRank: 633
+    audio: audio/words/mayyit.mp3
+    tags: [quran, adjectives]
+  - id: saadiq
+    arabic: 'صَادِق'
+    transliteration: 'ṣādiq'
+    pos: adjective
+    bn: ['সত্যবাদী']
+    en: ['truthful']
+    root: 'ص د ق'
+    frequencyRank: 635
+    audio: audio/words/saadiq.mp3
+    tags: [quran, adjectives]
+    editorNote: 'صَدِيق (বন্ধু) একই মূল — যে সত্য বলে সে-ই প্রকৃত বন্ধু।'
+  - id: kadhib
+    arabic: 'كَاذِب'
+    transliteration: 'kādhib'
+    pos: adjective
+    bn: ['মিথ্যাবাদী']
+    en: ['lying', 'a liar']
+    root: 'ك ذ ب'
+    frequencyRank: 637
+    audio: audio/words/kadhib.mp3
+    tags: [quran, adjectives]
+  - id: shakir
+    arabic: 'شَاكِر'
+    transliteration: 'shākir'
+    pos: adjective
+    bn: ['কৃতজ্ঞ']
+    en: ['grateful']
+    root: 'ش ك ر'
+    frequencyRank: 639
+    audio: audio/words/shakir.mp3
+    tags: [quran, adjectives, faith]
+    editorNote: 'شَكَرَ ক্রিয়ার কর্তা — যে শুকরিয়া আদায় করে।'
+  - id: sabir
+    arabic: 'صَابِر'
+    transliteration: 'ṣābir'
+    pos: adjective
+    bn: ['ধৈর্যশীল']
+    en: ['patient', 'steadfast']
+    root: 'ص ب ر'
+    frequencyRank: 641
+    audio: audio/words/sabir.mp3
+    tags: [quran, adjectives, faith]
+    editorNote: "إِنَّ اللَّهَ مَعَ الصَّابِرِينَ — 'আল্লাহ ধৈর্যশীলদের সাথে আছেন'।"
+  - id: muttaqi
+    arabic: 'مُتَّقِي'
+    transliteration: 'muttaqī'
+    pos: adjective
+    bn: ['মুত্তাকি', 'খোদাভীরু']
+    en: ['God-conscious', 'pious']
+    root: 'و ق ي'
+    frequencyRank: 643
+    audio: audio/words/muttaqi.mp3
+    tags: [quran, adjectives, faith]
+    editorNote: 'اتَّقَى ক্রিয়ার কর্তা। هُدًى لِلْمُتَّقِينَ — সূরা বাকারার দ্বিতীয় আয়াত।'
+  - id: muhsin
+    arabic: 'مُحْسِن'
+    transliteration: 'muḥsin'
+    pos: adjective
+    bn: ['সৎকর্মশীল']
+    en: ['one who does good']
+    root: 'ح س ن'
+    frequencyRank: 645
+    audio: audio/words/muhsin.mp3
+    tags: [quran, adjectives, faith]
+  - id: zalim
+    arabic: 'ظَالِم'
+    transliteration: 'ẓālim'
+    pos: adjective
+    bn: ['জালিম', 'অত্যাচারী']
+    en: ['wrongdoer', 'oppressor']
+    root: 'ظ ل م'
+    frequencyRank: 647
+    audio: audio/words/zalim.mp3
+    tags: [quran, adjectives, faith]
+  - id: mujrim
+    arabic: 'مُجْرِم'
+    transliteration: 'mujrim'
+    pos: adjective
+    bn: ['অপরাধী']
+    en: ['criminal', 'guilty']
+    root: 'ج ر م'
+    frequencyRank: 649
+    audio: audio/words/mujrim.mp3
+    tags: [quran, adjectives, faith]
+  - id: fasiq
+    arabic: 'فَاسِق'
+    transliteration: 'fāsiq'
+    pos: adjective
+    bn: ['ফাসিক', 'অবাধ্য']
+    en: ['defiantly disobedient']
+    root: 'ف س ق'
+    frequencyRank: 651
+    audio: audio/words/fasiq.mp3
+    tags: [quran, adjectives, faith]
+  - id: amin
+    arabic: 'أَمِين'
+    transliteration: 'amīn'
+    pos: adjective
+    bn: ['বিশ্বস্ত', 'আমানতদার']
+    en: ['trustworthy']
+    root: 'أ م ن'
+    frequencyRank: 653
+    audio: audio/words/amin.mp3
+    tags: [quran, adjectives]
+    editorNote: 'রাসূল (সা.)-এর নবুওয়তের আগের উপাধি আল-আমিন এই শব্দ।'
+  - id: khalid
+    arabic: 'خَالِد'
+    transliteration: 'khālid'
+    pos: adjective
+    bn: ['চিরস্থায়ী']
+    en: ['abiding', 'eternal']
+    root: 'خ ل د'
+    frequencyRank: 655
+    audio: audio/words/khalid.mp3
+    tags: [quran, adjectives, faith]
+    editorNote: "خَالِدِينَ فِيهَا أَبَدًا — 'সেখানে চিরকাল থাকবে'।"
+  - id: jahil
+    arabic: 'جَاهِل'
+    transliteration: 'jāhil'
+    pos: adjective
+    bn: ['মূর্খ', 'অজ্ঞ']
+    en: ['ignorant']
+    root: 'ج ه ل'
+    frequencyRank: 657
+    audio: audio/words/jahil.mp3
+    tags: [quran, adjectives]
+  - id: aalim
+    arabic: 'عَالِم'
+    transliteration: 'ʿālim'
+    pos: adjective
+    bn: ['জ্ঞানী', 'আলেম']
+    en: ['knowing', 'a scholar']
+    root: 'ع ل م'
+    frequencyRank: 659
+    audio: audio/words/aalim.mp3
+    tags: [quran, adjectives]
+    editorNote: 'عَلِيم আল্লাহর গুণ, عَالِم মানুষের — একই মূল, ভিন্ন ওজন।'
+  - id: tawil
+    arabic: 'طَوِيل'
+    transliteration: 'ṭawīl'
+    pos: adjective
+    bn: ['দীর্ঘ', 'লম্বা']
+    en: ['long', 'tall']
+    root: 'ط و ل'
+    frequencyRank: 661
+    audio: audio/words/tawil.mp3
+    tags: [quran, adjectives]
+  - id: thaqil
+    arabic: 'ثَقِيل'
+    transliteration: 'thaqīl'
+    pos: adjective
+    bn: ['ভারী']
+    en: ['heavy']
+    root: 'ث ق ل'
+    frequencyRank: 663
+    audio: audio/words/thaqil.mp3
+    tags: [quran, adjectives]
+  - id: khafif
+    arabic: 'خَفِيف'
+    transliteration: 'khafīf'
+    pos: adjective
+    bn: ['হালকা']
+    en: ['light (in weight)']
+    root: 'خ ف ف'
+    frequencyRank: 665
+    audio: audio/words/khafif.mp3
+    tags: [quran, adjectives]
+    editorNote: 'ثَقِيل-এর জোড়া: خِفَافًا وَثِقَالًا — হালকা হও বা ভারী।'

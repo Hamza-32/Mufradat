@@ -1,0 +1,344 @@
+# The rest of the core Quranic verbs. Several arrive as opposed pairs —
+# أَمَرَ/نَهَى, ضَلَّ/اهْتَدَى, فَازَ/خَسِرَ — and the Quran almost always uses them that
+# way, so the notes keep each pair together.
+
+words:
+  - id: amara
+    arabic: 'أَمَرَ'
+    transliteration: 'amara'
+    pos: verb
+    bn: ['আদেশ করা', 'নির্দেশ দেওয়া']
+    en: ['to command', 'to order']
+    root: 'أ م ر'
+    verb: { form: 1, present: 'يَأْمُر', masdar: 'أَمْر' }
+    frequencyRank: 133
+    audio: audio/words/amara.mp3
+    tags: [quran, verbs]
+    editorNote: 'نَهَى-এর জোড়া: يَأْمُرُونَ بِالْمَعْرُوفِ وَيَنْهَوْنَ عَنِ الْمُنْكَرِ।'
+  - id: naha
+    arabic: 'نَهَى'
+    transliteration: 'nahā'
+    pos: verb
+    bn: ['নিষেধ করা', 'বারণ করা']
+    en: ['to forbid', 'to prohibit']
+    root: 'ن ه ي'
+    verb: { form: 1, present: 'يَنْهَى', masdar: 'نَهْي' }
+    frequencyRank: 135
+    audio: audio/words/naha.mp3
+    tags: [quran, verbs]
+  - id: qada
+    arabic: 'قَضَى'
+    transliteration: 'qaḍā'
+    pos: verb
+    bn: ['ফয়সালা করা', 'সম্পন্ন করা']
+    en: ['to decree', 'to decide']
+    root: 'ق ض ي'
+    verb: { form: 1, present: 'يَقْضِي', masdar: 'قَضَاء' }
+    frequencyRank: 137
+    audio: audio/words/qada.mp3
+    tags: [quran, verbs]
+  - id: kafa
+    arabic: 'كَفَى'
+    transliteration: 'kafā'
+    pos: verb
+    bn: ['যথেষ্ট হওয়া']
+    en: ['to suffice', 'to be enough']
+    root: 'ك ف ي'
+    verb: { form: 1, present: 'يَكْفِي', masdar: 'كِفَايَة' }
+    frequencyRank: 139
+    audio: audio/words/kafa.mp3
+    tags: [quran, verbs]
+    editorNote: "وَكَفَى بِاللَّهِ وَكِيلًا — 'কর্মবিধায়ক হিসেবে আল্লাহই যথেষ্ট'।"
+  - id: aqala
+    arabic: 'عَقَلَ'
+    transliteration: 'ʿaqala'
+    pos: verb
+    bn: ['বুদ্ধি খাটানো', 'বোঝা']
+    en: ['to reason', "to use one's intellect"]
+    root: 'ع ق ل'
+    verb: { form: 1, present: 'يَعْقِل', masdar: 'عَقْل' }
+    frequencyRank: 141
+    audio: audio/words/aqala.mp3
+    tags: [quran, verbs]
+    editorNote: "أَفَلَا تَعْقِلُونَ — 'তোমরা কি বুদ্ধি খাটাও না?', কুরআনের বারবার আসা তিরস্কার।"
+  - id: tafakkara
+    arabic: 'تَفَكَّرَ'
+    transliteration: 'tafakkara'
+    pos: verb
+    bn: ['চিন্তা করা', 'ভেবে দেখা']
+    en: ['to reflect', 'to ponder']
+    root: 'ف ك ر'
+    verb: { form: 5, present: 'يَتَفَكَّر', masdar: 'تَفَكُّر' }
+    frequencyRank: 143
+    audio: audio/words/tafakkara.mp3
+    tags: [quran, verbs]
+    editorNote: "পঞ্চম বাব প্রায়ই 'নিজের উপর করা' বোঝায় — ভাবনাকে নিজের ভেতরে চালানো।"
+  - id: shahida
+    arabic: 'شَهِدَ'
+    transliteration: 'shahida'
+    pos: verb
+    bn: ['সাক্ষ্য দেওয়া', 'উপস্থিত থাকা']
+    en: ['to witness', 'to testify']
+    root: 'ش ه د'
+    verb: { form: 1, present: 'يَشْهَد', masdar: 'شَهَادَة' }
+    frequencyRank: 145
+    audio: audio/words/shahida.mp3
+    tags: [quran, verbs]
+  - id: zanna
+    arabic: 'ظَنَّ'
+    transliteration: 'ẓanna'
+    pos: verb
+    bn: ['ধারণা করা', 'মনে করা']
+    en: ['to think', 'to assume']
+    root: 'ظ ن ن'
+    verb: { form: 1, present: 'يَظُنّ', masdar: 'ظَنّ' }
+    frequencyRank: 147
+    audio: audio/words/zanna.mp3
+    tags: [quran, verbs]
+    editorNote: "কুরআনে প্রায়ই নেতিবাচক — إِنَّ بَعْضَ الظَّنِّ إِثْمٌ, 'কিছু ধারণা পাপ'।"
+  - id: dalla
+    arabic: 'ضَلَّ'
+    transliteration: 'ḍalla'
+    pos: verb
+    bn: ['পথভ্রষ্ট হওয়া', 'হারিয়ে যাওয়া']
+    en: ['to go astray', 'to err']
+    root: 'ض ل ل'
+    verb: { form: 1, present: 'يَضِلّ', masdar: 'ضَلَال' }
+    frequencyRank: 149
+    audio: audio/words/dalla.mp3
+    tags: [quran, verbs, faith]
+    editorNote: 'هَدَى-এর বিপরীত। সূরা ফাতিহার শেষ শব্দ الضَّالِّينَ এই মূল থেকেই।'
+  - id: adalla
+    arabic: 'أَضَلَّ'
+    transliteration: 'aḍalla'
+    pos: verb
+    bn: ['পথভ্রষ্ট করা']
+    en: ['to lead astray']
+    root: 'ض ل ل'
+    verb: { form: 4, present: 'يُضِلّ', masdar: 'إِضْلَال' }
+    frequencyRank: 151
+    audio: audio/words/adalla.mp3
+    tags: [quran, verbs, faith]
+    editorNote: 'চতুর্থ বাব কাজটাকে অন্যের উপর নিয়ে যায়: নিজে ভ্রষ্ট হওয়া → অন্যকে ভ্রষ্ট করা।'
+  - id: aslama
+    arabic: 'أَسْلَمَ'
+    transliteration: 'aslama'
+    pos: verb
+    bn: ['আত্মসমর্পণ করা', 'ইসলাম গ্রহণ করা']
+    en: ['to submit', 'to surrender to God']
+    root: 'س ل م'
+    verb: { form: 4, present: 'يُسْلِم', masdar: 'إِسْلَام' }
+    frequencyRank: 153
+    audio: audio/words/aslama.mp3
+    tags: [quran, verbs, faith]
+    editorNote: 'سَلَام (শান্তি) আর مُسْلِم একই মূল — আত্মসমর্পণের ভেতর দিয়েই শান্তি।'
+  - id: jahada
+    arabic: 'جَاهَدَ'
+    transliteration: 'jāhada'
+    pos: verb
+    bn: ['জিহাদ করা', 'প্রাণপণ চেষ্টা করা']
+    en: ['to strive', 'to struggle']
+    root: 'ج ه د'
+    verb: { form: 3, present: 'يُجَاهِد', masdar: 'جِهَاد' }
+    frequencyRank: 155
+    audio: audio/words/jahada.mp3
+    tags: [quran, verbs, faith]
+    editorNote: "তৃতীয় বাব পারস্পরিক চেষ্টা বোঝায়। মূল অর্থ 'শক্তি ব্যয় করা', যুদ্ধ তার একটি রূপ মাত্র।"
+  - id: qaatala
+    arabic: 'قَاتَلَ'
+    transliteration: 'qātala'
+    pos: verb
+    bn: ['যুদ্ধ করা', 'লড়াই করা']
+    en: ['to fight']
+    root: 'ق ت ل'
+    verb: { form: 3, present: 'يُقَاتِل', masdar: 'قِتَال' }
+    frequencyRank: 157
+    audio: audio/words/qaatala.mp3
+    tags: [quran, verbs]
+    editorNote: 'قَتَلَ মানে হত্যা করা, তৃতীয় বাবে قَاتَلَ মানে পরস্পর লড়াই করা।'
+  - id: dhaqa
+    arabic: 'ذَاقَ'
+    transliteration: 'dhāqa'
+    pos: verb
+    bn: ['স্বাদ নেওয়া', 'আস্বাদন করা']
+    en: ['to taste']
+    root: 'ذ و ق'
+    verb: { form: 1, present: 'يَذُوق', masdar: 'ذَوْق' }
+    frequencyRank: 159
+    audio: audio/words/dhaqa.mp3
+    tags: [quran, verbs]
+    editorNote: "كُلُّ نَفْسٍ ذَائِقَةُ الْمَوْتِ — 'প্রত্যেক প্রাণ মৃত্যুর স্বাদ নেবে'।"
+  - id: massa
+    arabic: 'مَسَّ'
+    transliteration: 'massa'
+    pos: verb
+    bn: ['স্পর্শ করা', 'লাগা']
+    en: ['to touch', 'to afflict']
+    root: 'م س س'
+    verb: { form: 1, present: 'يَمَسّ', masdar: 'مَسّ' }
+    frequencyRank: 161
+    audio: audio/words/massa.mp3
+    tags: [quran, verbs]
+  - id: balagha
+    arabic: 'بَلَغَ'
+    transliteration: 'balagha'
+    pos: verb
+    bn: ['পৌঁছানো']
+    en: ['to reach', 'to attain']
+    root: 'ب ل غ'
+    verb: { form: 1, present: 'يَبْلُغ', masdar: 'بُلُوغ' }
+    frequencyRank: 163
+    audio: audio/words/balagha.mp3
+    tags: [quran, verbs]
+  - id: awha
+    arabic: 'أَوْحَى'
+    transliteration: 'awḥā'
+    pos: verb
+    bn: ['ওহি পাঠানো', 'প্রত্যাদেশ দেওয়া']
+    en: ['to reveal', 'to inspire']
+    root: 'و ح ي'
+    verb: { form: 4, present: 'يُوحِي', masdar: 'وَحْي' }
+    frequencyRank: 165
+    audio: audio/words/awha.mp3
+    tags: [quran, verbs, faith]
+  - id: istawa
+    arabic: 'اسْتَوَى'
+    transliteration: 'istawā'
+    pos: verb
+    bn: ['সমান হওয়া', 'সমুন্নত হওয়া']
+    en: ['to be equal', 'to rise over']
+    root: 'س و ي'
+    verb: { form: 8, present: 'يَسْتَوِي', masdar: 'اسْتِوَاء' }
+    frequencyRank: 167
+    audio: audio/words/istawa.mp3
+    tags: [quran, verbs]
+  - id: sakhkhara
+    arabic: 'سَخَّرَ'
+    transliteration: 'sakhkhara'
+    pos: verb
+    bn: ['অধীন করা', 'কাজে লাগানো']
+    en: ['to subject', 'to make serviceable']
+    root: 'س خ ر'
+    verb: { form: 2, present: 'يُسَخِّر', masdar: 'تَسْخِير' }
+    frequencyRank: 169
+    audio: audio/words/sakhkhara.mp3
+    tags: [quran, verbs]
+    editorNote: 'সূর্য, চাঁদ, সমুদ্র — কুরআনে বারবার বলা হয় এগুলো মানুষের জন্য অধীন করা হয়েছে।'
+  - id: ghalaba
+    arabic: 'غَلَبَ'
+    transliteration: 'ghalaba'
+    pos: verb
+    bn: ['জয়ী হওয়া', 'পরাভূত করা']
+    en: ['to overcome', 'to prevail']
+    root: 'غ ل ب'
+    verb: { form: 1, present: 'يَغْلِب', masdar: 'غَلَبَة' }
+    frequencyRank: 171
+    audio: audio/words/ghalaba.mp3
+    tags: [quran, verbs]
+  - id: hasiba
+    arabic: 'حَسِبَ'
+    transliteration: 'ḥasiba'
+    pos: verb
+    bn: ['মনে করা', 'গণনা করা']
+    en: ['to reckon', 'to suppose']
+    root: 'ح س ب'
+    verb: { form: 1, present: 'يَحْسِب', masdar: 'حِسْبَان' }
+    frequencyRank: 173
+    audio: audio/words/hasiba.mp3
+    tags: [quran, verbs]
+    editorNote: 'একই মূল থেকে حِسَاب (হিসাব) — গণনা করা আর মনে করা, দুই অর্থই আছে।'
+  - id: akhraja
+    arabic: 'أَخْرَجَ'
+    transliteration: 'akhraja'
+    pos: verb
+    bn: ['বের করা', 'বহিষ্কার করা']
+    en: ['to bring out', 'to expel']
+    root: 'خ ر ج'
+    verb: { form: 4, present: 'يُخْرِج', masdar: 'إِخْرَاج' }
+    frequencyRank: 175
+    audio: audio/words/akhraja.mp3
+    tags: [quran, verbs]
+    editorNote: "خَرَجَ (বের হওয়া) চতুর্থ বাবে হয় 'বের করা' — يُخْرِجُهُمْ مِنَ الظُّلُمَاتِ إِلَى النُّورِ।"
+  - id: adhina
+    arabic: 'أَذِنَ'
+    transliteration: 'adhina'
+    pos: verb
+    bn: ['অনুমতি দেওয়া']
+    en: ['to permit', 'to give leave']
+    root: 'أ ذ ن'
+    verb: { form: 1, present: 'يَأْذَن', masdar: 'إِذْن' }
+    frequencyRank: 177
+    audio: audio/words/adhina.mp3
+    tags: [quran, verbs]
+    editorNote: 'أُذُن (কান) একই মূল — শোনা থেকে অনুমতি দেওয়া।'
+  - id: awfa
+    arabic: 'أَوْفَى'
+    transliteration: 'awfā'
+    pos: verb
+    bn: ['পূর্ণ করা', 'ওয়াদা রক্ষা করা']
+    en: ['to fulfil', 'to keep (a covenant)']
+    root: 'و ف ي'
+    verb: { form: 4, present: 'يُوفِي', masdar: 'إِيفَاء' }
+    frequencyRank: 179
+    audio: audio/words/awfa.mp3
+    tags: [quran, verbs]
+    editorNote: "أَوْفُوا بِالْعَهْدِ — 'অঙ্গীকার পূর্ণ করো'।"
+  - id: zada
+    arabic: 'زَادَ'
+    transliteration: 'zāda'
+    pos: verb
+    bn: ['বাড়ানো', 'বৃদ্ধি পাওয়া']
+    en: ['to increase', 'to add']
+    root: 'ز ي د'
+    verb: { form: 1, present: 'يَزِيد', masdar: 'زِيَادَة' }
+    frequencyRank: 181
+    audio: audio/words/zada.mp3
+    tags: [quran, verbs]
+  - id: naqasa
+    arabic: 'نَقَصَ'
+    transliteration: 'naqaṣa'
+    pos: verb
+    bn: ['কমানো', 'কমে যাওয়া']
+    en: ['to decrease', 'to diminish']
+    root: 'ن ق ص'
+    verb: { form: 1, present: 'يَنْقُص', masdar: 'نَقْص' }
+    frequencyRank: 183
+    audio: audio/words/naqasa.mp3
+    tags: [quran, verbs]
+    editorNote: 'زَادَ-এর জোড়া। বাড়া আর কমা একসাথে শিখুন।'
+  - id: faza
+    arabic: 'فَازَ'
+    transliteration: 'fāza'
+    pos: verb
+    bn: ['সফল হওয়া', 'জয়লাভ করা']
+    en: ['to succeed', 'to attain']
+    root: 'ف و ز'
+    verb: { form: 1, present: 'يَفُوز', masdar: 'فَوْز' }
+    frequencyRank: 185
+    audio: audio/words/faza.mp3
+    tags: [quran, verbs, faith]
+    editorNote: "الْفَوْزُ الْعَظِيمُ — 'মহা সাফল্য', জান্নাত প্রসঙ্গে কুরআনের স্থায়ী বাক্যবন্ধ।"
+  - id: khasira
+    arabic: 'خَسِرَ'
+    transliteration: 'khasira'
+    pos: verb
+    bn: ['ক্ষতিগ্রস্ত হওয়া']
+    en: ['to lose', 'to be in loss']
+    root: 'خ س ر'
+    verb: { form: 1, present: 'يَخْسَر', masdar: 'خُسْرَان' }
+    frequencyRank: 187
+    audio: audio/words/khasira.mp3
+    tags: [quran, verbs, faith]
+    editorNote: 'فَازَ-এর বিপরীত। সূরা আসরের إِنَّ الْإِنْسَانَ لَفِي خُسْرٍ এই মূল থেকে।'
+  - id: aflaha
+    arabic: 'أَفْلَحَ'
+    transliteration: 'aflaḥa'
+    pos: verb
+    bn: ['সফলকাম হওয়া']
+    en: ['to prosper', 'to be successful']
+    root: 'ف ل ح'
+    verb: { form: 4, present: 'يُفْلِح', masdar: 'فَلَاح' }
+    frequencyRank: 189
+    audio: audio/words/aflaha.mp3
+    tags: [quran, verbs, faith]
+    editorNote: "قَدْ أَفْلَحَ الْمُؤْمِنُونَ — 'নিশ্চয়ই মুমিনরা সফল হয়েছে'। আজানের حَيَّ عَلَى الْفَلَاحِ একই মূল।"

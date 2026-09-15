@@ -1,0 +1,388 @@
+# The last of the core three hundred: the abstract nouns the Quran argues with,
+# and the numbers it counts with. Several are the masdar of a verb already in
+# the deck, so the root panel will now show the whole family on one screen.
+
+words:
+  - id: adow
+    arabic: 'عَدُوّ'
+    transliteration: 'ʿaduww'
+    pos: noun
+    bn: ['শত্রু']
+    en: ['enemy']
+    root: 'ع د و'
+    gender: masculine
+    plural: { arabic: 'أَعْدَاء', type: broken }
+    frequencyRank: 174
+    audio: audio/words/adow.mp3
+    tags: [quran, people]
+    editorNote: "عَدُوٌّ مُبِينٌ — 'স্পষ্ট শত্রু', শয়তান প্রসঙ্গে কুরআনের স্থায়ী বাক্যবন্ধ।"
+  - id: wali
+    arabic: 'وَلِيّ'
+    transliteration: 'waliyy'
+    pos: noun
+    bn: ['অভিভাবক', 'বন্ধু']
+    en: ['guardian', 'protector', 'ally']
+    root: 'و ل ي'
+    gender: masculine
+    plural: { arabic: 'أَوْلِيَاء', type: broken }
+    frequencyRank: 176
+    audio: audio/words/wali.mp3
+    tags: [quran, people, faith]
+    editorNote: "اللَّهُ وَلِيُّ الَّذِينَ آمَنُوا — 'আল্লাহ মুমিনদের অভিভাবক'।"
+  - id: nasir
+    arabic: 'نَصِير'
+    transliteration: 'naṣīr'
+    pos: noun
+    bn: ['সাহায্যকারী']
+    en: ['helper']
+    root: 'ن ص ر'
+    gender: masculine
+    frequencyRank: 178
+    audio: audio/words/nasir.mp3
+    tags: [quran, people]
+    editorNote: 'نَصَرَ (সাহায্য করা) একই মূল। وَلِيّ-এর সাথে জোড়ায় আসে: وَلِيٍّ وَلَا نَصِيرٍ।'
+  - id: bayyinah
+    arabic: 'بَيِّنَة'
+    transliteration: 'bayyinah'
+    pos: noun
+    bn: ['স্পষ্ট প্রমাণ', 'নিদর্শন']
+    en: ['clear proof', 'evidence']
+    root: 'ب ي ن'
+    gender: feminine
+    plural: { arabic: 'بَيِّنَات', type: sound_feminine }
+    frequencyRank: 180
+    audio: audio/words/bayyinah.mp3
+    tags: [quran, faith]
+    editorNote: 'بَيَّنَ (স্পষ্ট করা) আর مُبِين (স্পষ্ট) একই মূল থেকে।'
+  - id: mathal
+    arabic: 'مَثَل'
+    transliteration: 'mathal'
+    pos: noun
+    bn: ['উপমা', 'দৃষ্টান্ত']
+    en: ['parable', 'example']
+    root: 'م ث ل'
+    gender: masculine
+    plural: { arabic: 'أَمْثَال', type: broken }
+    frequencyRank: 182
+    audio: audio/words/mathal.mp3
+    tags: [quran]
+    editorNote: "وَتِلْكَ الْأَمْثَالُ نَضْرِبُهَا لِلنَّاسِ — 'এই উপমাগুলো আমি মানুষের জন্য দিই'।"
+  - id: naba
+    arabic: 'نَبَأ'
+    transliteration: 'nabaʾ'
+    pos: noun
+    bn: ['সংবাদ', 'খবর']
+    en: ['news', 'tiding']
+    root: 'ن ب أ'
+    gender: masculine
+    plural: { arabic: 'أَنْبَاء', type: broken }
+    frequencyRank: 184
+    audio: audio/words/naba.mp3
+    tags: [quran]
+    editorNote: 'نَبِيّ (নবী) সম্ভবত একই মূল থেকে — যিনি সংবাদ বহন করেন।'
+  - id: huda
+    arabic: 'هُدَى'
+    transliteration: 'hudā'
+    pos: noun
+    bn: ['হেদায়েত', 'পথনির্দেশ']
+    en: ['guidance']
+    root: 'ه د ي'
+    gender: masculine
+    frequencyRank: 172
+    audio: audio/words/huda.mp3
+    tags: [quran, faith]
+    editorNote: 'هَدَى ক্রিয়ার মাসদার। ضَلَال-এর বিপরীত জোড়া।'
+  - id: dalal
+    arabic: 'ضَلَال'
+    transliteration: 'ḍalāl'
+    pos: noun
+    bn: ['পথভ্রষ্টতা', 'গোমরাহি']
+    en: ['misguidance', 'error']
+    root: 'ض ل ل'
+    gender: masculine
+    frequencyRank: 186
+    audio: audio/words/dalal.mp3
+    tags: [quran, faith]
+  - id: islam
+    arabic: 'إِسْلَام'
+    transliteration: 'islām'
+    pos: noun
+    bn: ['ইসলাম', 'আত্মসমর্পণ']
+    en: ['Islam', 'submission']
+    root: 'س ل م'
+    gender: masculine
+    frequencyRank: 188
+    audio: audio/words/islam.mp3
+    tags: [quran, faith]
+  - id: iman-noun
+    arabic: 'إِيمَان'
+    transliteration: 'īmān'
+    pos: noun
+    bn: ['ঈমান', 'বিশ্বাস']
+    en: ['faith', 'belief']
+    root: 'أ م ن'
+    gender: masculine
+    frequencyRank: 190
+    audio: audio/words/iman-noun.mp3
+    tags: [quran, faith]
+    editorNote: 'آمَنَ ক্রিয়ার মাসদার। كُفْر-এর বিপরীত।'
+  - id: kufr
+    arabic: 'كُفْر'
+    transliteration: 'kufr'
+    pos: noun
+    bn: ['কুফর', 'অবিশ্বাস']
+    en: ['disbelief']
+    root: 'ك ف ر'
+    gender: masculine
+    frequencyRank: 192
+    audio: audio/words/kufr.mp3
+    tags: [quran, faith]
+  - id: shirk
+    arabic: 'شِرْك'
+    transliteration: 'shirk'
+    pos: noun
+    bn: ['শিরক', 'অংশীদার স্থাপন']
+    en: ['associating partners with God']
+    root: 'ش ر ك'
+    gender: masculine
+    frequencyRank: 194
+    audio: audio/words/shirk.mp3
+    tags: [quran, faith]
+    editorNote: "إِنَّ الشِّرْكَ لَظُلْمٌ عَظِيمٌ — 'শিরক বড় জুলুম'।"
+  - id: nifaq
+    arabic: 'نِفَاق'
+    transliteration: 'nifāq'
+    pos: noun
+    bn: ['মুনাফেকি', 'কপটতা']
+    en: ['hypocrisy']
+    root: 'ن ف ق'
+    gender: masculine
+    frequencyRank: 198
+    audio: audio/words/nifaq.mp3
+    tags: [quran, faith]
+  - id: munafiq
+    arabic: 'مُنَافِق'
+    transliteration: 'munāfiq'
+    pos: noun
+    bn: ['মুনাফিক', 'কপট']
+    en: ['hypocrite']
+    root: 'ن ف ق'
+    gender: masculine
+    plural: { arabic: 'مُنَافِقُون', type: sound_masculine }
+    frequencyRank: 196
+    audio: audio/words/munafiq.mp3
+    tags: [quran, people, faith]
+  - id: ibadah
+    arabic: 'عِبَادَة'
+    transliteration: 'ʿibādah'
+    pos: noun
+    bn: ['ইবাদত', 'উপাসনা']
+    en: ['worship', 'service']
+    root: 'ع ب د'
+    gender: feminine
+    frequencyRank: 200
+    audio: audio/words/ibadah.mp3
+    tags: [quran, faith]
+  - id: sujud
+    arabic: 'سُجُود'
+    transliteration: 'sujūd'
+    pos: noun
+    bn: ['সিজদা']
+    en: ['prostration']
+    root: 'س ج د'
+    gender: masculine
+    frequencyRank: 202
+    audio: audio/words/sujud.mp3
+    tags: [quran, faith]
+  - id: qiblah
+    arabic: 'قِبْلَة'
+    transliteration: 'qiblah'
+    pos: noun
+    bn: ['কিবলা']
+    en: ['prayer direction']
+    root: 'ق ب ل'
+    gender: feminine
+    frequencyRank: 206
+    audio: audio/words/qiblah.mp3
+    tags: [quran, faith]
+    editorNote: 'قَبْلَ (পূর্বে) একই মূল — যেদিকে মুখ করা হয়।'
+  - id: siyam
+    arabic: 'صِيَام'
+    transliteration: 'ṣiyām'
+    pos: noun
+    bn: ['রোজা', 'সিয়াম']
+    en: ['fasting']
+    root: 'ص و م'
+    gender: masculine
+    frequencyRank: 204
+    audio: audio/words/siyam.mp3
+    tags: [quran, faith]
+  - id: jaza
+    arabic: 'جَزَاء'
+    transliteration: 'jazāʾ'
+    pos: noun
+    bn: ['প্রতিদান', 'বদলা']
+    en: ['recompense', 'reward']
+    root: 'ج ز ي'
+    gender: masculine
+    frequencyRank: 191
+    audio: audio/words/jaza.mp3
+    tags: [quran, faith]
+  - id: thawab
+    arabic: 'ثَوَاب'
+    transliteration: 'thawāb'
+    pos: noun
+    bn: ['সওয়াব', 'পুরস্কার']
+    en: ['reward']
+    root: 'ث و ب'
+    gender: masculine
+    frequencyRank: 208
+    audio: audio/words/thawab.mp3
+    tags: [quran, faith]
+  - id: iqab
+    arabic: 'عِقَاب'
+    transliteration: 'ʿiqāb'
+    pos: noun
+    bn: ['শাস্তি']
+    en: ['punishment']
+    root: 'ع ق ب'
+    gender: masculine
+    frequencyRank: 210
+    audio: audio/words/iqab.mp3
+    tags: [quran, faith]
+    editorNote: "شَدِيدُ الْعِقَابِ — 'শাস্তিতে কঠোর', প্রায়ই غَفُور-এর সাথে ভারসাম্যে।"
+  - id: fawz
+    arabic: 'فَوْز'
+    transliteration: 'fawz'
+    pos: noun
+    bn: ['সাফল্য', 'জয়']
+    en: ['success', 'triumph']
+    root: 'ف و ز'
+    gender: masculine
+    frequencyRank: 193
+    audio: audio/words/fawz.mp3
+    tags: [quran, faith]
+  - id: falah
+    arabic: 'فَلَاح'
+    transliteration: 'falāḥ'
+    pos: noun
+    bn: ['কল্যাণ', 'সাফল্য']
+    en: ['prosperity', 'success']
+    root: 'ف ل ح'
+    gender: masculine
+    frequencyRank: 195
+    audio: audio/words/falah.mp3
+    tags: [quran, faith]
+    editorNote: "আজানের حَيَّ عَلَى الْفَلَاحِ — 'কল্যাণের দিকে এসো'।"
+  - id: khusr
+    arabic: 'خُسْر'
+    transliteration: 'khusr'
+    pos: noun
+    bn: ['ক্ষতি']
+    en: ['loss']
+    root: 'خ س ر'
+    gender: masculine
+    frequencyRank: 197
+    audio: audio/words/khusr.mp3
+    tags: [quran, faith]
+  - id: hin
+    arabic: 'حِين'
+    transliteration: 'ḥīn'
+    pos: noun
+    bn: ['সময়', 'কাল']
+    en: ['a while', 'a time']
+    root: 'ح ي ن'
+    gender: masculine
+    frequencyRank: 199
+    audio: audio/words/hin.mp3
+    tags: [quran, time]
+  - id: marrah
+    arabic: 'مَرَّة'
+    transliteration: 'marrah'
+    pos: noun
+    bn: ['বার', 'দফা']
+    en: ['time', 'occasion']
+    root: 'م ر ر'
+    gender: feminine
+    frequencyRank: 201
+    audio: audio/words/marrah.mp3
+    tags: [quran, time]
+  - id: rushd
+    arabic: 'رُشْد'
+    transliteration: 'rushd'
+    pos: noun
+    bn: ['সঠিক পথ', 'বিচক্ষণতা']
+    en: ['right guidance', 'maturity']
+    root: 'ر ش د'
+    gender: masculine
+    frequencyRank: 212
+    audio: audio/words/rushd.mp3
+    tags: [quran, faith]
+  - id: ithnan
+    arabic: 'اثْنَان'
+    transliteration: 'ithnān'
+    pos: noun
+    bn: ['দুই']
+    en: ['two']
+    root: 'ث ن ي'
+    gender: masculine
+    frequencyRank: 214
+    audio: audio/words/ithnan.mp3
+    tags: [quran, numbers]
+  - id: thalathah
+    arabic: 'ثَلَاثَة'
+    transliteration: 'thalāthah'
+    pos: noun
+    bn: ['তিন']
+    en: ['three']
+    root: 'ث ل ث'
+    gender: feminine
+    frequencyRank: 216
+    audio: audio/words/thalathah.mp3
+    tags: [quran, numbers]
+    editorNote: 'আরবিতে ৩–১০ সংখ্যা উল্টো লিঙ্গ নেয়: পুরুষবাচক গোনা হয় ة-যুক্ত রূপ দিয়ে।'
+  - id: sabaah
+    arabic: 'سَبْعَة'
+    transliteration: 'sabʿah'
+    pos: noun
+    bn: ['সাত']
+    en: ['seven']
+    root: 'س ب ع'
+    gender: feminine
+    frequencyRank: 218
+    audio: audio/words/sabaah.mp3
+    tags: [quran, numbers]
+    editorNote: 'سَبْعَ سَمَاوَاتٍ — সাত আসমান, কুরআনে বারবার।'
+  - id: asharah
+    arabic: 'عَشَرَة'
+    transliteration: 'ʿasharah'
+    pos: noun
+    bn: ['দশ']
+    en: ['ten']
+    root: 'ع ش ر'
+    gender: feminine
+    frequencyRank: 220
+    audio: audio/words/asharah.mp3
+    tags: [quran, numbers]
+  - id: miah
+    arabic: 'مِائَة'
+    transliteration: 'miʾah'
+    pos: noun
+    bn: ['একশ']
+    en: ['hundred']
+    gender: feminine
+    frequencyRank: 222
+    audio: audio/words/miah.mp3
+    tags: [quran, numbers]
+  - id: alf
+    arabic: 'أَلْف'
+    transliteration: 'alf'
+    pos: noun
+    bn: ['হাজার']
+    en: ['thousand']
+    root: 'أ ل ف'
+    gender: masculine
+    plural: { arabic: 'آلَاف', type: broken }
+    frequencyRank: 224
+    audio: audio/words/alf.mp3
+    tags: [quran, numbers]

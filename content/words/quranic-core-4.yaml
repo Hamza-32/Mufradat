@@ -1,0 +1,292 @@
+# The vocabulary of belief: the nouns and adjectives a reader meets on almost
+# every page of the Quran. Plain Bengali gloss first, then the borrowed Arabic
+# form a Bangladeshi learner already recognises.
+
+words:
+  - id: insan
+    arabic: 'إِنْسَان'
+    transliteration: 'insān'
+    pos: noun
+    bn: ['মানুষ', 'ইনসান']
+    en: ['human being', 'mankind']
+    root: 'أ ن س'
+    gender: masculine
+    frequencyRank: 45
+    audio: audio/words/insan.mp3
+    tags: [quran, people]
+    editorNote: "نَاس সমষ্টিগত 'লোকজন', আর إِنْسَان একক মানুষ — পার্থক্যটা খেয়াল রাখুন।"
+  - id: ayah
+    arabic: 'آيَة'
+    transliteration: 'āyah'
+    pos: noun
+    bn: ['আয়াত', 'নিদর্শন']
+    en: ['verse', 'sign']
+    root: 'أ ي ي'
+    gender: feminine
+    plural: { arabic: 'آيَات', type: sound_feminine }
+    frequencyRank: 42
+    audio: audio/words/ayah.mp3
+    tags: [quran, faith]
+    editorNote: 'একই শব্দ কুরআনের আয়াত আর প্রকৃতির নিদর্শন — দুটোই আল্লাহর চিহ্ন।'
+  - id: quran
+    arabic: 'قُرْآن'
+    transliteration: "qur'ān"
+    pos: noun
+    bn: ['কুরআন']
+    en: ['Quran', 'recitation']
+    root: 'ق ر أ'
+    gender: masculine
+    frequencyRank: 48
+    audio: audio/words/quran.mp3
+    tags: [quran, faith]
+    editorNote: "قَرَأَ (পড়া) থেকেই — অর্থ 'যা পাঠ করা হয়'।"
+  - id: surah
+    arabic: 'سُورَة'
+    transliteration: 'sūrah'
+    pos: noun
+    bn: ['সূরা']
+    en: ['chapter', 'sura']
+    root: 'س و ر'
+    gender: feminine
+    plural: { arabic: 'سُوَر', type: broken }
+    frequencyRank: 150
+    audio: audio/words/surah.mp3
+    tags: [quran, faith]
+  - id: ruh
+    arabic: 'رُوح'
+    transliteration: 'rūḥ'
+    pos: noun
+    bn: ['আত্মা', 'রুহ']
+    en: ['spirit', 'soul']
+    root: 'ر و ح'
+    gender: feminine
+    frequencyRank: 88
+    audio: audio/words/ruh.mp3
+    tags: [quran, faith]
+  - id: adhab
+    arabic: 'عَذَاب'
+    transliteration: 'ʿadhāb'
+    pos: noun
+    bn: ['শাস্তি', 'আজাব']
+    en: ['punishment', 'torment']
+    root: 'ع ذ ب'
+    gender: masculine
+    frequencyRank: 72
+    audio: audio/words/adhab.mp3
+    tags: [quran, faith]
+  - id: nimah
+    arabic: 'نِعْمَة'
+    transliteration: 'niʿmah'
+    pos: noun
+    bn: ['অনুগ্রহ', 'নিয়ামত']
+    en: ['blessing', 'favour']
+    root: 'ن ع م'
+    gender: feminine
+    frequencyRank: 90
+    audio: audio/words/nimah.mp3
+    tags: [quran, faith]
+  - id: taqwa
+    arabic: 'تَقْوَى'
+    transliteration: 'taqwā'
+    pos: noun
+    bn: ['খোদাভীতি', 'তাকওয়া']
+    en: ['God-consciousness', 'piety']
+    root: 'و ق ي'
+    gender: feminine
+    frequencyRank: 100
+    audio: audio/words/taqwa.mp3
+    tags: [quran, faith]
+    editorNote: "মূল অর্থ 'বেঁচে থাকা, আড়াল করা' — নিজেকে আল্লাহর অসন্তুষ্টি থেকে বাঁচানো।"
+  - id: zulm
+    arabic: 'ظُلْم'
+    transliteration: 'ẓulm'
+    pos: noun
+    bn: ['অবিচার', 'জুলুম']
+    en: ['injustice', 'wrongdoing']
+    root: 'ظ ل م'
+    gender: masculine
+    frequencyRank: 102
+    audio: audio/words/zulm.mp3
+    tags: [quran, faith]
+    editorNote: "মূল অর্থ 'অন্ধকার' — জিনিসকে তার নিজের জায়গা থেকে সরিয়ে দেওয়া।"
+  - id: adl
+    arabic: 'عَدْل'
+    transliteration: 'ʿadl'
+    pos: noun
+    bn: ['ন্যায়বিচার', 'ইনসাফ']
+    en: ['justice', 'fairness']
+    root: 'ع د ل'
+    gender: masculine
+    frequencyRank: 108
+    audio: audio/words/adl.mp3
+    tags: [quran, faith]
+  - id: ummah
+    arabic: 'أُمَّة'
+    transliteration: 'ummah'
+    pos: noun
+    bn: ['জাতি', 'উম্মত']
+    en: ['community', 'nation']
+    root: 'أ م م'
+    gender: feminine
+    plural: { arabic: 'أُمَم', type: broken }
+    frequencyRank: 96
+    audio: audio/words/ummah.mp3
+    tags: [quran, people]
+    editorNote: 'أُمّ (মা) একই মূলের — যে উৎস থেকে সবাই আসে।'
+  - id: mumin
+    arabic: 'مُؤْمِن'
+    transliteration: "mu'min"
+    pos: noun
+    bn: ['বিশ্বাসী', 'মুমিন']
+    en: ['believer']
+    root: 'أ م ن'
+    gender: masculine
+    plural: { arabic: 'مُؤْمِنُون', type: sound_masculine }
+    frequencyRank: 78
+    audio: audio/words/mumin.mp3
+    tags: [quran, people, faith]
+  - id: kafir
+    arabic: 'كَافِر'
+    transliteration: 'kāfir'
+    pos: noun
+    bn: ['অবিশ্বাসী', 'কাফির']
+    en: ['disbeliever']
+    root: 'ك ف ر'
+    gender: masculine
+    plural: { arabic: 'كُفَّار', type: broken }
+    frequencyRank: 94
+    audio: audio/words/kafir.mp3
+    tags: [quran, people, faith]
+  - id: muslim
+    arabic: 'مُسْلِم'
+    transliteration: 'muslim'
+    pos: noun
+    bn: ['মুসলিম', 'আত্মসমর্পণকারী']
+    en: ['Muslim', 'one who submits']
+    root: 'س ل م'
+    gender: masculine
+    plural: { arabic: 'مُسْلِمُون', type: sound_masculine }
+    frequencyRank: 80
+    audio: audio/words/muslim.mp3
+    tags: [quran, people, faith]
+  - id: shaytan
+    arabic: 'شَيْطَان'
+    transliteration: 'shayṭān'
+    pos: noun
+    bn: ['শয়তান']
+    en: ['Satan', 'devil']
+    root: 'ش ط ن'
+    gender: masculine
+    plural: { arabic: 'شَيَاطِين', type: broken }
+    frequencyRank: 106
+    audio: audio/words/shaytan.mp3
+    tags: [quran, faith]
+  - id: jinn
+    arabic: 'جِنّ'
+    transliteration: 'jinn'
+    pos: noun
+    bn: ['জিন']
+    en: ['jinn']
+    root: 'ج ن ن'
+    gender: masculine
+    frequencyRank: 145
+    audio: audio/words/jinn.mp3
+    tags: [quran, faith]
+    editorNote: "মূল অর্থ 'আড়াল করা' — جَنَّة (বাগান) আর مَجْنُون একই মূলের।"
+  - id: qiyamah
+    arabic: 'قِيَامَة'
+    transliteration: 'qiyāmah'
+    pos: noun
+    bn: ['কিয়ামত', 'পুনরুত্থান']
+    en: ['resurrection', 'the Last Day']
+    root: 'ق و م'
+    gender: feminine
+    frequencyRank: 116
+    audio: audio/words/qiyamah.mp3
+    tags: [quran, faith]
+  - id: mizan
+    arabic: 'مِيزَان'
+    transliteration: 'mīzān'
+    pos: noun
+    bn: ['দাঁড়িপাল্লা', 'মিযান']
+    en: ['balance', 'scale']
+    root: 'و ز ن'
+    gender: masculine
+    frequencyRank: 155
+    audio: audio/words/mizan.mp3
+    tags: [quran, faith]
+  - id: fadl
+    arabic: 'فَضْل'
+    transliteration: 'faḍl'
+    pos: noun
+    bn: ['অনুগ্রহ', 'ফজল']
+    en: ['bounty', 'grace']
+    root: 'ف ض ل'
+    gender: masculine
+    frequencyRank: 122
+    audio: audio/words/fadl.mp3
+    tags: [quran, faith]
+  - id: shahid
+    arabic: 'شَهِيد'
+    transliteration: 'shahīd'
+    pos: noun
+    bn: ['সাক্ষী', 'শহীদ']
+    en: ['witness', 'martyr']
+    root: 'ش ه د'
+    gender: masculine
+    plural: { arabic: 'شُهَدَاء', type: broken }
+    frequencyRank: 134
+    audio: audio/words/shahid.mp3
+    tags: [quran, people, faith]
+  - id: salih
+    arabic: 'صَالِح'
+    transliteration: 'ṣāliḥ'
+    pos: adjective
+    bn: ['সৎ', 'নেককার']
+    en: ['righteous', 'good']
+    root: 'ص ل ح'
+    frequencyRank: 126
+    audio: audio/words/salih.mp3
+    tags: [quran, adjectives, faith]
+    editorNote: 'عَمَل صَالِح — সৎকর্ম, কুরআনে বারবার ঈমানের সাথে জোড়া বেঁধে আসে।'
+  - id: azim
+    arabic: 'عَظِيم'
+    transliteration: 'ʿaẓīm'
+    pos: adjective
+    bn: ['মহান', 'বিরাট']
+    en: ['great', 'mighty']
+    root: 'ع ظ م'
+    frequencyRank: 128
+    audio: audio/words/azim.mp3
+    tags: [quran, adjectives]
+  - id: karim
+    arabic: 'كَرِيم'
+    transliteration: 'karīm'
+    pos: adjective
+    bn: ['দয়ালু', 'মহৎ']
+    en: ['generous', 'noble']
+    root: 'ك ر م'
+    frequencyRank: 136
+    audio: audio/words/karim.mp3
+    tags: [quran, adjectives]
+  - id: rahim
+    arabic: 'رَحِيم'
+    transliteration: 'raḥīm'
+    pos: adjective
+    bn: ['পরম দয়ালু']
+    en: ['merciful']
+    root: 'ر ح م'
+    frequencyRank: 62
+    audio: audio/words/rahim.mp3
+    tags: [quran, adjectives, faith]
+    editorNote: 'رَحْمَة একই মূলের। বিসমিল্লাহতে الرَّحِيم জোড়ায় আসে।'
+  - id: hakim
+    arabic: 'حَكِيم'
+    transliteration: 'ḥakīm'
+    pos: adjective
+    bn: ['প্রজ্ঞাময়', 'হেকমতওয়ালা']
+    en: ['wise']
+    root: 'ح ك م'
+    frequencyRank: 142
+    audio: audio/words/hakim.mp3
+    tags: [quran, adjectives]

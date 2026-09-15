@@ -1,0 +1,461 @@
+# Deck two, verbs. Past the first three hundred the Quran stops repeating and
+# starts narrating: these are the verbs of the stories, the laws and the
+# feelings — rescuing, inheriting, grieving, laughing, migrating.
+
+words:
+  - id: nafaa
+    arabic: 'نَفَعَ'
+    transliteration: 'nafaʿa'
+    pos: verb
+    bn: ['উপকার করা']
+    en: ['to benefit', 'to profit']
+    root: 'ن ف ع'
+    verb: { form: 1, present: 'يَنْفَع', masdar: 'نَفْع' }
+    frequencyRank: 305
+    audio: audio/words/nafaa.mp3
+    tags: [quran, verbs]
+    editorNote: "ضَرَّ-এর জোড়া: لَا يَمْلِكُ لَهُمْ نَفْعًا وَلَا ضَرًّا — 'উপকার বা ক্ষতি কোনোটারই মালিক নয়'।"
+  - id: darra
+    arabic: 'ضَرَّ'
+    transliteration: 'ḍarra'
+    pos: verb
+    bn: ['ক্ষতি করা']
+    en: ['to harm', 'to hurt']
+    root: 'ض ر ر'
+    verb: { form: 1, present: 'يَضُرّ', masdar: 'ضَرّ' }
+    frequencyRank: 307
+    audio: audio/words/darra.mp3
+    tags: [quran, verbs]
+  - id: hamala
+    arabic: 'حَمَلَ'
+    transliteration: 'ḥamala'
+    pos: verb
+    bn: ['বহন করা', 'বোঝা নেওয়া']
+    en: ['to carry', 'to bear']
+    root: 'ح م ل'
+    verb: { form: 1, present: 'يَحْمِل', masdar: 'حَمْل' }
+    frequencyRank: 309
+    audio: audio/words/hamala.mp3
+    tags: [quran, verbs]
+  - id: wadaa
+    arabic: 'وَضَعَ'
+    transliteration: 'waḍaʿa'
+    pos: verb
+    bn: ['রাখা', 'নামিয়ে রাখা']
+    en: ['to put down', 'to place']
+    root: 'و ض ع'
+    verb: { form: 1, present: 'يَضَع', masdar: 'وَضْع' }
+    frequencyRank: 311
+    audio: audio/words/wadaa.mp3
+    tags: [quran, verbs]
+    editorNote: 'رَفَعَ (উঁচু করা)-এর জোড়া। মিসাল হরফ و প্রথম বাবে বর্তমান কালে উধাও হয়ে যায়।'
+  - id: sabaqa
+    arabic: 'سَبَقَ'
+    transliteration: 'sabaqa'
+    pos: verb
+    bn: ['অগ্রগামী হওয়া', 'এগিয়ে যাওয়া']
+    en: ['to precede', 'to outstrip']
+    root: 'س ب ق'
+    verb: { form: 1, present: 'يَسْبِق', masdar: 'سَبْق' }
+    frequencyRank: 313
+    audio: audio/words/sabaqa.mp3
+    tags: [quran, verbs]
+  - id: waritha
+    arabic: 'وَرِثَ'
+    transliteration: 'waritha'
+    pos: verb
+    bn: ['উত্তরাধিকারী হওয়া']
+    en: ['to inherit']
+    root: 'و ر ث'
+    verb: { form: 1, present: 'يَرِث', masdar: 'مِيرَاث' }
+    frequencyRank: 315
+    audio: audio/words/waritha.mp3
+    tags: [quran, verbs]
+  - id: adda
+    arabic: 'عَدَّ'
+    transliteration: 'ʿadda'
+    pos: verb
+    bn: ['গণনা করা']
+    en: ['to count', 'to number']
+    root: 'ع د د'
+    verb: { form: 1, present: 'يَعُدّ', masdar: 'عَدّ' }
+    frequencyRank: 317
+    audio: audio/words/adda.mp3
+    tags: [quran, verbs]
+  - id: maha
+    arabic: 'مَحَا'
+    transliteration: 'maḥā'
+    pos: verb
+    bn: ['মুছে ফেলা']
+    en: ['to erase', 'to blot out']
+    root: 'م ح و'
+    verb: { form: 1, present: 'يَمْحُو', masdar: 'مَحْو' }
+    frequencyRank: 319
+    audio: audio/words/maha.mp3
+    tags: [quran, verbs]
+  - id: thabata
+    arabic: 'ثَبَتَ'
+    transliteration: 'thabata'
+    pos: verb
+    bn: ['অটল থাকা', 'স্থির থাকা']
+    en: ['to stand firm', 'to be steadfast']
+    root: 'ث ب ت'
+    verb: { form: 1, present: 'يَثْبُت', masdar: 'ثَبَات' }
+    frequencyRank: 321
+    audio: audio/words/thabata.mp3
+    tags: [quran, verbs]
+  - id: sakana
+    arabic: 'سَكَنَ'
+    transliteration: 'sakana'
+    pos: verb
+    bn: ['বসবাস করা', 'শান্ত হওয়া']
+    en: ['to dwell', 'to be still']
+    root: 'س ك ن'
+    verb: { form: 1, present: 'يَسْكُن', masdar: 'سَكَن' }
+    frequencyRank: 323
+    audio: audio/words/sakana.mp3
+    tags: [quran, verbs]
+    editorNote: 'مِسْكِين (মিসকিন) একই মূল — যে নড়তে পারে না, নিঃস্ব।'
+  - id: halaka
+    arabic: 'هَلَكَ'
+    transliteration: 'halaka'
+    pos: verb
+    bn: ['ধ্বংস হওয়া']
+    en: ['to perish']
+    root: 'ه ل ك'
+    verb: { form: 1, present: 'يَهْلِك', masdar: 'هَلَاك' }
+    frequencyRank: 325
+    audio: audio/words/halaka.mp3
+    tags: [quran, verbs]
+  - id: ahlaka
+    arabic: 'أَهْلَكَ'
+    transliteration: 'ahlaka'
+    pos: verb
+    bn: ['ধ্বংস করা']
+    en: ['to destroy']
+    root: 'ه ل ك'
+    verb: { form: 4, present: 'يُهْلِك', masdar: 'إِهْلَاك' }
+    frequencyRank: 327
+    audio: audio/words/ahlaka.mp3
+    tags: [quran, verbs]
+    editorNote: 'هَلَكَ-এর চতুর্থ বাব: নিজে ধ্বংস হওয়া → অন্যকে ধ্বংস করা। পূর্ববর্তী জাতির কাহিনিতে বারবার।'
+  - id: najja
+    arabic: 'نَجَّى'
+    transliteration: 'najjā'
+    pos: verb
+    bn: ['উদ্ধার করা', 'রক্ষা করা']
+    en: ['to rescue', 'to deliver']
+    root: 'ن ج و'
+    verb: { form: 2, present: 'يُنَجِّي', masdar: 'تَنْجِيَة' }
+    frequencyRank: 329
+    audio: audio/words/najja.mp3
+    tags: [quran, verbs]
+    editorNote: 'أَهْلَكَ-এর বিপরীত: জাতি ধ্বংস হয়, নবী ও তাঁর অনুসারীরা উদ্ধার পান।'
+  - id: tahhara
+    arabic: 'طَهَّرَ'
+    transliteration: 'ṭahhara'
+    pos: verb
+    bn: ['পবিত্র করা']
+    en: ['to purify', 'to cleanse']
+    root: 'ط ه ر'
+    verb: { form: 2, present: 'يُطَهِّر', masdar: 'تَطْهِير' }
+    frequencyRank: 331
+    audio: audio/words/tahhara.mp3
+    tags: [quran, verbs, faith]
+  - id: amsaka
+    arabic: 'أَمْسَكَ'
+    transliteration: 'amsaka'
+    pos: verb
+    bn: ['ধরে রাখা', 'আটকে রাখা']
+    en: ['to hold back', 'to withhold']
+    root: 'م س ك'
+    verb: { form: 4, present: 'يُمْسِك', masdar: 'إِمْسَاك' }
+    frequencyRank: 333
+    audio: audio/words/amsaka.mp3
+    tags: [quran, verbs]
+  - id: qabila
+    arabic: 'قَبِلَ'
+    transliteration: 'qabila'
+    pos: verb
+    bn: ['গ্রহণ করা', 'কবুল করা']
+    en: ['to accept']
+    root: 'ق ب ل'
+    verb: { form: 1, present: 'يَقْبَل', masdar: 'قَبُول' }
+    frequencyRank: 335
+    audio: audio/words/qabila.mp3
+    tags: [quran, verbs, faith]
+    editorNote: 'قِبْلَة আর قَبْلَ একই মূল — সামনের দিক, গ্রহণ করা, আগে।'
+  - id: radiya
+    arabic: 'رَضِيَ'
+    transliteration: 'raḍiya'
+    pos: verb
+    bn: ['সন্তুষ্ট হওয়া', 'রাজি হওয়া']
+    en: ['to be pleased', 'to be content']
+    root: 'ر ض و'
+    verb: { form: 1, present: 'يَرْضَى', masdar: 'رِضْوَان' }
+    frequencyRank: 337
+    audio: audio/words/radiya.mp3
+    tags: [quran, verbs, faith]
+    editorNote: "رَضِيَ اللَّهُ عَنْهُمْ وَرَضُوا عَنْهُ — 'আল্লাহ তাদের প্রতি সন্তুষ্ট, তারাও তাঁর প্রতি'।"
+  - id: ghadiba
+    arabic: 'غَضِبَ'
+    transliteration: 'ghaḍiba'
+    pos: verb
+    bn: ['রাগ করা', 'ক্রুদ্ধ হওয়া']
+    en: ['to be angry']
+    root: 'غ ض ب'
+    verb: { form: 1, present: 'يَغْضَب', masdar: 'غَضَب' }
+    frequencyRank: 339
+    audio: audio/words/ghadiba.mp3
+    tags: [quran, verbs]
+    editorNote: 'সূরা ফাতিহার الْمَغْضُوبِ عَلَيْهِمْ এই মূল থেকে।'
+  - id: fariha
+    arabic: 'فَرِحَ'
+    transliteration: 'fariḥa'
+    pos: verb
+    bn: ['আনন্দিত হওয়া']
+    en: ['to rejoice', 'to be glad']
+    root: 'ف ر ح'
+    verb: { form: 1, present: 'يَفْرَح', masdar: 'فَرَح' }
+    frequencyRank: 341
+    audio: audio/words/fariha.mp3
+    tags: [quran, verbs, feelings]
+  - id: hazina
+    arabic: 'حَزِنَ'
+    transliteration: 'ḥazina'
+    pos: verb
+    bn: ['দুঃখিত হওয়া']
+    en: ['to grieve', 'to be sad']
+    root: 'ح ز ن'
+    verb: { form: 1, present: 'يَحْزَن', masdar: 'حُزْن' }
+    frequencyRank: 343
+    audio: audio/words/hazina.mp3
+    tags: [quran, verbs, feelings]
+    editorNote: "وَلَا تَحْزَنْ — 'দুঃখ কোরো না', কুরআনে বারবার আসা সান্ত্বনা।"
+  - id: baka
+    arabic: 'بَكَى'
+    transliteration: 'bakā'
+    pos: verb
+    bn: ['কাঁদা']
+    en: ['to weep']
+    root: 'ب ك ي'
+    verb: { form: 1, present: 'يَبْكِي', masdar: 'بُكَاء' }
+    frequencyRank: 345
+    audio: audio/words/baka.mp3
+    tags: [quran, verbs, feelings]
+  - id: dahika
+    arabic: 'ضَحِكَ'
+    transliteration: 'ḍaḥika'
+    pos: verb
+    bn: ['হাসা']
+    en: ['to laugh']
+    root: 'ض ح ك'
+    verb: { form: 1, present: 'يَضْحَك', masdar: 'ضَحِك' }
+    frequencyRank: 347
+    audio: audio/words/dahika.mp3
+    tags: [quran, verbs, feelings]
+  - id: nama
+    arabic: 'نَامَ'
+    transliteration: 'nāma'
+    pos: verb
+    bn: ['ঘুমানো']
+    en: ['to sleep']
+    root: 'ن و م'
+    verb: { form: 1, present: 'يَنَام', masdar: 'نَوْم' }
+    frequencyRank: 349
+    audio: audio/words/nama.mp3
+    tags: [quran, verbs]
+    editorNote: "আয়াতুল কুরসির لَا تَأْخُذُهُ سِنَةٌ وَلَا نَوْمٌ — 'তন্দ্রা বা নিদ্রা তাঁকে স্পর্শ করে না'।"
+  - id: saa-strive
+    arabic: 'سَعَى'
+    transliteration: 'saʿā'
+    pos: verb
+    bn: ['চেষ্টা করা', 'ছুটে চলা']
+    en: ['to strive', 'to hasten']
+    root: 'س ع ي'
+    verb: { form: 1, present: 'يَسْعَى', masdar: 'سَعْي' }
+    frequencyRank: 351
+    audio: audio/words/saa-strive.mp3
+    tags: [quran, verbs]
+  - id: masha
+    arabic: 'مَشَى'
+    transliteration: 'mashā'
+    pos: verb
+    bn: ['হাঁটা', 'চলা']
+    en: ['to walk']
+    root: 'م ش ي'
+    verb: { form: 1, present: 'يَمْشِي', masdar: 'مَشْي' }
+    frequencyRank: 353
+    audio: audio/words/masha.mp3
+    tags: [quran, verbs]
+  - id: rakiba
+    arabic: 'رَكِبَ'
+    transliteration: 'rakiba'
+    pos: verb
+    bn: ['আরোহণ করা', 'চড়া']
+    en: ['to ride', 'to board']
+    root: 'ر ك ب'
+    verb: { form: 1, present: 'يَرْكَب', masdar: 'رُكُوب' }
+    frequencyRank: 355
+    audio: audio/words/rakiba.mp3
+    tags: [quran, verbs]
+  - id: hajara
+    arabic: 'هَاجَرَ'
+    transliteration: 'hājara'
+    pos: verb
+    bn: ['হিজরত করা', 'দেশত্যাগ করা']
+    en: ['to emigrate', 'to migrate']
+    root: 'ه ج ر'
+    verb: { form: 3, present: 'يُهَاجِر', masdar: 'هِجْرَة' }
+    frequencyRank: 357
+    audio: audio/words/hajara.mp3
+    tags: [quran, verbs, faith]
+    editorNote: 'হিজরি সন এই মূল থেকেই। কুরআনে প্রায়ই جَاهَدَ-এর সাথে জোড়ায় আসে।'
+  - id: nasaha
+    arabic: 'نَصَحَ'
+    transliteration: 'naṣaḥa'
+    pos: verb
+    bn: ['উপদেশ দেওয়া', 'কল্যাণ কামনা করা']
+    en: ['to advise sincerely']
+    root: 'ن ص ح'
+    verb: { form: 1, present: 'يَنْصَح', masdar: 'نُصْح' }
+    frequencyRank: 359
+    audio: audio/words/nasaha.mp3
+    tags: [quran, verbs]
+  - id: waaza
+    arabic: 'وَعَظَ'
+    transliteration: 'waʿaẓa'
+    pos: verb
+    bn: ['উপদেশ দেওয়া', 'নসিহত করা']
+    en: ['to admonish', 'to exhort']
+    root: 'و ع ظ'
+    verb: { form: 1, present: 'يَعِظ', masdar: 'مَوْعِظَة' }
+    frequencyRank: 361
+    audio: audio/words/waaza.mp3
+    tags: [quran, verbs]
+  - id: dhakkara
+    arabic: 'ذَكَّرَ'
+    transliteration: 'dhakkara'
+    pos: verb
+    bn: ['স্মরণ করিয়ে দেওয়া']
+    en: ['to remind']
+    root: 'ذ ك ر'
+    verb: { form: 2, present: 'يُذَكِّر', masdar: 'تَذْكِير' }
+    frequencyRank: 363
+    audio: audio/words/dhakkara.mp3
+    tags: [quran, verbs]
+    editorNote: "ذَكَرَ (স্মরণ করা) দ্বিতীয় বাবে হয় 'স্মরণ করানো' — فَذَكِّرْ, 'অতএব উপদেশ দিন'।"
+  - id: ajaba
+    arabic: 'أَجَابَ'
+    transliteration: 'ajāba'
+    pos: verb
+    bn: ['উত্তর দেওয়া', 'সাড়া দেওয়া']
+    en: ['to answer', 'to respond']
+    root: 'ج و ب'
+    verb: { form: 4, present: 'يُجِيب', masdar: 'إِجَابَة' }
+    frequencyRank: 365
+    audio: audio/words/ajaba.mp3
+    tags: [quran, verbs]
+    editorNote: "أُجِيبُ دَعْوَةَ الدَّاعِ — 'আমি আহ্বানকারীর ডাকে সাড়া দিই'।"
+  - id: nada
+    arabic: 'نَادَى'
+    transliteration: 'nādā'
+    pos: verb
+    bn: ['ডাকা', 'আহ্বান করা']
+    en: ['to call out']
+    root: 'ن د و'
+    verb: { form: 3, present: 'يُنَادِي', masdar: 'نِدَاء' }
+    frequencyRank: 367
+    audio: audio/words/nada.mp3
+    tags: [quran, verbs]
+  - id: fassala
+    arabic: 'فَصَّلَ'
+    transliteration: 'faṣṣala'
+    pos: verb
+    bn: ['বিশদভাবে বর্ণনা করা']
+    en: ['to explain in detail']
+    root: 'ف ص ل'
+    verb: { form: 2, present: 'يُفَصِّل', masdar: 'تَفْصِيل' }
+    frequencyRank: 369
+    audio: audio/words/fassala.mp3
+    tags: [quran, verbs]
+  - id: sharaha
+    arabic: 'شَرَحَ'
+    transliteration: 'sharaḥa'
+    pos: verb
+    bn: ['প্রশস্ত করা', 'খুলে দেওয়া']
+    en: ['to expand', 'to open up']
+    root: 'ش ر ح'
+    verb: { form: 1, present: 'يَشْرَح', masdar: 'شَرْح' }
+    frequencyRank: 371
+    audio: audio/words/sharaha.mp3
+    tags: [quran, verbs]
+    editorNote: "أَلَمْ نَشْرَحْ لَكَ صَدْرَكَ — 'আমি কি আপনার বুক প্রশস্ত করে দিইনি?'"
+  - id: kashafa
+    arabic: 'كَشَفَ'
+    transliteration: 'kashafa'
+    pos: verb
+    bn: ['উন্মোচন করা', 'দূর করা']
+    en: ['to uncover', 'to remove']
+    root: 'ك ش ف'
+    verb: { form: 1, present: 'يَكْشِف', masdar: 'كَشْف' }
+    frequencyRank: 373
+    audio: audio/words/kashafa.mp3
+    tags: [quran, verbs]
+  - id: aada
+    arabic: 'عَادَ'
+    transliteration: 'ʿāda'
+    pos: verb
+    bn: ['ফিরে আসা', 'পুনরায় করা']
+    en: ['to return', 'to go back']
+    root: 'ع و د'
+    verb: { form: 1, present: 'يَعُود', masdar: 'عَوْدَة' }
+    frequencyRank: 375
+    audio: audio/words/aada.mp3
+    tags: [quran, verbs]
+  - id: tamma
+    arabic: 'تَمَّ'
+    transliteration: 'tamma'
+    pos: verb
+    bn: ['পূর্ণ হওয়া', 'সম্পন্ন হওয়া']
+    en: ['to be complete', 'to be fulfilled']
+    root: 'ت م م'
+    verb: { form: 1, present: 'يَتِمّ', masdar: 'تَمَام' }
+    frequencyRank: 377
+    audio: audio/words/tamma.mp3
+    tags: [quran, verbs]
+  - id: dana
+    arabic: 'دَنَا'
+    transliteration: 'danā'
+    pos: verb
+    bn: ['নিকটবর্তী হওয়া']
+    en: ['to draw near']
+    root: 'د ن و'
+    verb: { form: 1, present: 'يَدْنُو', masdar: 'دُنُوّ' }
+    frequencyRank: 379
+    audio: audio/words/dana.mp3
+    tags: [quran, verbs]
+    editorNote: "دُنْيَا একই মূল — 'নিকটতর' জীবন, আখিরাতের তুলনায়।"
+  - id: asbaha
+    arabic: 'أَصْبَحَ'
+    transliteration: 'aṣbaḥa'
+    pos: verb
+    bn: ['সকাল করা', 'হয়ে যাওয়া']
+    en: ['to become', 'to enter the morning']
+    root: 'ص ب ح'
+    verb: { form: 4, present: 'يُصْبِح', masdar: 'إِصْبَاح' }
+    frequencyRank: 381
+    audio: audio/words/asbaha.mp3
+    tags: [quran, verbs]
+    editorNote: "صَبَاح (সকাল) একই মূল। كَانَ-এর মতো এটিও 'হয়ে যাওয়া' বোঝাতে পারে।"
+  - id: jaza-verb
+    arabic: 'جَزَى'
+    transliteration: 'jazā'
+    pos: verb
+    bn: ['প্রতিদান দেওয়া']
+    en: ['to recompense', 'to repay']
+    root: 'ج ز ي'
+    verb: { form: 1, present: 'يَجْزِي', masdar: 'جَزَاء' }
+    frequencyRank: 383
+    audio: audio/words/jaza-verb.mp3
+    tags: [quran, verbs, faith]

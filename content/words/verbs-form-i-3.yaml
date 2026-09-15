@@ -1,0 +1,119 @@
+# More form I verbs. Each one carries its present tense, because the middle
+# vowel of the present is unpredictable and has to be learnt with the word.
+
+words:
+  - id: khalaqa
+    arabic: 'خَلَقَ'
+    transliteration: 'khalaqa'
+    pos: verb
+    bn: ['সৃষ্টি করা']
+    en: ['to create']
+    root: 'خ ل ق'
+    verb: { form: 1, present: 'يَخْلُق', masdar: 'خَلْق' }
+    frequencyRank: 58
+    audio: audio/words/khalaqa.mp3
+    tags: [quran, verbs]
+    editorNote: 'একই মূল থেকে خَالِق (স্রষ্টা) আর مَخْلُوق (সৃষ্টি)।'
+  - id: kafara
+    arabic: 'كَفَرَ'
+    transliteration: 'kafara'
+    pos: verb
+    bn: ['অস্বীকার করা', 'কুফরি করা']
+    en: ['to disbelieve', 'to reject']
+    root: 'ك ف ر'
+    verb: { form: 1, present: 'يَكْفُر', masdar: 'كُفْر' }
+    frequencyRank: 68
+    audio: audio/words/kafara.mp3
+    tags: [quran, verbs, faith]
+    editorNote: "মূল অর্থ 'ঢেকে দেওয়া' — সত্যকে ঢেকে ফেলা। آمَنَ-এর বিপরীত।"
+  - id: sajada
+    arabic: 'سَجَدَ'
+    transliteration: 'sajada'
+    pos: verb
+    bn: ['সিজদা করা']
+    en: ['to prostrate']
+    root: 'س ج د'
+    verb: { form: 1, present: 'يَسْجُد', masdar: 'سُجُود' }
+    frequencyRank: 92
+    audio: audio/words/sajada.mp3
+    tags: [quran, verbs, faith]
+    editorNote: 'একই মূল থেকে مَسْجِد — সিজদার জায়গা।'
+  - id: ghafara
+    arabic: 'غَفَرَ'
+    transliteration: 'ghafara'
+    pos: verb
+    bn: ['ক্ষমা করা']
+    en: ['to forgive']
+    root: 'غ ف ر'
+    verb: { form: 1, present: 'يَغْفِر', masdar: 'مَغْفِرَة' }
+    frequencyRank: 98
+    audio: audio/words/ghafara.mp3
+    tags: [quran, verbs, faith]
+    editorNote: 'একই মূল থেকে غَفُور (পরম ক্ষমাশীল), আল্লাহর একটি নাম।'
+  - id: shakara
+    arabic: 'شَكَرَ'
+    transliteration: 'shakara'
+    pos: verb
+    bn: ['কৃতজ্ঞতা জানানো', 'শুকরিয়া আদায় করা']
+    en: ['to thank', 'to be grateful']
+    root: 'ش ك ر'
+    verb: { form: 1, present: 'يَشْكُر', masdar: 'شُكْر' }
+    frequencyRank: 105
+    audio: audio/words/shakara.mp3
+    tags: [quran, verbs]
+  - id: hakama
+    arabic: 'حَكَمَ'
+    transliteration: 'ḥakama'
+    pos: verb
+    bn: ['বিচার করা', 'ফয়সালা করা']
+    en: ['to judge', 'to rule']
+    root: 'ح ك م'
+    verb: { form: 1, present: 'يَحْكُم', masdar: 'حُكْم' }
+    frequencyRank: 112
+    audio: audio/words/hakama.mp3
+    tags: [quran, verbs]
+  - id: rafaa
+    arabic: 'رَفَعَ'
+    transliteration: 'rafaʿa'
+    pos: verb
+    bn: ['উঁচু করা', 'তুলে ধরা']
+    en: ['to raise', 'to lift']
+    root: 'ر ف ع'
+    verb: { form: 1, present: 'يَرْفَع', masdar: 'رَفْع' }
+    frequencyRank: 118
+    audio: audio/words/rafaa.mp3
+    tags: [quran, verbs]
+  - id: taraka
+    arabic: 'تَرَكَ'
+    transliteration: 'taraka'
+    pos: verb
+    bn: ['ছেড়ে দেওয়া', 'ত্যাগ করা']
+    en: ['to leave', 'to abandon']
+    root: 'ت ر ك'
+    verb: { form: 1, present: 'يَتْرُك', masdar: 'تَرْك' }
+    frequencyRank: 124
+    audio: audio/words/taraka.mp3
+    tags: [quran, verbs]
+  - id: malaka
+    arabic: 'مَلَكَ'
+    transliteration: 'malaka'
+    pos: verb
+    bn: ['মালিক হওয়া', 'অধিকারে রাখা']
+    en: ['to own', 'to possess']
+    root: 'م ل ك'
+    verb: { form: 1, present: 'يَمْلِك', masdar: 'مُلْك' }
+    frequencyRank: 132
+    audio: audio/words/malaka.mp3
+    tags: [quran, verbs]
+    editorNote: 'একই মূল থেকে مَلِك (রাজা) আর مَلَك (ফেরেশতা) — হরকত আলাদা, অর্থও আলাদা।'
+  - id: qatala
+    arabic: 'قَتَلَ'
+    transliteration: 'qatala'
+    pos: verb
+    bn: ['হত্যা করা']
+    en: ['to kill']
+    root: 'ق ت ل'
+    verb: { form: 1, present: 'يَقْتُل', masdar: 'قَتْل' }
+    frequencyRank: 138
+    audio: audio/words/qatala.mp3
+    tags: [quran, verbs]

@@ -1,0 +1,93 @@
+# People and family. High reward early: these appear in conversation, in the
+# Quran, and in Gulf workplace Arabic alike.
+
+words:
+  - id: rajul
+    arabic: 'رَجُل'
+    transliteration: 'rajul'
+    pos: noun
+    bn: ['পুরুষ', 'লোক']
+    en: ['man']
+    root: 'ر ج ل'
+    gender: masculine
+    plural: { arabic: 'رِجَال', type: broken }
+    frequencyRank: 110
+    audio: audio/words/rajul.mp3
+    tags: [people, quran]
+    editorNote: 'Plural رِجَال is irregular and far commoner than the singular.'
+    examples:
+      - arabic: 'هَذَا الرَّجُلُ مُعَلِّمٌ'
+        bn: 'এই লোকটি একজন শিক্ষক।'
+        en: 'This man is a teacher.'
+
+  - id: imra-ah
+    arabic: 'اِمْرَأَة'
+    transliteration: 'imraʾah'
+    pos: noun
+    bn: ['নারী', 'মহিলা']
+    en: ['woman', 'wife']
+    root: 'م ر أ'
+    gender: feminine
+    plural: { arabic: 'نِسَاء', type: broken }
+    frequencyRank: 160
+    audio: audio/words/imra-ah.mp3
+    tags: [people, quran]
+    editorNote: 'Definite form drops the initial vowel: الْمَرْأَة, not الاِمْرَأَة. Plural نِسَاء comes from a different root entirely.'
+    examples:
+      - arabic: 'الْمَرْأَةُ تَقْرَأُ الْكِتَابَ'
+        bn: 'মহিলাটি বইটি পড়ছেন।'
+        en: 'The woman is reading the book.'
+
+  - id: umm
+    arabic: 'أُمّ'
+    transliteration: 'umm'
+    pos: noun
+    bn: ['মা', 'আম্মা']
+    en: ['mother']
+    root: 'أ م م'
+    gender: feminine
+    plural: { arabic: 'أُمَّهَات', type: sound_feminine }
+    frequencyRank: 130
+    audio: audio/words/umm.mp3
+    tags: [people, family, quran]
+    editorNote: "أُمِّي = my mother. Also means 'source' or 'origin': أُمُّ الْكِتَاب."
+    examples:
+      - arabic: 'أُمِّي تَطْبُخُ الطَّعَامَ'
+        bn: 'আমার মা খাবার রান্না করেন।'
+        en: 'My mother cooks the food.'
+
+  - id: ab
+    arabic: 'أَب'
+    transliteration: 'ab'
+    pos: noun
+    bn: ['বাবা', 'পিতা']
+    en: ['father']
+    root: 'أ ب و'
+    gender: masculine
+    plural: { arabic: 'آبَاء', type: broken }
+    frequencyRank: 120
+    audio: audio/words/ab.mp3
+    tags: [people, family, quran]
+    editorNote: 'Takes a long vowel when possessed: أَبِي (my father), أَبُوهُ (his father).'
+    examples:
+      - arabic: 'أَبِي يَعْمَلُ فِي السُّوقِ'
+        bn: 'আমার বাবা বাজারে কাজ করেন।'
+        en: 'My father works in the market.'
+
+  - id: walad
+    arabic: 'وَلَد'
+    transliteration: 'walad'
+    pos: noun
+    bn: ['ছেলে', 'সন্তান']
+    en: ['boy', 'child', 'son']
+    root: 'و ل د'
+    gender: masculine
+    plural: { arabic: 'أَوْلَاد', type: broken }
+    frequencyRank: 140
+    audio: audio/words/walad.mp3
+    tags: [people, family, quran]
+    editorNote: 'أَوْلَاد covers children of both genders. Same root as وَالِد (parent) and مِيلَاد (birth).'
+    examples:
+      - arabic: 'الْوَلَدُ يَذْهَبُ إِلَى الْمَدْرَسَةِ'
+        bn: 'ছেলেটি স্কুলে যায়।'
+        en: 'The boy goes to school.'

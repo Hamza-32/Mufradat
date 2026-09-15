@@ -1,0 +1,257 @@
+# Adjectives, and the divine attributes that close so many verses. These are
+# worth learning as a set: a reader who knows them can finish half the āyāt in
+# the Quran from the rhythm alone — إِنَّ اللَّهَ عَلِيمٌ حَكِيمٌ.
+
+words:
+  - id: alim
+    arabic: 'عَلِيم'
+    transliteration: 'ʿalīm'
+    pos: adjective
+    bn: ['সর্বজ্ঞ']
+    en: ['all-knowing']
+    root: 'ع ل م'
+    frequencyRank: 59
+    audio: audio/words/alim.mp3
+    tags: [quran, adjectives, faith]
+    editorNote: 'عِلْم (জ্ঞান) থেকে। আয়াতের শেষে حَكِيم-এর সাথে জোড়ায় আসে।'
+  - id: qadir
+    arabic: 'قَدِير'
+    transliteration: 'qadīr'
+    pos: adjective
+    bn: ['সর্বশক্তিমান']
+    en: ['all-powerful']
+    root: 'ق د ر'
+    frequencyRank: 61
+    audio: audio/words/qadir.mp3
+    tags: [quran, adjectives, faith]
+    editorNote: "عَلَىٰ كُلِّ شَيْءٍ قَدِيرٌ — 'সব কিছুর উপর ক্ষমতাবান', কুরআনে বহুবার।"
+  - id: ghafur
+    arabic: 'غَفُور'
+    transliteration: 'ghafūr'
+    pos: adjective
+    bn: ['ক্ষমাশীল']
+    en: ['most forgiving']
+    root: 'غ ف ر'
+    frequencyRank: 63
+    audio: audio/words/ghafur.mp3
+    tags: [quran, adjectives, faith]
+    editorNote: 'غَفُورٌ رَحِيمٌ — সবচেয়ে ঘন জোড়াগুলোর একটি।'
+  - id: sami
+    arabic: 'سَمِيع'
+    transliteration: 'samīʿ'
+    pos: adjective
+    bn: ['সর্বশ্রোতা']
+    en: ['all-hearing']
+    root: 'س م ع'
+    frequencyRank: 65
+    audio: audio/words/sami.mp3
+    tags: [quran, adjectives, faith]
+    editorNote: 'بَصِير-এর জোড়া: سَمِيعٌ بَصِيرٌ — তিনি শোনেন ও দেখেন।'
+  - id: basir
+    arabic: 'بَصِير'
+    transliteration: 'baṣīr'
+    pos: adjective
+    bn: ['সর্বদ্রষ্টা']
+    en: ['all-seeing']
+    root: 'ب ص ر'
+    frequencyRank: 69
+    audio: audio/words/basir.mp3
+    tags: [quran, adjectives, faith]
+  - id: aziz
+    arabic: 'عَزِيز'
+    transliteration: 'ʿazīz'
+    pos: adjective
+    bn: ['পরাক্রমশালী', 'মহাসম্মানিত']
+    en: ['almighty', 'mighty']
+    root: 'ع ز ز'
+    frequencyRank: 73
+    audio: audio/words/aziz.mp3
+    tags: [quran, adjectives, faith]
+    editorNote: "عَزِيزٌ حَكِيمٌ — আরেকটি ঘন জোড়া। মূল অর্থ 'দুর্লভ, অজেয়'।"
+  - id: hamid
+    arabic: 'حَمِيد'
+    transliteration: 'ḥamīd'
+    pos: adjective
+    bn: ['প্রশংসিত']
+    en: ['praiseworthy']
+    root: 'ح م د'
+    frequencyRank: 113
+    audio: audio/words/hamid.mp3
+    tags: [quran, adjectives, faith]
+  - id: latif
+    arabic: 'لَطِيف'
+    transliteration: 'laṭīf'
+    pos: adjective
+    bn: ['সূক্ষ্মদর্শী', 'অতি দয়ালু']
+    en: ['subtle', 'most kind']
+    root: 'ل ط ف'
+    frequencyRank: 150
+    audio: audio/words/latif.mp3
+    tags: [quran, adjectives, faith]
+  - id: khabir
+    arabic: 'خَبِير'
+    transliteration: 'khabīr'
+    pos: adjective
+    bn: ['সম্যক অবহিত']
+    en: ['all-aware']
+    root: 'خ ب ر'
+    frequencyRank: 115
+    audio: audio/words/khabir.mp3
+    tags: [quran, adjectives, faith]
+  - id: shakur
+    arabic: 'شَكُور'
+    transliteration: 'shakūr'
+    pos: adjective
+    bn: ['গুণগ্রাহী', 'কৃতজ্ঞতার মূল্যদাতা']
+    en: ['most appreciative']
+    root: 'ش ك ر'
+    frequencyRank: 162
+    audio: audio/words/shakur.mp3
+    tags: [quran, adjectives, faith]
+  - id: halim
+    arabic: 'حَلِيم'
+    transliteration: 'ḥalīm'
+    pos: adjective
+    bn: ['সহনশীল', 'ধৈর্যশীল']
+    en: ['forbearing']
+    root: 'ح ل م'
+    frequencyRank: 164
+    audio: audio/words/halim.mp3
+    tags: [quran, adjectives, faith]
+  - id: tawwab
+    arabic: 'تَوَّاب'
+    transliteration: 'tawwāb'
+    pos: adjective
+    bn: ['তওবা কবুলকারী']
+    en: ['accepting of repentance']
+    root: 'ت و ب'
+    frequencyRank: 166
+    audio: audio/words/tawwab.mp3
+    tags: [quran, adjectives, faith]
+  - id: wasi
+    arabic: 'وَاسِع'
+    transliteration: 'wāsiʿ'
+    pos: adjective
+    bn: ['সর্বব্যাপী', 'প্রাচুর্যময়']
+    en: ['all-encompassing', 'vast']
+    root: 'و س ع'
+    frequencyRank: 168
+    audio: audio/words/wasi.mp3
+    tags: [quran, adjectives, faith]
+  - id: qawiy
+    arabic: 'قَوِيّ'
+    transliteration: 'qawiyy'
+    pos: adjective
+    bn: ['শক্তিশালী']
+    en: ['strong']
+    root: 'ق و ي'
+    frequencyRank: 170
+    audio: audio/words/qawiy.mp3
+    tags: [quran, adjectives]
+  - id: ali
+    arabic: 'عَلِيّ'
+    transliteration: 'ʿaliyy'
+    pos: adjective
+    bn: ['সুউচ্চ', 'মহান']
+    en: ['most high', 'exalted']
+    root: 'ع ل و'
+    frequencyRank: 172
+    audio: audio/words/ali.mp3
+    tags: [quran, adjectives, faith]
+  - id: wahid
+    arabic: 'وَاحِد'
+    transliteration: 'wāḥid'
+    pos: adjective
+    bn: ['এক', 'একক']
+    en: ['one', 'single']
+    root: 'و ح د'
+    frequencyRank: 117
+    audio: audio/words/wahid.mp3
+    tags: [quran, adjectives, faith]
+    editorNote: 'إِلَٰهٌ وَاحِدٌ — এক ইলাহ। তাওহিদ শব্দটি এই মূল থেকেই।'
+  - id: ahad
+    arabic: 'أَحَد'
+    transliteration: 'aḥad'
+    pos: adjective
+    bn: ['একক', 'অদ্বিতীয়']
+    en: ['one', 'unique']
+    root: 'أ ح د'
+    frequencyRank: 119
+    audio: audio/words/ahad.mp3
+    tags: [quran, adjectives, faith]
+    editorNote: 'قُلْ هُوَ اللَّهُ أَحَدٌ — সূরা ইখলাসের প্রথম আয়াত।'
+  - id: awwal
+    arabic: 'أَوَّل'
+    transliteration: 'awwal'
+    pos: adjective
+    bn: ['প্রথম']
+    en: ['first']
+    root: 'أ و ل'
+    frequencyRank: 121
+    audio: audio/words/awwal.mp3
+    tags: [quran, adjectives]
+  - id: akhir
+    arabic: 'آخِر'
+    transliteration: 'ākhir'
+    pos: adjective
+    bn: ['শেষ', 'সর্বশেষ']
+    en: ['last', 'final']
+    root: 'أ خ ر'
+    frequencyRank: 123
+    audio: audio/words/akhir.mp3
+    tags: [quran, adjectives]
+    editorNote: 'الْيَوْمِ الْآخِرِ — শেষ দিন। آخِرَة একই মূল থেকে।'
+  - id: mubin
+    arabic: 'مُبِين'
+    transliteration: 'mubīn'
+    pos: adjective
+    bn: ['স্পষ্ট', 'সুস্পষ্ট']
+    en: ['clear', 'manifest']
+    root: 'ب ي ن'
+    frequencyRank: 55
+    audio: audio/words/mubin.mp3
+    tags: [quran, adjectives]
+    editorNote: 'কুরআনে অত্যন্ত ঘন — كِتَابٌ مُبِينٌ, عَدُوٌّ مُبِينٌ, بَلَاغٌ مُبِينٌ।'
+  - id: mustaqim
+    arabic: 'مُسْتَقِيم'
+    transliteration: 'mustaqīm'
+    pos: adjective
+    bn: ['সরল', 'সোজা']
+    en: ['straight', 'upright']
+    root: 'ق و م'
+    frequencyRank: 127
+    audio: audio/words/mustaqim.mp3
+    tags: [quran, adjectives, faith]
+    editorNote: 'الصِّرَاطَ الْمُسْتَقِيمَ — সরল পথ, প্রতি নামাজে চাওয়া হয়।'
+  - id: kathir
+    arabic: 'كَثِير'
+    transliteration: 'kathīr'
+    pos: adjective
+    bn: ['অনেক', 'প্রচুর']
+    en: ['many', 'much']
+    root: 'ك ث ر'
+    frequencyRank: 125
+    audio: audio/words/kathir.mp3
+    tags: [quran, adjectives]
+  - id: qalil
+    arabic: 'قَلِيل'
+    transliteration: 'qalīl'
+    pos: adjective
+    bn: ['অল্প', 'সামান্য']
+    en: ['few', 'little']
+    root: 'ق ل ل'
+    frequencyRank: 129
+    audio: audio/words/qalil.mp3
+    tags: [quran, adjectives]
+    editorNote: "كَثِير-এর জোড়া। قَلِيلًا مَا تَشْكُرُونَ — 'তোমরা অল্পই কৃতজ্ঞতা জানাও'।"
+  - id: shadid
+    arabic: 'شَدِيد'
+    transliteration: 'shadīd'
+    pos: adjective
+    bn: ['কঠোর', 'প্রচণ্ড']
+    en: ['severe', 'intense']
+    root: 'ش د د'
+    frequencyRank: 131
+    audio: audio/words/shadid.mp3
+    tags: [quran, adjectives]
+    editorNote: "شَدِيدُ الْعِقَابِ — 'শাস্তিতে কঠোর', প্রায়ই غَفُور-এর সাথে ভারসাম্যে আসে।"

@@ -1,0 +1,167 @@
+# Quranic core vocabulary — sample slice for step 1.
+#
+# TODO: verify — frequencyRank values here are my own rough ordering by how
+# often a learner meets the word, not a published corpus count. Replace the
+# whole set from a real Quranic frequency list in the step 11 content pass.
+#
+# Conventions
+#   - `arabic` is the fully vowelled headword, written without tanwīn
+#     (كِتَاب, not كِتَابٌ) because that is how learners meet it in a wordlist.
+#   - `bn` lists the plain Bengali word first, then the borrowed Arabic form a
+#     Bangladeshi learner already knows (বই, then কিতাব). That ordering matters:
+#     the first gloss is what the flashcard shows.
+#   - `needsReview: true` means I am not confident in the Bengali and you
+#     should check it.
+
+words:
+  - id: kitab
+    arabic: 'كِتَاب'
+    transliteration: 'kitāb'
+    pos: noun
+    bn: ['বই', 'কিতাব']
+    en: ['book', 'scripture']
+    root: 'ك ت ب'
+    gender: masculine
+    plural: { arabic: 'كُتُب', type: broken }
+    frequencyRank: 40
+    audio: audio/words/kitab.mp3
+    tags: [quran, learning, objects]
+    editorNote: 'Same root as كَتَبَ (to write). In the Quran it usually means revealed scripture, not any book.'
+    examples:
+      - arabic: 'ذَلِكَ الْكِتَابُ لَا رَيْبَ فِيهِ'
+        bn: 'এই সেই কিতাব, যাতে কোনো সন্দেহ নেই।'
+        en: 'This is the Book about which there is no doubt.'
+        source: 'Al-Baqarah 2:2'
+      - arabic: 'هَذَا كِتَابٌ جَدِيدٌ'
+        bn: 'এটা একটা নতুন বই।'
+        en: 'This is a new book.'
+
+  - id: qalam
+    arabic: 'قَلَم'
+    transliteration: 'qalam'
+    pos: noun
+    bn: ['কলম']
+    en: ['pen', 'reed pen']
+    root: 'ق ل م'
+    gender: masculine
+    plural: { arabic: 'أَقْلَام', type: broken }
+    frequencyRank: 320
+    audio: audio/words/qalam.mp3
+    tags: [quran, learning, objects]
+    examples:
+      - arabic: 'الَّذِي عَلَّمَ بِالْقَلَمِ'
+        bn: 'যিনি কলমের মাধ্যমে শিক্ষা দিয়েছেন।'
+        en: 'He who taught by the pen.'
+        source: 'Al-Alaq 96:4'
+      - arabic: 'الْقَلَمُ عَلَى الطَّاوِلَةِ'
+        bn: 'কলমটা টেবিলের ওপর।'
+        en: 'The pen is on the table.'
+
+  - id: nur
+    arabic: 'نُور'
+    transliteration: 'nūr'
+    pos: noun
+    bn: ['আলো', 'নূর']
+    en: ['light']
+    root: 'ن و ر'
+    gender: masculine
+    plural: { arabic: 'أَنْوَار', type: broken }
+    frequencyRank: 150
+    audio: audio/words/nur.mp3
+    tags: [quran, nature, abstract]
+    editorNote: 'نُور is light that a thing gives off; ضِيَاء is stronger, blazing light.'
+    examples:
+      - arabic: 'اللهُ نُورُ السَّمَاوَاتِ وَالْأَرْضِ'
+        bn: 'আল্লাহ আসমান ও জমিনের নূর।'
+        en: 'God is the light of the heavens and the earth.'
+        source: 'An-Nur 24:35'
+
+  - id: ilm
+    arabic: 'عِلْم'
+    transliteration: 'ʿilm'
+    pos: noun
+    bn: ['জ্ঞান', 'ইলম']
+    en: ['knowledge', 'science']
+    root: 'ع ل م'
+    gender: masculine
+    frequencyRank: 60
+    audio: audio/words/ilm.mp3
+    tags: [quran, abstract, learning]
+    editorNote: 'Root ع ل م also gives عَالِم (scholar), مُعَلِّم (teacher) and عَلِمَ (to know).'
+    examples:
+      - arabic: 'أَطْلُبُ الْعِلْمَ كُلَّ يَوْمٍ'
+        bn: 'আমি প্রতিদিন জ্ঞান অর্জন করি।'
+        en: 'I seek knowledge every day.'
+        needsReview: true # TODO: verify — "জ্ঞান অর্জন করি" may read bookish; "পড়াশোনা করি" is commoner speech.
+
+  - id: rahmah
+    arabic: 'رَحْمَة'
+    transliteration: 'raḥmah'
+    pos: noun
+    bn: ['দয়া', 'রহমত']
+    en: ['mercy', 'compassion']
+    root: 'ر ح م'
+    gender: feminine
+    plural: { arabic: 'رَحَمَات', type: sound_feminine }
+    frequencyRank: 80
+    audio: audio/words/rahmah.mp3
+    tags: [quran, abstract]
+    editorNote: 'Same root as الرَّحْمَن and الرَّحِيم, and as رَحِم (womb) — mercy as kinship.'
+    examples:
+      - arabic: 'رَحْمَةُ اللهِ وَاسِعَةٌ'
+        bn: 'আল্লাহর রহমত অসীম।'
+        en: "God's mercy is vast."
+        needsReview: true # TODO: verify — "অসীম" (infinite) vs "বিশাল" (vast); which is the natural collocation with রহমত?
+
+  - id: salah
+    arabic: 'صَلَاة'
+    transliteration: 'ṣalāh'
+    pos: noun
+    bn: ['নামাজ', 'সালাত']
+    en: ['prayer', 'ritual prayer']
+    root: 'ص ل و'
+    gender: feminine
+    plural: { arabic: 'صَلَوَات', type: sound_feminine }
+    frequencyRank: 70
+    audio: audio/words/salah.mp3
+    tags: [quran, worship]
+    editorNote: 'In Bangladesh নামাজ is the everyday word; সালাত appears in written religious Bengali.'
+    examples:
+      - arabic: 'الصَّلَاةُ فِي الْمَسْجِدِ أَفْضَلُ'
+        bn: 'মসজিদে নামাজ পড়া উত্তম।'
+        en: 'Prayer in the mosque is better.'
+
+  - id: kalimah
+    arabic: 'كَلِمَة'
+    transliteration: 'kalimah'
+    pos: noun
+    bn: ['শব্দ', 'কথা']
+    en: ['word', 'utterance']
+    root: 'ك ل م'
+    gender: feminine
+    plural: { arabic: 'كَلِمَات', type: sound_feminine }
+    frequencyRank: 200
+    audio: audio/words/kalimah.mp3
+    tags: [quran, language, learning]
+    examples:
+      - arabic: 'مَا مَعْنَى هَذِهِ الْكَلِمَةِ؟'
+        bn: 'এই শব্দের অর্থ কী?'
+        en: 'What does this word mean?'
+
+  - id: yawm
+    arabic: 'يَوْم'
+    transliteration: 'yawm'
+    pos: noun
+    bn: ['দিন']
+    en: ['day']
+    root: 'ي و م'
+    gender: masculine
+    plural: { arabic: 'أَيَّام', type: broken }
+    frequencyRank: 20
+    audio: audio/words/yawm.mp3
+    tags: [quran, time]
+    editorNote: 'كُلَّ يَوْمٍ = every day. يَوْمَ الْقِيَامَةِ = the Day of Resurrection.'
+    examples:
+      - arabic: 'أَدْرُسُ الْعَرَبِيَّةَ كُلَّ يَوْمٍ'
+        bn: 'আমি প্রতিদিন আরবি পড়ি।'
+        en: 'I study Arabic every day.'

@@ -1,0 +1,534 @@
+# Deck two: worship, law and the moral vocabulary. Many of these are the masdar
+# of a verb already in the deck — رَضِيَ/رِضْوَان, خَانَ/خِيَانَة, أَفْسَدَ/فَسَاد — so the
+# root panel now shows the act and the thing together.
+
+words:
+  - id: ridwan
+    arabic: 'رِضْوَان'
+    transliteration: 'riḍwān'
+    pos: noun
+    bn: ['সন্তুষ্টি', 'রিজওয়ান']
+    en: ['pleasure', 'good pleasure (of God)']
+    root: 'ر ض و'
+    gender: masculine
+    frequencyRank: 506
+    audio: audio/words/ridwan.mp3
+    tags: [quran, faith]
+    editorNote: "رِضْوَانٌ مِنَ اللَّهِ أَكْبَرُ — 'আল্লাহর সন্তুষ্টিই সবচেয়ে বড়'।"
+  - id: ghadab
+    arabic: 'غَضَب'
+    transliteration: 'ghaḍab'
+    pos: noun
+    bn: ['ক্রোধ', 'গজব']
+    en: ['wrath', 'anger']
+    root: 'غ ض ب'
+    gender: masculine
+    frequencyRank: 508
+    audio: audio/words/ghadab.mp3
+    tags: [quran, faith]
+  - id: hilm
+    arabic: 'حِلْم'
+    transliteration: 'ḥilm'
+    pos: noun
+    bn: ['সহনশীলতা', 'ধৈর্য']
+    en: ['forbearance']
+    root: 'ح ل م'
+    gender: masculine
+    frequencyRank: 510
+    audio: audio/words/hilm.mp3
+    tags: [quran, faith]
+  - id: kibr
+    arabic: 'كِبْر'
+    transliteration: 'kibr'
+    pos: noun
+    bn: ['অহংকার']
+    en: ['arrogance', 'pride']
+    root: 'ك ب ر'
+    gender: masculine
+    frequencyRank: 512
+    audio: audio/words/kibr.mp3
+    tags: [quran, faith]
+  - id: hasad
+    arabic: 'حَسَد'
+    transliteration: 'ḥasad'
+    pos: noun
+    bn: ['হিংসা']
+    en: ['envy']
+    root: 'ح س د'
+    gender: masculine
+    frequencyRank: 514
+    audio: audio/words/hasad.mp3
+    tags: [quran, faith]
+  - id: bukhl
+    arabic: 'بُخْل'
+    transliteration: 'bukhl'
+    pos: noun
+    bn: ['কৃপণতা']
+    en: ['stinginess']
+    root: 'ب خ ل'
+    gender: masculine
+    frequencyRank: 516
+    audio: audio/words/bukhl.mp3
+    tags: [quran, faith]
+  - id: khiyanah
+    arabic: 'خِيَانَة'
+    transliteration: 'khiyānah'
+    pos: noun
+    bn: ['বিশ্বাসঘাতকতা', 'খিয়ানত']
+    en: ['betrayal', 'treachery']
+    root: 'خ و ن'
+    gender: feminine
+    frequencyRank: 518
+    audio: audio/words/khiyanah.mp3
+    tags: [quran, faith]
+  - id: ikhlas
+    arabic: 'إِخْلَاص'
+    transliteration: 'ikhlāṣ'
+    pos: noun
+    bn: ['নিষ্ঠা', 'ইখলাস']
+    en: ['sincerity']
+    root: 'خ ل ص'
+    gender: masculine
+    frequencyRank: 520
+    audio: audio/words/ikhlas.mp3
+    tags: [quran, faith]
+    editorNote: "সূরা ইখলাসের নাম। মূল অর্থ 'খাঁটি করা' — মিশ্রণমুক্ত নিয়ত।"
+  - id: riya
+    arabic: 'رِيَاء'
+    transliteration: 'riyāʾ'
+    pos: noun
+    bn: ['লোকদেখানো', 'রিয়া']
+    en: ['showing off', 'ostentation']
+    root: 'ر أ ي'
+    gender: masculine
+    frequencyRank: 522
+    audio: audio/words/riya.mp3
+    tags: [quran, faith]
+    editorNote: 'إِخْلَاص-এর বিপরীত। رَأَى (দেখা) একই মূল — যা দেখানোর জন্য করা হয়।'
+  - id: niyyah
+    arabic: 'نِيَّة'
+    transliteration: 'niyyah'
+    pos: noun
+    bn: ['নিয়ত', 'সংকল্প']
+    en: ['intention']
+    root: 'ن و ي'
+    gender: feminine
+    frequencyRank: 524
+    audio: audio/words/niyyah.mp3
+    tags: [quran, faith]
+  - id: ruku
+    arabic: 'رُكُوع'
+    transliteration: 'rukūʿ'
+    pos: noun
+    bn: ['রুকু']
+    en: ['bowing']
+    root: 'ر ك ع'
+    gender: masculine
+    frequencyRank: 526
+    audio: audio/words/ruku.mp3
+    tags: [quran, faith]
+    editorNote: 'سُجُود-এর জোড়া: وَارْكَعُوا مَعَ الرَّاكِعِينَ।'
+  - id: qiyam
+    arabic: 'قِيَام'
+    transliteration: 'qiyām'
+    pos: noun
+    bn: ['দাঁড়ানো', 'কিয়াম']
+    en: ['standing (in prayer)']
+    root: 'ق و م'
+    gender: masculine
+    frequencyRank: 528
+    audio: audio/words/qiyam.mp3
+    tags: [quran, faith]
+  - id: tilawah
+    arabic: 'تِلَاوَة'
+    transliteration: 'tilāwah'
+    pos: noun
+    bn: ['তিলাওয়াত', 'পাঠ']
+    en: ['recitation']
+    root: 'ت ل و'
+    gender: feminine
+    frequencyRank: 530
+    audio: audio/words/tilawah.mp3
+    tags: [quran, faith]
+  - id: istighfar
+    arabic: 'اسْتِغْفَار'
+    transliteration: 'istighfār'
+    pos: noun
+    bn: ['ইস্তেগফার', 'ক্ষমা প্রার্থনা']
+    en: ['seeking forgiveness']
+    root: 'غ ف ر'
+    gender: masculine
+    frequencyRank: 532
+    audio: audio/words/istighfar.mp3
+    tags: [quran, faith]
+  - id: umrah
+    arabic: 'عُمْرَة'
+    transliteration: 'ʿumrah'
+    pos: noun
+    bn: ['উমরা']
+    en: ['lesser pilgrimage']
+    root: 'ع م ر'
+    gender: feminine
+    frequencyRank: 534
+    audio: audio/words/umrah.mp3
+    tags: [quran, faith]
+  - id: tawaf
+    arabic: 'طَوَاف'
+    transliteration: 'ṭawāf'
+    pos: noun
+    bn: ['তাওয়াফ', 'প্রদক্ষিণ']
+    en: ['circumambulation']
+    root: 'ط و ف'
+    gender: masculine
+    frequencyRank: 536
+    audio: audio/words/tawaf.mp3
+    tags: [quran, faith]
+  - id: kaabah
+    arabic: 'كَعْبَة'
+    transliteration: 'kaʿbah'
+    pos: noun
+    bn: ['কাবা']
+    en: ['the Kaaba']
+    root: 'ك ع ب'
+    gender: feminine
+    frequencyRank: 538
+    audio: audio/words/kaabah.mp3
+    tags: [quran, faith, places]
+  - id: adhan
+    arabic: 'أَذَان'
+    transliteration: 'adhān'
+    pos: noun
+    bn: ['আজান']
+    en: ['call to prayer']
+    root: 'أ ذ ن'
+    gender: masculine
+    frequencyRank: 540
+    audio: audio/words/adhan.mp3
+    tags: [quran, faith]
+    editorNote: 'أُذُن (কান) আর أَذِنَ (অনুমতি দেওয়া) একই মূল — যা শোনানো হয়।'
+  - id: jamaah
+    arabic: 'جَمَاعَة'
+    transliteration: 'jamāʿah'
+    pos: noun
+    bn: ['জামাত', 'দল']
+    en: ['congregation', 'group']
+    root: 'ج م ع'
+    gender: feminine
+    frequencyRank: 542
+    audio: audio/words/jamaah.mp3
+    tags: [quran, faith, people]
+  - id: khutbah
+    arabic: 'خُطْبَة'
+    transliteration: 'khuṭbah'
+    pos: noun
+    bn: ['খুতবা', 'ভাষণ']
+    en: ['sermon', 'address']
+    root: 'خ ط ب'
+    gender: feminine
+    frequencyRank: 544
+    audio: audio/words/khutbah.mp3
+    tags: [quran, faith]
+  - id: eid
+    arabic: 'عِيد'
+    transliteration: 'ʿīd'
+    pos: noun
+    bn: ['ঈদ', 'উৎসব']
+    en: ['festival', 'Eid']
+    root: 'ع و د'
+    gender: masculine
+    frequencyRank: 546
+    audio: audio/words/eid.mp3
+    tags: [quran, faith, time]
+    editorNote: 'عَادَ (ফিরে আসা) একই মূল — যে দিনটি ফিরে ফিরে আসে।'
+  - id: nikah
+    arabic: 'نِكَاح'
+    transliteration: 'nikāḥ'
+    pos: noun
+    bn: ['বিবাহ', 'নিকাহ']
+    en: ['marriage']
+    root: 'ن ك ح'
+    gender: masculine
+    frequencyRank: 548
+    audio: audio/words/nikah.mp3
+    tags: [quran, faith, people]
+  - id: talaq
+    arabic: 'طَلَاق'
+    transliteration: 'ṭalāq'
+    pos: noun
+    bn: ['তালাক', 'বিবাহবিচ্ছেদ']
+    en: ['divorce']
+    root: 'ط ل ق'
+    gender: masculine
+    frequencyRank: 550
+    audio: audio/words/talaq.mp3
+    tags: [quran, faith, people]
+  - id: mahr
+    arabic: 'مَهْر'
+    transliteration: 'mahr'
+    pos: noun
+    bn: ['মোহর', 'দেনমোহর']
+    en: ['bridal gift', 'dower']
+    root: 'م ه ر'
+    gender: masculine
+    frequencyRank: 552
+    audio: audio/words/mahr.mp3
+    tags: [quran, faith, people]
+  - id: mirath
+    arabic: 'مِيرَاث'
+    transliteration: 'mīrāth'
+    pos: noun
+    bn: ['উত্তরাধিকার', 'মিরাস']
+    en: ['inheritance']
+    root: 'و ر ث'
+    gender: masculine
+    frequencyRank: 554
+    audio: audio/words/mirath.mp3
+    tags: [quran, faith]
+  - id: wasiyyah
+    arabic: 'وَصِيَّة'
+    transliteration: 'waṣiyyah'
+    pos: noun
+    bn: ['ওসিয়ত']
+    en: ['bequest', 'final injunction']
+    root: 'و ص ي'
+    gender: feminine
+    frequencyRank: 556
+    audio: audio/words/wasiyyah.mp3
+    tags: [quran, faith]
+  - id: yamin
+    arabic: 'يَمِين'
+    transliteration: 'yamīn'
+    pos: noun
+    bn: ['ডান হাত', 'শপথ']
+    en: ['right hand', 'oath']
+    root: 'ي م ن'
+    gender: feminine
+    frequencyRank: 558
+    audio: audio/words/yamin.mp3
+    tags: [quran, body, faith]
+    editorNote: 'أَصْحَابُ الْيَمِينِ — ডান দিকের লোকেরা, সৌভাগ্যবান।'
+  - id: shimal
+    arabic: 'شِمَال'
+    transliteration: 'shimāl'
+    pos: noun
+    bn: ['বাম দিক']
+    en: ['left hand', 'left side']
+    root: 'ش م ل'
+    gender: masculine
+    frequencyRank: 560
+    audio: audio/words/shimal.mp3
+    tags: [quran, body]
+  - id: qasam
+    arabic: 'قَسَم'
+    transliteration: 'qasam'
+    pos: noun
+    bn: ['শপথ', 'কসম']
+    en: ['oath']
+    root: 'ق س م'
+    gender: masculine
+    frequencyRank: 562
+    audio: audio/words/qasam.mp3
+    tags: [quran, faith]
+  - id: amn
+    arabic: 'أَمْن'
+    transliteration: 'amn'
+    pos: noun
+    bn: ['নিরাপত্তা', 'শান্তি']
+    en: ['safety', 'security']
+    root: 'أ م ن'
+    gender: masculine
+    frequencyRank: 564
+    audio: audio/words/amn.mp3
+    tags: [quran, faith]
+  - id: huzn
+    arabic: 'حُزْن'
+    transliteration: 'ḥuzn'
+    pos: noun
+    bn: ['দুঃখ', 'শোক']
+    en: ['grief', 'sorrow']
+    root: 'ح ز ن'
+    gender: masculine
+    frequencyRank: 566
+    audio: audio/words/huzn.mp3
+    tags: [quran, feelings]
+  - id: farah
+    arabic: 'فَرَح'
+    transliteration: 'faraḥ'
+    pos: noun
+    bn: ['আনন্দ']
+    en: ['joy', 'rejoicing']
+    root: 'ف ر ح'
+    gender: masculine
+    frequencyRank: 568
+    audio: audio/words/farah.mp3
+    tags: [quran, feelings]
+  - id: sakinah
+    arabic: 'سَكِينَة'
+    transliteration: 'sakīnah'
+    pos: noun
+    bn: ['প্রশান্তি', 'সাকিনা']
+    en: ['tranquillity']
+    root: 'س ك ن'
+    gender: feminine
+    frequencyRank: 570
+    audio: audio/words/sakinah.mp3
+    tags: [quran, faith, feelings]
+    editorNote: 'سَكَنَ (স্থির হওয়া) একই মূল — অন্তরে নেমে আসা স্থিরতা।'
+  - id: hujjah
+    arabic: 'حُجَّة'
+    transliteration: 'ḥujjah'
+    pos: noun
+    bn: ['যুক্তি', 'প্রমাণ']
+    en: ['argument', 'proof']
+    root: 'ح ج ج'
+    gender: feminine
+    frequencyRank: 572
+    audio: audio/words/hujjah.mp3
+    tags: [quran, faith]
+  - id: burhan
+    arabic: 'بُرْهَان'
+    transliteration: 'burhān'
+    pos: noun
+    bn: ['সুস্পষ্ট প্রমাণ']
+    en: ['decisive proof']
+    root: 'ب ر ه ن'
+    gender: masculine
+    frequencyRank: 574
+    audio: audio/words/burhan.mp3
+    tags: [quran, faith]
+  - id: sihr
+    arabic: 'سِحْر'
+    transliteration: 'siḥr'
+    pos: noun
+    bn: ['যাদু', 'জাদু']
+    en: ['magic', 'sorcery']
+    root: 'س ح ر'
+    gender: masculine
+    frequencyRank: 576
+    audio: audio/words/sihr.mp3
+    tags: [quran, faith]
+  - id: shair
+    arabic: 'شَاعِر'
+    transliteration: 'shāʿir'
+    pos: noun
+    bn: ['কবি']
+    en: ['poet']
+    root: 'ش ع ر'
+    gender: masculine
+    plural: { arabic: 'شُعَرَاء', type: broken }
+    frequencyRank: 578
+    audio: audio/words/shair.mp3
+    tags: [quran, people]
+    editorNote: 'شَعْر (চুল) নয় — شِعْر (কবিতা) থেকে। কুরআনে নবীর বিরুদ্ধে আনা অভিযোগ।'
+  - id: majnun
+    arabic: 'مَجْنُون'
+    transliteration: 'majnūn'
+    pos: noun
+    bn: ['পাগল', 'উন্মাদ']
+    en: ['madman', 'possessed']
+    root: 'ج ن ن'
+    gender: masculine
+    frequencyRank: 580
+    audio: audio/words/majnun.mp3
+    tags: [quran, people]
+    editorNote: 'جِنّ একই মূল — যাকে জিনে ধরেছে বলে অপবাদ দেওয়া হতো।'
+  - id: aql
+    arabic: 'عَقْل'
+    transliteration: 'ʿaql'
+    pos: noun
+    bn: ['বুদ্ধি', 'আকল']
+    en: ['intellect', 'reason']
+    root: 'ع ق ل'
+    gender: masculine
+    frequencyRank: 582
+    audio: audio/words/aql.mp3
+    tags: [quran]
+  - id: fasad
+    arabic: 'فَسَاد'
+    transliteration: 'fasād'
+    pos: noun
+    bn: ['বিপর্যয়', 'ফাসাদ']
+    en: ['corruption', 'ruin']
+    root: 'ف س د'
+    gender: masculine
+    frequencyRank: 584
+    audio: audio/words/fasad.mp3
+    tags: [quran, faith]
+  - id: islah
+    arabic: 'إِصْلَاح'
+    transliteration: 'iṣlāḥ'
+    pos: noun
+    bn: ['সংশোধন', 'ইসলাহ']
+    en: ['reform', 'setting right']
+    root: 'ص ل ح'
+    gender: masculine
+    frequencyRank: 586
+    audio: audio/words/islah.mp3
+    tags: [quran, faith]
+  - id: qadar
+    arabic: 'قَدَر'
+    transliteration: 'qadar'
+    pos: noun
+    bn: ['তাকদির', 'নির্ধারণ']
+    en: ['decree', 'measure']
+    root: 'ق د ر'
+    gender: masculine
+    frequencyRank: 588
+    audio: audio/words/qadar.mp3
+    tags: [quran, faith]
+    editorNote: 'লাইলাতুল কদরের কদর — পরিমাণ ও মর্যাদা, দুই অর্থেই।'
+  - id: hashr
+    arabic: 'حَشْر'
+    transliteration: 'ḥashr'
+    pos: noun
+    bn: ['হাশর', 'সমবেত করা']
+    en: ['the gathering', 'assembly']
+    root: 'ح ش ر'
+    gender: masculine
+    frequencyRank: 590
+    audio: audio/words/hashr.mp3
+    tags: [quran, faith]
+  - id: barzakh
+    arabic: 'بَرْزَخ'
+    transliteration: 'barzakh'
+    pos: noun
+    bn: ['বারযাখ', 'অন্তরাল']
+    en: ['barrier', 'the interval after death']
+    gender: masculine
+    frequencyRank: 592
+    audio: audio/words/barzakh.mp3
+    tags: [quran, faith]
+  - id: shafaah
+    arabic: 'شَفَاعَة'
+    transliteration: 'shafāʿah'
+    pos: noun
+    bn: ['শাফাআত', 'সুপারিশ']
+    en: ['intercession']
+    root: 'ش ف ع'
+    gender: feminine
+    frequencyRank: 594
+    audio: audio/words/shafaah.mp3
+    tags: [quran, faith]
+  - id: taah
+    arabic: 'طَاعَة'
+    transliteration: 'ṭāʿah'
+    pos: noun
+    bn: ['আনুগত্য']
+    en: ['obedience']
+    root: 'ط و ع'
+    gender: feminine
+    frequencyRank: 596
+    audio: audio/words/taah.mp3
+    tags: [quran, faith]
+  - id: masiyah
+    arabic: 'مَعْصِيَة'
+    transliteration: 'maʿṣiyah'
+    pos: noun
+    bn: ['অবাধ্যতা', 'নাফরমানি']
+    en: ['disobedience']
+    root: 'ع ص ي'
+    gender: feminine
+    frequencyRank: 598
+    audio: audio/words/masiyah.mp3
+    tags: [quran, faith]
+    editorNote: 'طَاعَة-এর বিপরীত জোড়া।'

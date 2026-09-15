@@ -1,0 +1,235 @@
+# Generated from the table in scripts/content-source (kept in git history).
+# Every gloss below was written by hand; anything marked needsReview is one I am
+# not confident about and would like checked.
+#
+# TODO: verify — frequencyRank is an editorial ordering by how early a learner
+# is likely to meet the word, not a corpus count. Replace from a published
+# Quranic frequency list before launch.
+#
+# Nature, time and the first adjectives.
+
+words:
+  - id: qamar
+    arabic: 'قَمَر'
+    transliteration: 'qamar'
+    pos: noun
+    bn: ['চাঁদ']
+    en: ['moon']
+    root: 'ق م ر'
+    gender: masculine
+    plural: { arabic: 'أَقْمَار', type: broken }
+    frequencyRank: 215
+    audio: audio/words/qamar.mp3
+    tags: [quran, nature]
+    editorNote: 'পুংলিঙ্গ, আর شَمْس (সূর্য) স্ত্রীলিঙ্গ — জোড়া মিলিয়ে মনে রাখলে সহজ।'
+  - id: najm
+    arabic: 'نَجْم'
+    transliteration: 'najm'
+    pos: noun
+    bn: ['তারা']
+    en: ['star']
+    root: 'ن ج م'
+    gender: masculine
+    plural: { arabic: 'نُجُوم', type: broken }
+    frequencyRank: 350
+    audio: audio/words/najm.mp3
+    tags: [quran, nature]
+  - id: matar
+    arabic: 'مَطَر'
+    transliteration: 'maṭar'
+    pos: noun
+    bn: ['বৃষ্টি']
+    en: ['rain']
+    root: 'م ط ر'
+    gender: masculine
+    plural: { arabic: 'أَمْطَار', type: broken }
+    frequencyRank: 390
+    audio: audio/words/matar.mp3
+    tags: [nature, weather]
+  - id: rih
+    arabic: 'رِيح'
+    transliteration: 'rīḥ'
+    pos: noun
+    bn: ['বাতাস']
+    en: ['wind']
+    root: 'ر و ح'
+    gender: feminine
+    plural: { arabic: 'رِيَاح', type: broken }
+    frequencyRank: 400
+    audio: audio/words/rih.mp3
+    tags: [quran, nature, weather]
+  - id: sahab
+    arabic: 'سَحَاب'
+    transliteration: 'saḥāb'
+    pos: noun
+    bn: ['মেঘ']
+    en: ['cloud']
+    root: 'س ح ب'
+    gender: masculine
+    frequencyRank: 470
+    audio: audio/words/sahab.mp3
+    tags: [nature, weather]
+  - id: turab
+    arabic: 'تُرَاب'
+    transliteration: 'turāb'
+    pos: noun
+    bn: ['মাটি', 'ধুলা']
+    en: ['soil', 'dust']
+    root: 'ت ر ب'
+    gender: masculine
+    frequencyRank: 440
+    audio: audio/words/turab.mp3
+    tags: [quran, nature]
+  - id: hajar
+    arabic: 'حَجَر'
+    transliteration: 'ḥajar'
+    pos: noun
+    bn: ['পাথর']
+    en: ['stone']
+    root: 'ح ج ر'
+    gender: masculine
+    plural: { arabic: 'أَحْجَار', type: broken }
+    frequencyRank: 460
+    audio: audio/words/hajar.mp3
+    tags: [quran, nature]
+  - id: nahar
+    arabic: 'نَهَار'
+    transliteration: 'nahār'
+    pos: noun
+    bn: ['দিনের বেলা']
+    en: ['daytime']
+    root: 'ن ه ر'
+    gender: masculine
+    frequencyRank: 235
+    audio: audio/words/nahar.mp3
+    tags: [quran, time]
+    editorNote: 'نَهَار হলো দিনের আলো-থাকা সময়, আর يَوْم গোটা দিন।'
+  - id: sabah
+    arabic: 'صَبَاح'
+    transliteration: 'ṣabāḥ'
+    pos: noun
+    bn: ['সকাল']
+    en: ['morning']
+    root: 'ص ب ح'
+    gender: masculine
+    frequencyRank: 410
+    audio: audio/words/sabah.mp3
+    tags: [time, everyday]
+  - id: masaa
+    arabic: 'مَسَاء'
+    transliteration: 'masāʾ'
+    pos: noun
+    bn: ['সন্ধ্যা', 'বিকেল']
+    en: ['evening']
+    root: 'م س و'
+    gender: masculine
+    frequencyRank: 415
+    audio: audio/words/masaa.mp3
+    tags: [time, everyday]
+  - id: sana
+    arabic: 'سَنَة'
+    transliteration: 'sanah'
+    pos: noun
+    bn: ['বছর']
+    en: ['year']
+    root: 'س ن و'
+    gender: feminine
+    plural: { arabic: 'سَنَوَات', type: sound_feminine }
+    frequencyRank: 175
+    audio: audio/words/sana.mp3
+    tags: [quran, time]
+  - id: shahr
+    arabic: 'شَهْر'
+    transliteration: 'shahr'
+    pos: noun
+    bn: ['মাস']
+    en: ['month']
+    root: 'ش ه ر'
+    gender: masculine
+    plural: { arabic: 'شُهُور', type: broken }
+    frequencyRank: 285
+    audio: audio/words/shahr.mp3
+    tags: [quran, time]
+  - id: saa
+    arabic: 'سَاعَة'
+    transliteration: 'sāʿah'
+    pos: noun
+    bn: ['ঘণ্টা', 'সময়']
+    en: ['hour', 'clock', 'the Hour']
+    root: 'س و ع'
+    gender: feminine
+    plural: { arabic: 'سَاعَات', type: sound_feminine }
+    frequencyRank: 225
+    audio: audio/words/saa.mp3
+    tags: [quran, time]
+    editorNote: 'কুরআনে السَّاعَة বলতে কিয়ামত বোঝায়; সাধারণ কথায় ঘড়ি বা ঘণ্টা।'
+  - id: barid
+    arabic: 'بَارِد'
+    transliteration: 'bārid'
+    pos: adjective
+    bn: ['ঠান্ডা']
+    en: ['cold']
+    root: 'ب ر د'
+    frequencyRank: 520
+    audio: audio/words/barid.mp3
+    tags: [everyday, weather]
+  - id: harr
+    arabic: 'حَارّ'
+    transliteration: 'ḥārr'
+    pos: adjective
+    bn: ['গরম']
+    en: ['hot']
+    root: 'ح ر ر'
+    frequencyRank: 525
+    audio: audio/words/harr.mp3
+    tags: [everyday, weather]
+  - id: kabir
+    arabic: 'كَبِير'
+    transliteration: 'kabīr'
+    pos: adjective
+    bn: ['বড়']
+    en: ['big', 'great']
+    root: 'ك ب ر'
+    frequencyRank: 130
+    audio: audio/words/kabir.mp3
+    tags: [quran, everyday]
+  - id: saghir
+    arabic: 'صَغِير'
+    transliteration: 'ṣaghīr'
+    pos: adjective
+    bn: ['ছোট']
+    en: ['small']
+    root: 'ص غ ر'
+    frequencyRank: 320
+    audio: audio/words/saghir.mp3
+    tags: [e, v, e, r, y, d, a, y]
+  - id: jadid
+    arabic: 'جَدِيد'
+    transliteration: 'jadīd'
+    pos: adjective
+    bn: ['নতুন']
+    en: ['new']
+    root: 'ج د د'
+    frequencyRank: 335
+    audio: audio/words/jadid.mp3
+    tags: [e, v, e, r, y, d, a, y]
+  - id: qadim
+    arabic: 'قَدِيم'
+    transliteration: 'qadīm'
+    pos: adjective
+    bn: ['পুরনো']
+    en: ['old', 'ancient']
+    root: 'ق د م'
+    frequencyRank: 480
+    audio: audio/words/qadim.mp3
+    tags: [e, v, e, r, y, d, a, y]
+  - id: jamil
+    arabic: 'جَمِيل'
+    transliteration: 'jamīl'
+    pos: adjective
+    bn: ['সুন্দর']
+    en: ['beautiful']
+    root: 'ج م ل'
+    frequencyRank: 370
+    audio: audio/words/jamil.mp3
+    tags: [e, v, e, r, y, d, a, y]

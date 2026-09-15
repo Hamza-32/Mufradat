@@ -1,0 +1,274 @@
+@import 'tailwindcss';
+
+/* ==========================================================================
+   Tokens
+   Two print cultures: Arabic manuscript rubrication (colour marks structure)
+   and Bengali type (a line hangs from its matra). Both appear below as
+   tokens, not as decoration applied later.
+   ========================================================================== */
+
+@theme {
+  /* --- Palette ---------------------------------------------------------- */
+  /* One dark ground across the whole product, landing and app alike.
+     The manuscript names are kept because the roles they describe have not
+     changed — ground, raised surface, ink, rubric, hairline — but the values
+     are now read light-on-dark rather than ink-on-paper. Every component in the
+     app is built from these tokens, so this block is the only place the theme
+     is decided. */
+
+  /* nil — the interactive hue. Indigo cannot carry this on a dark ground, so
+     it is lifted to the daylight blue the landing already uses. Links, Arabic
+     headwords and the primary button. */
+  --color-nil: #6ab7ea;
+  /* Hover brightens on dark, where the light version deepened. */
+  --color-nil-deep: #8ccbf5;
+  --color-nil-soft: #4d7d9f;
+  /* A raised wash for hover and the selected nav item. */
+  --color-nil-wash: #17384f;
+
+  /* dawat — the ink. Now the light that sits on the ground rather than the
+     iron-gall that soaked into it. All body text. */
+  --color-dawat: #eef4fa;
+
+  /* kagoj — the ground. Night rather than paper; the same navy the landing
+     opens on, so the shopfront and the app are one surface. */
+  --color-kagoj: #0b2438;
+
+  /* chuna — raised surfaces. On paper they sat lighter than the ground, and
+     they still do: on dark, lighter means nearer. */
+  --color-chuna: #12304a;
+
+  /* shingraf — cinnabar, the rubricator's red. Marks only, never mood.
+     Lifted off the deep brick so it still reads as red at small sizes. */
+  --color-shingraf: #ef6152;
+  --color-shingraf-wash: #3a1c19;
+
+  /* --- Landing accents -------------------------------------------------- */
+  /* The landing page's own two accents, which the app proper does not use:
+     a hot red for its primary pill and a gold for the greeting. */
+  --color-layl: #0b2438;
+  --color-layl-deep: #071a29;
+  --color-layl-soft: #12324c;
+  --color-layl-line: #1e4260;
+  --color-subh: #eef4fa;
+  --color-subh-soft: #9db4c8;
+  --color-jamr: #d13a30;
+  --color-nahar-blue: #47a6df;
+  --color-taj: #f2c75c;
+
+  /* pathor — stone, the muted voice. Secondary and tertiary text. */
+  --color-pathor: #9db4c8;
+  --color-pathor-soft: #8fabbf;
+  --color-hairline: #1e4260;
+  --color-hairline-soft: #17374f;
+
+  /* --- Type ------------------------------------------------------------- */
+  --font-arabic: var(--font-amiri), 'Noto Naskh Arabic', serif;
+  --font-bengali: var(--font-noto-bengali), 'Noto Sans Bengali', serif;
+  --font-latin: var(--font-plex), system-ui, sans-serif;
+  --font-sans: var(--font-plex), system-ui, sans-serif;
+
+  /* Latin/Bengali scale: minor third on the phone, opening up on the desktop
+     so headings are not phone-sized on a 1600px display. */
+  --text-2xs: 0.75rem;
+  --text-2xs--line-height: 1.45;
+  --text-xs: 0.8125rem;
+  --text-xs--line-height: 1.5;
+  --text-sm: 0.875rem;
+  --text-sm--line-height: 1.6;
+  --text-base: clamp(1rem, 0.97rem + 0.15vw, 1.0625rem);
+  --text-base--line-height: 1.65;
+  --text-lg: clamp(1.125rem, 1.07rem + 0.28vw, 1.25rem);
+  --text-lg--line-height: 1.55;
+  --text-xl: clamp(1.3125rem, 1.22rem + 0.45vw, 1.5rem);
+  --text-xl--line-height: 1.4;
+  --text-2xl: clamp(1.5rem, 1.35rem + 0.75vw, 1.875rem);
+  --text-2xl--line-height: 1.35;
+  --text-3xl: clamp(1.75rem, 1.5rem + 1.25vw, 2.375rem);
+  --text-3xl--line-height: 1.25;
+
+  /* Arabic runs two steps larger than everything else, always. Vowelled naskh
+     at 16px is a blur of harakat on a mid-range phone. */
+  --text-ar-sm: clamp(1.25rem, 1.18rem + 0.35vw, 1.375rem);
+  --text-ar-sm--line-height: 1.9;
+  --text-ar-base: clamp(1.5rem, 1.38rem + 0.6vw, 1.75rem);
+  --text-ar-base--line-height: 2;
+  --text-ar-lg: clamp(1.875rem, 1.65rem + 1.1vw, 2.375rem);
+  --text-ar-lg--line-height: 2;
+  --text-ar-display: clamp(3rem, 2.1rem + 4.5vw, 4.5rem);
+  --text-ar-display--line-height: 1.55;
+
+  /* --- Structure -------------------------------------------------------- */
+  /* Two radii, each meaning something: data surfaces vs interactive ones. */
+  --radius-data: 2px;
+  --radius-ui: 6px;
+  --radius-sheet: 14px;
+
+  /* Two shadows, and only two. Both are on things that genuinely float: the
+     bottom sheet, and the card the landing page turns in 3D. Everything else
+     separates with a hairline. On a dark ground a brown-black shadow is
+     invisible, so both are cast in near-black and pushed harder. */
+  --shadow-sheet: 0 -12px 32px -12px rgb(0 0 0 / 0.65);
+  --shadow-float: 0 24px 48px -24px rgb(0 0 0 / 0.8), 0 4px 12px -6px rgb(0 0 0 / 0.55);
+
+  /* Matra: the 2px headline stroke a Bengali line hangs from. Reused as the
+     active-nav indicator and the heading rule. */
+  --spacing-matra: 2px;
+  --spacing-nav: 3.5rem;
+  --spacing-rail: 4rem;
+  --spacing-sidebar: 15rem;
+  --spacing-measure: 68ch;
+  --spacing-touch: 2.75rem; /* 44px */
+
+  --breakpoint-3xl: 1600px;
+
+  --ease-card: cubic-bezier(0.2, 0.8, 0.3, 1);
+}
+
+/* ==========================================================================
+   Base
+   ========================================================================== */
+
+@layer base {
+  html {
+    /* Tells the browser to render its own furniture — scrollbars, form
+       controls, the address bar on mobile — dark to match. Without it a light
+       scrollbar sits down the edge of a dark app. */
+    color-scheme: dark;
+    background-color: var(--color-kagoj);
+    color: var(--color-dawat);
+    font-family: var(--font-latin);
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    scrollbar-gutter: stable;
+  }
+
+  /* The UI language sets the default content face. Arabic is never inherited;
+     it is always opted into through <ArabicText>. */
+  html:lang(bn) body {
+    font-family: var(--font-bengali);
+  }
+
+  body {
+    min-height: 100dvh;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+  }
+
+  /* Bengali and Arabic need more room between lines than Latin defaults give. */
+  :lang(bn) {
+    line-height: 1.75;
+  }
+
+  :lang(ar) {
+    font-family: var(--font-arabic);
+    line-height: 2;
+    font-feature-settings: 'calt' 1;
+  }
+
+  /* Numerals: tabular everywhere, so a changing count never reflows a row. */
+  :where(table, [data-numeric]) {
+    font-variant-numeric: tabular-nums;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-weight: 600;
+    text-wrap: balance;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+
+  /* Focus and hover are different objects, not two intensities of one.
+     Hover shifts a surface; focus draws a ring and never moves anything. */
+  :focus-visible {
+    outline: 2px solid var(--color-nil);
+    outline-offset: 2px;
+    border-radius: var(--radius-data);
+  }
+
+  :focus:not(:focus-visible) {
+    outline: none;
+  }
+
+  ::selection {
+    background-color: var(--color-nil-wash);
+    color: var(--color-nil-deep);
+  }
+}
+
+@layer utilities {
+  /* Anything that scrolls sideways on purpose: the year heatmap, the game
+     shelf. Keeps momentum, contains the overscroll. */
+  .scroll-x {
+    overflow-x: auto;
+    overscroll-behavior-x: contain;
+    scrollbar-width: thin;
+  }
+
+  /* The matra: a heading hangs from its rule, the way Bengali type does. */
+  .matra {
+    border-block-start: var(--spacing-matra) solid var(--color-nil);
+    padding-block-start: 0.5rem;
+  }
+
+  .measure {
+    max-inline-size: var(--spacing-measure);
+  }
+
+  /* Bottom nav and sheets must clear the iOS home indicator and the Android
+     gesture bar. */
+  .pb-safe {
+    padding-block-end: env(safe-area-inset-bottom, 0px);
+  }
+}
+
+/* ==========================================================================
+   Motion
+   One orchestrated moment (the card flip) plus motion that answers an action.
+   Everything is reversible under prefers-reduced-motion.
+   ========================================================================== */
+
+@keyframes sheet-in {
+  from {
+    transform: translateY(100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+@keyframes sheet-in-centred {
+  from {
+    opacity: 0;
+    transform: translate(-50%, -48%) scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+  }
+}
+
+@keyframes overlay-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

@@ -1,0 +1,519 @@
+# Deck two: the furniture of the Quran's scenes — illness and healing, the
+# staff and the cave, the elephant and the spider, the gardens and the fire.
+# These are the nouns that make the stories legible.
+
+words:
+  - id: marad
+    arabic: 'مَرَض'
+    transliteration: 'maraḍ'
+    pos: noun
+    bn: ['রোগ', 'অসুখ']
+    en: ['illness', 'disease']
+    root: 'م ر ض'
+    gender: masculine
+    frequencyRank: 605
+    audio: audio/words/marad.mp3
+    tags: [quran, body]
+    editorNote: "فِي قُلُوبِهِمْ مَرَضٌ — 'তাদের অন্তরে রোগ', দেহের নয়।"
+  - id: shifa
+    arabic: 'شِفَاء'
+    transliteration: 'shifāʾ'
+    pos: noun
+    bn: ['আরোগ্য', 'শিফা']
+    en: ['healing', 'cure']
+    root: 'ش ف ي'
+    gender: masculine
+    frequencyRank: 607
+    audio: audio/words/shifa.mp3
+    tags: [quran, body]
+  - id: juu
+    arabic: 'جُوع'
+    transliteration: 'jūʿ'
+    pos: noun
+    bn: ['ক্ষুধা']
+    en: ['hunger']
+    root: 'ج و ع'
+    gender: masculine
+    frequencyRank: 609
+    audio: audio/words/juu.mp3
+    tags: [quran, body]
+  - id: sharab
+    arabic: 'شَرَاب'
+    transliteration: 'sharāb'
+    pos: noun
+    bn: ['পানীয়']
+    en: ['drink', 'beverage']
+    root: 'ش ر ب'
+    gender: masculine
+    frequencyRank: 611
+    audio: audio/words/sharab.mp3
+    tags: [quran, food]
+  - id: libas
+    arabic: 'لِبَاس'
+    transliteration: 'libās'
+    pos: noun
+    bn: ['পোশাক', 'লেবাস']
+    en: ['clothing', 'garment']
+    root: 'ل ب س'
+    gender: masculine
+    frequencyRank: 613
+    audio: audio/words/libas.mp3
+    tags: [quran, everyday]
+    editorNote: "وَلِبَاسُ التَّقْوَىٰ ذَٰلِكَ خَيْرٌ — 'তাকওয়ার পোশাকই উত্তম'।"
+  - id: zinah
+    arabic: 'زِينَة'
+    transliteration: 'zīnah'
+    pos: noun
+    bn: ['সৌন্দর্য', 'সাজসজ্জা']
+    en: ['adornment', 'beauty']
+    root: 'ز ي ن'
+    gender: feminine
+    frequencyRank: 615
+    audio: audio/words/zinah.mp3
+    tags: [quran, everyday]
+  - id: mataa
+    arabic: 'مَتَاع'
+    transliteration: 'matāʿ'
+    pos: noun
+    bn: ['ভোগ্যসামগ্রী', 'উপকরণ']
+    en: ['provision', 'enjoyment']
+    root: 'م ت ع'
+    gender: masculine
+    frequencyRank: 617
+    audio: audio/words/mataa.mp3
+    tags: [quran, everyday]
+    editorNote: 'مَتَاعُ الْحَيَاةِ الدُّنْيَا — দুনিয়ার জীবনের সামান্য ভোগ।'
+  - id: kanz
+    arabic: 'كَنْز'
+    transliteration: 'kanz'
+    pos: noun
+    bn: ['গুপ্তধন', 'ভান্ডার']
+    en: ['treasure', 'hoard']
+    root: 'ك ن ز'
+    gender: masculine
+    plural: { arabic: 'كُنُوز', type: broken }
+    frequencyRank: 619
+    audio: audio/words/kanz.mp3
+    tags: [quran, everyday]
+  - id: qard
+    arabic: 'قَرْض'
+    transliteration: 'qarḍ'
+    pos: noun
+    bn: ['ঋণ', 'কর্জ']
+    en: ['loan']
+    root: 'ق ر ض'
+    gender: masculine
+    frequencyRank: 621
+    audio: audio/words/qard.mp3
+    tags: [quran, everyday]
+    editorNote: "قَرْضًا حَسَنًا — 'উত্তম ঋণ', আল্লাহকে দেওয়া দানের রূপক।"
+  - id: faqr
+    arabic: 'فَقْر'
+    transliteration: 'faqr'
+    pos: noun
+    bn: ['দারিদ্র্য', 'অভাব']
+    en: ['poverty', 'need']
+    root: 'ف ق ر'
+    gender: masculine
+    frequencyRank: 623
+    audio: audio/words/faqr.mp3
+    tags: [quran, everyday]
+  - id: quwwah
+    arabic: 'قُوَّة'
+    transliteration: 'quwwah'
+    pos: noun
+    bn: ['শক্তি', 'কুওয়াত']
+    en: ['strength', 'power']
+    root: 'ق و ي'
+    gender: feminine
+    frequencyRank: 625
+    audio: audio/words/quwwah.mp3
+    tags: [quran]
+  - id: nasr
+    arabic: 'نَصْر'
+    transliteration: 'naṣr'
+    pos: noun
+    bn: ['সাহায্য', 'বিজয়']
+    en: ['help', 'victory']
+    root: 'ن ص ر'
+    gender: masculine
+    frequencyRank: 627
+    audio: audio/words/nasr.mp3
+    tags: [quran, faith]
+    editorNote: 'إِذَا جَاءَ نَصْرُ اللَّهِ وَالْفَتْحُ — সূরা নাসরের প্রথম আয়াত।'
+  - id: fath
+    arabic: 'فَتْح'
+    transliteration: 'fatḥ'
+    pos: noun
+    bn: ['বিজয়', 'উন্মোচন']
+    en: ['victory', 'opening']
+    root: 'ف ت ح'
+    gender: masculine
+    frequencyRank: 629
+    audio: audio/words/fath.mp3
+    tags: [quran, faith]
+    editorNote: 'فَتَحَ (খোলা) থেকে — বিজয় মানে পথ খুলে যাওয়া।'
+  - id: dahr
+    arabic: 'دَهْر'
+    transliteration: 'dahr'
+    pos: noun
+    bn: ['কাল', 'যুগ']
+    en: ['time', 'an age']
+    root: 'د ه ر'
+    gender: masculine
+    frequencyRank: 631
+    audio: audio/words/dahr.mp3
+    tags: [quran, time]
+  - id: abad
+    arabic: 'أَبَد'
+    transliteration: 'abad'
+    pos: noun
+    bn: ['অনন্তকাল']
+    en: ['eternity', 'forever']
+    root: 'أ ب د'
+    gender: masculine
+    frequencyRank: 633
+    audio: audio/words/abad.mp3
+    tags: [quran, time]
+  - id: qarn
+    arabic: 'قَرْن'
+    transliteration: 'qarn'
+    pos: noun
+    bn: ['প্রজন্ম', 'শতাব্দী']
+    en: ['generation', 'century']
+    root: 'ق ر ن'
+    gender: masculine
+    plural: { arabic: 'قُرُون', type: broken }
+    frequencyRank: 635
+    audio: audio/words/qarn.mp3
+    tags: [quran, time]
+  - id: subh
+    arabic: 'صُبْح'
+    transliteration: 'ṣubḥ'
+    pos: noun
+    bn: ['ভোর', 'প্রভাত']
+    en: ['morning', 'daybreak']
+    root: 'ص ب ح'
+    gender: masculine
+    frequencyRank: 637
+    audio: audio/words/subh.mp3
+    tags: [quran, time]
+  - id: dayf
+    arabic: 'ضَيْف'
+    transliteration: 'ḍayf'
+    pos: noun
+    bn: ['অতিথি', 'মেহমান']
+    en: ['guest']
+    root: 'ض ي ف'
+    gender: masculine
+    frequencyRank: 639
+    audio: audio/words/dayf.mp3
+    tags: [quran, people]
+    editorNote: 'ইবরাহিম (আ.)-এর মেহমানদের ঘটনায় বারবার।'
+  - id: ghanam
+    arabic: 'غَنَم'
+    transliteration: 'ghanam'
+    pos: noun
+    bn: ['ছাগল-ভেড়া', 'পাল']
+    en: ['sheep and goats', 'flock']
+    root: 'غ ن م'
+    gender: feminine
+    frequencyRank: 641
+    audio: audio/words/ghanam.mp3
+    tags: [quran, nature]
+  - id: hut
+    arabic: 'حُوت'
+    transliteration: 'ḥūt'
+    pos: noun
+    bn: ['মাছ', 'বড় মাছ']
+    en: ['fish', 'great fish']
+    root: 'ح و ت'
+    gender: masculine
+    frequencyRank: 643
+    audio: audio/words/hut.mp3
+    tags: [quran, nature]
+    editorNote: 'ইউনুস (আ.)-কে যে মাছ গিলেছিল। صَاحِبُ الْحُوتِ তাঁরই উপাধি।'
+  - id: hayyah
+    arabic: 'حَيَّة'
+    transliteration: 'ḥayyah'
+    pos: noun
+    bn: ['সাপ']
+    en: ['snake']
+    root: 'ح ي ي'
+    gender: feminine
+    frequencyRank: 645
+    audio: audio/words/hayyah.mp3
+    tags: [quran, nature]
+  - id: asa
+    arabic: 'عَصَا'
+    transliteration: 'ʿaṣā'
+    pos: noun
+    bn: ['লাঠি', 'আসা']
+    en: ['staff', 'stick']
+    root: 'ع ص و'
+    gender: feminine
+    frequencyRank: 647
+    audio: audio/words/asa.mp3
+    tags: [quran, everyday]
+    editorNote: 'মুসা (আ.)-এর লাঠি — وَمَا تِلْكَ بِيَمِينِكَ يَا مُوسَىٰ।'
+  - id: kahf
+    arabic: 'كَهْف'
+    transliteration: 'kahf'
+    pos: noun
+    bn: ['গুহা']
+    en: ['cave']
+    root: 'ك ه ف'
+    gender: masculine
+    frequencyRank: 649
+    audio: audio/words/kahf.mp3
+    tags: [quran, places]
+    editorNote: 'সূরা আল-কাহফের নাম — গুহার সঙ্গীদের কাহিনি।'
+  - id: bir
+    arabic: 'بِئْر'
+    transliteration: 'biʾr'
+    pos: noun
+    bn: ['কূপ']
+    en: ['well']
+    root: 'ب أ ر'
+    gender: feminine
+    frequencyRank: 651
+    audio: audio/words/bir.mp3
+    tags: [quran, places]
+  - id: barr
+    arabic: 'بَرّ'
+    transliteration: 'barr'
+    pos: noun
+    bn: ['স্থলভাগ', 'ডাঙা']
+    en: ['land', 'dry land']
+    root: 'ب ر ر'
+    gender: masculine
+    frequencyRank: 653
+    audio: audio/words/barr.mp3
+    tags: [quran, nature]
+    editorNote: 'بَحْر-এর জোড়া: فِي الْبَرِّ وَالْبَحْرِ — স্থলে ও সমুদ্রে।'
+  - id: tufan
+    arabic: 'طُوفَان'
+    transliteration: 'ṭūfān'
+    pos: noun
+    bn: ['প্লাবন', 'তুফান']
+    en: ['flood', 'deluge']
+    root: 'ط و ف'
+    gender: masculine
+    frequencyRank: 655
+    audio: audio/words/tufan.mp3
+    tags: [quran, nature]
+  - id: zalzalah
+    arabic: 'زَلْزَلَة'
+    transliteration: 'zalzalah'
+    pos: noun
+    bn: ['ভূমিকম্প']
+    en: ['earthquake']
+    root: 'ز ل ز ل'
+    gender: feminine
+    frequencyRank: 657
+    audio: audio/words/zalzalah.mp3
+    tags: [quran, nature]
+    editorNote: 'সূরা আয-যালযালার নাম।'
+  - id: fil
+    arabic: 'فِيل'
+    transliteration: 'fīl'
+    pos: noun
+    bn: ['হাতি']
+    en: ['elephant']
+    root: 'ف ي ل'
+    gender: masculine
+    frequencyRank: 659
+    audio: audio/words/fil.mp3
+    tags: [quran, nature]
+    editorNote: 'সূরা আল-ফিলের নাম — আবরাহার হস্তীবাহিনী।'
+  - id: ankabut
+    arabic: 'عَنْكَبُوت'
+    transliteration: 'ʿankabūt'
+    pos: noun
+    bn: ['মাকড়সা']
+    en: ['spider']
+    gender: masculine
+    frequencyRank: 661
+    audio: audio/words/ankabut.mp3
+    tags: [quran, nature]
+    editorNote: 'সূরা আল-আনকাবুতের নাম — মাকড়সার ঘরের উপমা।'
+  - id: dhubab
+    arabic: 'ذُبَاب'
+    transliteration: 'dhubāb'
+    pos: noun
+    bn: ['মাছি']
+    en: ['fly']
+    root: 'ذ ب ب'
+    gender: masculine
+    frequencyRank: 663
+    audio: audio/words/dhubab.mp3
+    tags: [quran, nature]
+  - id: hadiqah
+    arabic: 'حَدِيقَة'
+    transliteration: 'ḥadīqah'
+    pos: noun
+    bn: ['বাগান']
+    en: ['garden', 'orchard']
+    root: 'ح د ق'
+    gender: feminine
+    plural: { arabic: 'حَدَائِق', type: broken }
+    frequencyRank: 665
+    audio: audio/words/hadiqah.mp3
+    tags: [quran, nature]
+  - id: kawthar
+    arabic: 'كَوْثَر'
+    transliteration: 'kawthar'
+    pos: noun
+    bn: ['কাউসার', 'প্রাচুর্য']
+    en: ['abundance', 'al-Kawthar']
+    root: 'ك ث ر'
+    gender: masculine
+    frequencyRank: 667
+    audio: audio/words/kawthar.mp3
+    tags: [quran, faith]
+    editorNote: 'كَثِير (অনেক) একই মূল। সূরা আল-কাউসারের নাম।'
+  - id: firdaws
+    arabic: 'فِرْدَوْس'
+    transliteration: 'firdaws'
+    pos: noun
+    bn: ['ফেরদৌস', 'সর্বোচ্চ জান্নাত']
+    en: ['Paradise', 'the highest garden']
+    gender: masculine
+    frequencyRank: 669
+    audio: audio/words/firdaws.mp3
+    tags: [quran, faith]
+  - id: adn
+    arabic: 'عَدْن'
+    transliteration: 'ʿadn'
+    pos: noun
+    bn: ['আদন', 'স্থায়ী জান্নাত']
+    en: ['Eden', 'everlasting gardens']
+    root: 'ع د ن'
+    gender: masculine
+    frequencyRank: 671
+    audio: audio/words/adn.mp3
+    tags: [quran, faith]
+  - id: zaqqum
+    arabic: 'زَقُّوم'
+    transliteration: 'zaqqūm'
+    pos: noun
+    bn: ['জাক্কুম গাছ']
+    en: ['the tree of Zaqqum']
+    gender: masculine
+    frequencyRank: 673
+    audio: audio/words/zaqqum.mp3
+    tags: [quran, faith]
+  - id: hamim
+    arabic: 'حَمِيم'
+    transliteration: 'ḥamīm'
+    pos: noun
+    bn: ['ফুটন্ত পানি']
+    en: ['scalding water']
+    root: 'ح م م'
+    gender: masculine
+    frequencyRank: 675
+    audio: audio/words/hamim.mp3
+    tags: [quran, faith]
+  - id: dukhan
+    arabic: 'دُخَان'
+    transliteration: 'dukhān'
+    pos: noun
+    bn: ['ধোঁয়া']
+    en: ['smoke']
+    root: 'د خ ن'
+    gender: masculine
+    frequencyRank: 677
+    audio: audio/words/dukhan.mp3
+    tags: [quran, nature]
+  - id: kursi
+    arabic: 'كُرْسِيّ'
+    transliteration: 'kursiyy'
+    pos: noun
+    bn: ['কুরসি', 'আসন']
+    en: ['seat', 'footstool']
+    root: 'ك ر س'
+    gender: masculine
+    frequencyRank: 679
+    audio: audio/words/kursi.mp3
+    tags: [quran, faith]
+    editorNote: 'আয়াতুল কুরসির নাম এই শব্দ থেকেই।'
+  - id: midad
+    arabic: 'مِدَاد'
+    transliteration: 'midād'
+    pos: noun
+    bn: ['কালি']
+    en: ['ink']
+    root: 'م د د'
+    gender: masculine
+    frequencyRank: 681
+    audio: audio/words/midad.mp3
+    tags: [quran, everyday]
+    editorNote: 'لَوْ كَانَ الْبَحْرُ مِدَادًا لِكَلِمَاتِ رَبِّي — সমুদ্র কালি হলেও রবের বাণী ফুরাবে না।'
+  - id: rizq-noun
+    arabic: 'مَعِيشَة'
+    transliteration: 'maʿīshah'
+    pos: noun
+    bn: ['জীবিকা', 'জীবনযাপন']
+    en: ['livelihood', 'means of living']
+    root: 'ع ي ش'
+    gender: feminine
+    frequencyRank: 683
+    audio: audio/words/rizq-noun.mp3
+    tags: [quran, everyday]
+  - id: sabil-way
+    arabic: 'مَنْهَج'
+    transliteration: 'manhaj'
+    pos: noun
+    bn: ['পন্থা', 'পদ্ধতি']
+    en: ['method', 'open way']
+    root: 'ن ه ج'
+    gender: masculine
+    frequencyRank: 685
+    audio: audio/words/sabil-way.mp3
+    tags: [quran]
+  - id: hadd-limit
+    arabic: 'أَمَد'
+    transliteration: 'amad'
+    pos: noun
+    bn: ['মেয়াদ', 'সময়সীমা']
+    en: ['term', 'span of time']
+    root: 'أ م د'
+    gender: masculine
+    frequencyRank: 687
+    audio: audio/words/hadd-limit.mp3
+    tags: [quran, time]
+  - id: sirajj
+    arabic: 'سِرَاج'
+    transliteration: 'sirāj'
+    pos: noun
+    bn: ['প্রদীপ', 'বাতি']
+    en: ['lamp', 'luminary']
+    root: 'س ر ج'
+    gender: masculine
+    frequencyRank: 689
+    audio: audio/words/sirajj.mp3
+    tags: [quran, nature]
+    editorNote: 'সূর্যকে سِرَاجًا وَهَّاجًا বলা হয়েছে — জ্বলন্ত প্রদীপ।'
+  - id: misbah
+    arabic: 'مِصْبَاح'
+    transliteration: 'miṣbāḥ'
+    pos: noun
+    bn: ['বাতি', 'চেরাগ']
+    en: ['lamp']
+    root: 'ص ب ح'
+    gender: masculine
+    frequencyRank: 691
+    audio: audio/words/misbah.mp3
+    tags: [quran, everyday]
+    editorNote: 'আয়াতুন নূরের উপমা: كَمِشْكَاةٍ فِيهَا مِصْبَاحٌ।'
+  - id: sirr-secret
+    arabic: 'نَجْوَى'
+    transliteration: 'najwā'
+    pos: noun
+    bn: ['গোপন আলাপ']
+    en: ['secret conversation']
+    root: 'ن ج و'
+    gender: feminine
+    frequencyRank: 693
+    audio: audio/words/sirr-secret.mp3
+    tags: [quran]

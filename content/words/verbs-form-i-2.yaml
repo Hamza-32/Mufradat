@@ -1,0 +1,293 @@
+# Generated from the table in scripts/content-source (kept in git history).
+# Every gloss below was written by hand; anything marked needsReview is one I am
+# not confident about and would like checked.
+#
+# TODO: verify — frequencyRank is an editorial ordering by how early a learner
+# is likely to meet the word, not a corpus count. Replace from a published
+# Quranic frequency list before launch.
+#
+# Form I verbs, continued.
+
+words:
+  - id: faala
+    arabic: 'فَعَلَ'
+    transliteration: 'faʿala'
+    pos: verb
+    bn: ['করা']
+    en: ['to do']
+    root: 'ف ع ل'
+    verb: { form: 1, present: 'يَفْعَلُ', masdar: 'فِعْل' }
+    frequencyRank: 120
+    audio: audio/words/faala.mp3
+    tags: [verbs, form-i, quran]
+    editorNote: 'সব ক্রিয়ার ছাঁচ এই শব্দ দিয়েই শেখানো হয়: فَعَلَ يَفْعَلُ।'
+  - id: qala
+    arabic: 'قَالَ'
+    transliteration: 'qāla'
+    pos: verb
+    bn: ['বলা']
+    en: ['to say']
+    root: 'ق و ل'
+    verb: { form: 1, present: 'يَقُولُ', masdar: 'قَوْل' }
+    frequencyRank: 10
+    audio: audio/words/qala.mp3
+    tags: [verbs, form-i, quran]
+    editorNote: 'কুরআনে সবচেয়ে বেশি আসা ক্রিয়াগুলোর একটি। মাঝের হরফ و বলে রূপ বদলায়।'
+  - id: jaa
+    arabic: 'جَاءَ'
+    transliteration: 'jāʾa'
+    pos: verb
+    bn: ['আসা']
+    en: ['to come']
+    root: 'ج ي أ'
+    verb: { form: 1, present: 'يَجِيءُ', masdar: 'مَجِيء' }
+    frequencyRank: 135
+    audio: audio/words/jaa.mp3
+    tags: [verbs, form-i, quran]
+  - id: kharaja
+    arabic: 'خَرَجَ'
+    transliteration: 'kharaja'
+    pos: verb
+    bn: ['বের হওয়া']
+    en: ['to go out', 'to exit']
+    root: 'خ ر ج'
+    verb: { form: 1, present: 'يَخْرُجُ', masdar: 'خُرُوج' }
+    frequencyRank: 160
+    audio: audio/words/kharaja.mp3
+    tags: [verbs, form-i, quran]
+  - id: dakhala
+    arabic: 'دَخَلَ'
+    transliteration: 'dakhala'
+    pos: verb
+    bn: ['প্রবেশ করা', 'ঢোকা']
+    en: ['to enter']
+    root: 'د خ ل'
+    verb: { form: 1, present: 'يَدْخُلُ', masdar: 'دُخُول' }
+    frequencyRank: 210
+    audio: audio/words/dakhala.mp3
+    tags: [verbs, form-i, quran]
+  - id: jalasa
+    arabic: 'جَلَسَ'
+    transliteration: 'jalasa'
+    pos: verb
+    bn: ['বসা']
+    en: ['to sit']
+    root: 'ج ل س'
+    verb: { form: 1, present: 'يَجْلِسُ', masdar: 'جُلُوس' }
+    frequencyRank: 500
+    audio: audio/words/jalasa.mp3
+    tags: [verbs, form-i, everyday]
+  - id: nazara
+    arabic: 'نَظَرَ'
+    transliteration: 'naẓara'
+    pos: verb
+    bn: ['তাকানো']
+    en: ['to look']
+    root: 'ن ظ ر'
+    verb: { form: 1, present: 'يَنْظُرُ', masdar: 'نَظَر' }
+    frequencyRank: 245
+    audio: audio/words/nazara.mp3
+    tags: [verbs, form-i, quran]
+  - id: samia
+    arabic: 'سَمِعَ'
+    transliteration: 'samiʿa'
+    pos: verb
+    bn: ['শোনা']
+    en: ['to hear', 'to listen']
+    root: 'س م ع'
+    verb: { form: 1, present: 'يَسْمَعُ', masdar: 'سَمْع' }
+    frequencyRank: 150
+    audio: audio/words/samia.mp3
+    tags: [verbs, form-i, quran]
+  - id: fataha
+    arabic: 'فَتَحَ'
+    transliteration: 'fataḥa'
+    pos: verb
+    bn: ['খোলা']
+    en: ['to open']
+    root: 'ف ت ح'
+    verb: { form: 1, present: 'يَفْتَحُ', masdar: 'فَتْح' }
+    frequencyRank: 305
+    audio: audio/words/fataha.mp3
+    tags: [verbs, form-i, quran]
+  - id: saala
+    arabic: 'سَأَلَ'
+    transliteration: 'saʾala'
+    pos: verb
+    bn: ['জিজ্ঞেস করা']
+    en: ['to ask']
+    root: 'س أ ل'
+    verb: { form: 1, present: 'يَسْأَلُ', masdar: 'سُؤَال' }
+    frequencyRank: 255
+    audio: audio/words/saala.mp3
+    tags: [verbs, form-i, quran]
+  - id: wajada
+    arabic: 'وَجَدَ'
+    transliteration: 'wajada'
+    pos: verb
+    bn: ['পাওয়া']
+    en: ['to find']
+    root: 'و ج د'
+    verb: { form: 1, present: 'يَجِدُ', masdar: 'وُجُود' }
+    frequencyRank: 235
+    audio: audio/words/wajada.mp3
+    tags: [verbs, form-i, quran]
+    editorNote: 'و দিয়ে শুরু বলে বর্তমান কালে و পড়ে যায়: يَجِدُ, يَجِدُونَ।'
+  - id: akhadha
+    arabic: 'أَخَذَ'
+    transliteration: 'akhadha'
+    pos: verb
+    bn: ['নেওয়া']
+    en: ['to take']
+    root: 'أ خ ذ'
+    verb: { form: 1, present: 'يَأْخُذُ', masdar: 'أَخْذ' }
+    frequencyRank: 218
+    audio: audio/words/akhadha.mp3
+    tags: [verbs, form-i, quran]
+  - id: jaala
+    arabic: 'جَعَلَ'
+    transliteration: 'jaʿala'
+    pos: verb
+    bn: ['বানানো', 'করে দেওয়া']
+    en: ['to make', 'to render']
+    root: 'ج ع ل'
+    verb: { form: 1, present: 'يَجْعَلُ' }
+    frequencyRank: 128
+    audio: audio/words/jaala.mp3
+    tags: [verbs, form-i, quran]
+  - id: rajaa
+    arabic: 'رَجَعَ'
+    transliteration: 'rajaʿa'
+    pos: verb
+    bn: ['ফিরে আসা']
+    en: ['to return', 'to go back']
+    root: 'ر ج ع'
+    verb: { form: 1, present: 'يَرْجِعُ', masdar: 'رُجُوع' }
+    frequencyRank: 262
+    audio: audio/words/rajaa.mp3
+    tags: [verbs, form-i, quran]
+  - id: shariba
+    arabic: 'شَرِبَ'
+    transliteration: 'shariba'
+    pos: verb
+    bn: ['পান করা']
+    en: ['to drink']
+    root: 'ش ر ب'
+    verb: { form: 1, present: 'يَشْرَبُ', masdar: 'شُرْب' }
+    frequencyRank: 385
+    audio: audio/words/shariba.mp3
+    tags: [verbs, form-i, food]
+  - id: fahima
+    arabic: 'فَهِمَ'
+    transliteration: 'fahima'
+    pos: verb
+    bn: ['বোঝা']
+    en: ['to understand']
+    root: 'ف ه م'
+    verb: { form: 1, present: 'يَفْهَمُ', masdar: 'فَهْم' }
+    frequencyRank: 425
+    audio: audio/words/fahima.mp3
+    tags: [verbs, form-i, learning]
+  - id: hafiza
+    arabic: 'حَفِظَ'
+    transliteration: 'ḥafiẓa'
+    pos: verb
+    bn: ['মুখস্থ করা', 'রক্ষা করা']
+    en: ['to memorise', 'to guard']
+    root: 'ح ف ظ'
+    verb: { form: 1, present: 'يَحْفَظُ', masdar: 'حِفْظ' }
+    frequencyRank: 298
+    audio: audio/words/hafiza.mp3
+    tags: [verbs, form-i, learning, quran]
+    editorNote: 'কুরআন মুখস্থ করাকে حِفْظ বলা হয় — বাংলায় “হিফজ”।'
+  - id: arafa
+    arabic: 'عَرَفَ'
+    transliteration: 'ʿarafa'
+    pos: verb
+    bn: ['চেনা', 'জানা']
+    en: ['to know', 'to recognise']
+    root: 'ع ر ف'
+    verb: { form: 1, present: 'يَعْرِفُ', masdar: 'مَعْرِفَة' }
+    frequencyRank: 232
+    audio: audio/words/arafa.mp3
+    tags: [verbs, form-i, quran]
+    editorNote: 'عَرَفَ = চেনা বা জেনে ফেলা; عَلِمَ = জ্ঞান রাখা। বাংলায় দুটোই “জানা”।'
+  - id: badaa
+    arabic: 'بَدَأَ'
+    transliteration: 'badaʾa'
+    pos: verb
+    bn: ['শুরু করা']
+    en: ['to begin']
+    root: 'ب د أ'
+    verb: { form: 1, present: 'يَبْدَأُ', masdar: 'بِدَايَة' }
+    frequencyRank: 435
+    audio: audio/words/badaa.mp3
+    tags: [verbs, form-i, everyday]
+  - id: nasara
+    arabic: 'نَصَرَ'
+    transliteration: 'naṣara'
+    pos: verb
+    bn: ['সাহায্য করা']
+    en: ['to help', 'to support']
+    root: 'ن ص ر'
+    verb: { form: 1, present: 'يَنْصُرُ', masdar: 'نَصْر' }
+    frequencyRank: 288
+    audio: audio/words/nasara.mp3
+    tags: [verbs, form-i, quran]
+  - id: daraba
+    arabic: 'ضَرَبَ'
+    transliteration: 'ḍaraba'
+    pos: verb
+    bn: ['মারা', 'উদাহরণ দেওয়া']
+    en: ['to strike', 'to set forth (an example)']
+    root: 'ض ر ب'
+    verb: { form: 1, present: 'يَضْرِبُ', masdar: 'ضَرْب' }
+    frequencyRank: 315
+    audio: audio/words/daraba.mp3
+    tags: [verbs, form-i, quran]
+    editorNote: 'ضَرَبَ مَثَلًا = উদাহরণ দেওয়া — কুরআনে এই ব্যবহারই বেশি।'
+  - id: amila
+    arabic: 'عَمِلَ'
+    transliteration: 'ʿamila'
+    pos: verb
+    bn: ['কাজ করা']
+    en: ['to work', 'to do']
+    root: 'ع م ل'
+    verb: { form: 1, present: 'يَعْمَلُ', masdar: 'عَمَل' }
+    frequencyRank: 112
+    audio: audio/words/amila.mp3
+    tags: [verbs, form-i, quran, work]
+  - id: halaqa
+    arabic: 'خَلَقَ'
+    transliteration: 'khalaqa'
+    pos: verb
+    bn: ['সৃষ্টি করা']
+    en: ['to create']
+    root: 'خ ل ق'
+    verb: { form: 1, present: 'يَخْلُقُ', masdar: 'خَلْق' }
+    frequencyRank: 102
+    audio: audio/words/halaqa.mp3
+    tags: [verbs, form-i, quran]
+  - id: rzq
+    arabic: 'رَزَقَ'
+    transliteration: 'razaqa'
+    pos: verb
+    bn: ['রিজিক দেওয়া']
+    en: ['to provide for']
+    root: 'ر ز ق'
+    verb: { form: 1, present: 'يَرْزُقُ', masdar: 'رِزْق' }
+    frequencyRank: 295
+    audio: audio/words/rzq.mp3
+    tags: [verbs, form-i, quran]
+  - id: hamida
+    arabic: 'حَمِدَ'
+    transliteration: 'ḥamida'
+    pos: verb
+    bn: ['প্রশংসা করা']
+    en: ['to praise']
+    root: 'ح م د'
+    verb: { form: 1, present: 'يَحْمَدُ', masdar: 'حَمْد' }
+    frequencyRank: 325
+    audio: audio/words/hamida.mp3
+    tags: [verbs, form-i, quran]
+    editorNote: 'الْحَمْدُ لِلَّهِ এই মূল থেকেই।'

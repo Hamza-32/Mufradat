@@ -1,0 +1,111 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  NODE_VERSION: '22'
+
+jobs:
+  verify:
+    name: Types, lint, unit tests, content
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: npm
+      - run: npm ci
+      - run: npm run typecheck
+      - run: npm run lint
+      - run: npm run format:check
+      - run: npm run test
+      - name: Validate content files
+        run: npm run content:check
+      - name: Check the icons are the ones the generator produces
+        run: |
+          npm run icons
+          git diff --exit-code --stat public/icons || {
+            echo "::error::public/icons is stale. Run npm run icons and commit."
+            exit 1
+          }
+
+  migrations:
+    name: Migrations apply to a clean database
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: postgres:16
+        env:
+          POSTGRES_PASSWORD: postgres
+          POSTGRES_DB: mufradat_test
+        ports: ['5432:5432']
+        options: >-
+          --health-cmd pg_isready --health-interval 10s
+          --health-timeout 5s --health-retries 5
+    env:
+      DATABASE_URL: postgresql://postgres:postgres@localhost:5432/mufradat_test
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: npm
+      - run: npm ci
+      - name: Apply committed migrations
+        run: npm run db:migrate
+      - name: Seed content
+        run: npm run db:seed
+      - name: Seed again (must be idempotent)
+        run: npm run db:seed
+      - name: Fail if the schema and the migrations have drifted
+        run: |
+          npm run db:generate
+          if ! git diff --exit-code --stat drizzle; then
+            echo "::error::schema.ts changed without a committed migration. Run npm run db:generate."
+            exit 1
+          fi
+
+  e2e:
+    name: Playwright (390px and 1440px)
+    runs-on: ubuntu-latest
+    needs: verify
+    env:
+      DATABASE_URL: postgresql://postgres:postgres@localhost:5432/mufradat_test
+      AUTH_SECRET: ci-only-not-a-real-secret
+      AUTH_GOOGLE_ID: ci
+      AUTH_GOOGLE_SECRET: ci
+    services:
+      postgres:
+        image: postgres:16
+        env:
+          POSTGRES_PASSWORD: postgres
+          POSTGRES_DB: mufradat_test
+        ports: ['5432:5432']
+        options: >-
+          --health-cmd pg_isready --health-interval 10s
+          --health-timeout 5s --health-retries 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: npm
+      - run: npm ci
+      - run: npx playwright install --with-deps chromium
+      - run: npm run db:migrate && npm run db:seed
+      - run: npm run build
+      - run: npm run test:e2e
+      - uses: actions/upload-artifact@v4
+        if: ${{ !cancelled() }}
+        with:
+          name: playwright-report
+          path: playwright-report/
+          retention-days: 7
