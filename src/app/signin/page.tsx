@@ -21,6 +21,7 @@ export default async function SignInPage({
   if (viewer) redirect('/account');
 
   const t = await getTranslations('auth');
+  const legal = await getTranslations('legal');
   const { error } = await searchParams;
 
   async function withGoogle(): Promise<void> {
@@ -70,6 +71,17 @@ export default async function SignInPage({
             {t('guest')}
           </Link>
         </Panel>
+
+        {/* Someone deciding whether to hand over their Google account should be
+            able to read what happens to it without leaving the decision. */}
+        <nav className="text-pathor-soft flex gap-5 text-sm">
+          <Link href="/privacy" className="hover:text-dawat underline-offset-4 hover:underline">
+            {legal('privacyTitle')}
+          </Link>
+          <Link href="/terms" className="hover:text-dawat underline-offset-4 hover:underline">
+            {legal('termsTitle')}
+          </Link>
+        </nav>
       </PageBody>
     </AppShell>
   );

@@ -52,6 +52,7 @@ export async function Landing({
 }): Promise<ReactNode> {
   const t = await getTranslations();
   const home = await getTranslations('home');
+  const legal = await getTranslations('legal');
   const locale = await getUserLocale();
 
   return (
@@ -224,6 +225,23 @@ export async function Landing({
             <p className="text-subh-soft mt-4 text-sm">{home('closingNote')}</p>
           </div>
         </section>
+
+        {/* --- Footer ----------------------------------------------------- */}
+        {/* The policy pages are linked from here because a consent screen is
+            only valid while Google can still reach them from the home page. */}
+        <footer className="border-layl-line/60 border-t">
+          <div className="text-subh-soft mx-auto flex w-full max-w-[80rem] flex-col items-center gap-3 px-4 py-8 text-sm sm:flex-row sm:justify-between md:px-6">
+            <p>{t('app.name')}</p>
+            <nav className="flex gap-5">
+              <Link href="/privacy" className="hover:text-subh underline-offset-4 hover:underline">
+                {legal('privacyTitle')}
+              </Link>
+              <Link href="/terms" className="hover:text-subh underline-offset-4 hover:underline">
+                {legal('termsTitle')}
+              </Link>
+            </nav>
+          </div>
+        </footer>
       </main>
     </div>
   );
