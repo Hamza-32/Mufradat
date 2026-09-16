@@ -7,6 +7,7 @@ import type { ReactNode } from 'react';
 import { cn } from '@/lib/cn';
 import { NAV_ITEMS, isActive } from './nav-items';
 import { LanguageToggle } from './LanguageToggle';
+import { SignOutButton } from '@/components/account/SignOutButton';
 import type { Locale } from '@/i18n/config';
 
 /**
@@ -22,10 +23,13 @@ import type { Locale } from '@/i18n/config';
 export function Sidebar({
   locale,
   account,
+  signOutLabel,
   className,
 }: {
   locale: Locale;
   account: { href: string; label: string };
+  /** Only a signed-in learner has a session to end. */
+  signOutLabel?: string | undefined;
   className?: string;
 }): ReactNode {
   const pathname = usePathname();
@@ -85,6 +89,14 @@ export function Sidebar({
         >
           <span className="truncate">{account.label}</span>
         </Link>
+        {/* Beside the name rather than buried inside the account page: someone
+            who has just signed in should be able to see the way back out. */}
+        {signOutLabel ? (
+          <SignOutButton
+            label={signOutLabel}
+            className="text-2xs w-full justify-center lg:justify-start lg:text-sm"
+          />
+        ) : null}
         <LanguageToggle locale={locale} />
       </div>
     </div>

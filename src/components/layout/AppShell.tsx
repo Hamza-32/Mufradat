@@ -8,6 +8,7 @@ import { SyncStatus } from '@/components/offline/SyncStatus';
 import { BottomNav } from './BottomNav';
 import { Sidebar } from './Sidebar';
 import { LanguageToggle } from './LanguageToggle';
+import { SignOutButton } from '@/components/account/SignOutButton';
 
 /**
  * The app frame. Phone: a slim header carrying only the name and the language
@@ -63,7 +64,11 @@ export async function AppShell({
         {t('app.skipToContent')}
       </a>
 
-      <Sidebar locale={locale} account={account} />
+      <Sidebar
+        locale={locale}
+        account={account}
+        signOutLabel={viewer ? t('auth.signOut') : undefined}
+      />
 
       <div className="flex min-w-0 flex-1 flex-col">
         <header
@@ -84,6 +89,9 @@ export async function AppShell({
             >
               {account.label}
             </a>
+            {/* The phone header is the only chrome a learner sees on a small
+                screen, so the way out lives here rather than one tap deeper. */}
+            {viewer ? <SignOutButton label={t('auth.signOut')} className="px-1.5" /> : null}
           </div>
         </header>
 

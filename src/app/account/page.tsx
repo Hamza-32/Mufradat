@@ -2,12 +2,11 @@ import type { Metadata } from 'next';
 import type { ReactNode } from 'react';
 import { redirect } from 'next/navigation';
 import { getTranslations } from 'next-intl/server';
-import { signOut } from '@/auth';
 import { getViewer } from '@/lib/auth/session';
 import { AppShell, PageBody } from '@/components/layout/AppShell';
 import { SectionHeading } from '@/components/ui/SectionHeading';
 import { Panel } from '@/components/ui/Panel';
-import { Button } from '@/components/ui/Button';
+import { SignOutButton } from '@/components/account/SignOutButton';
 
 export const metadata: Metadata = { title: 'অ্যাকাউন্ট' };
 
@@ -15,11 +14,6 @@ export default async function AccountPage(): Promise<ReactNode> {
   const viewer = await getViewer();
   if (!viewer) redirect('/signin');
   const t = await getTranslations('auth');
-
-  async function endSession(): Promise<void> {
-    'use server';
-    await signOut({ redirectTo: '/' });
-  }
 
   return (
     <AppShell>
@@ -31,11 +25,10 @@ export default async function AccountPage(): Promise<ReactNode> {
           <p className="text-pathor text-sm">{viewer.email}</p>
         </Panel>
 
-        <form action={endSession}>
-          <Button type="submit" variant="secondary">
-            {t('signOut')}
-          </Button>
-        </form>
+        <SignOutButton
+          label={t('signOut')}
+          className="border-hairline bg-chuna hover:bg-nil-wash border px-4 text-base"
+        />
       </PageBody>
     </AppShell>
   );

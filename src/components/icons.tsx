@@ -119,3 +119,14 @@ export function PlusIcon(props: IconProps): ReactNode {
     </Svg>
   );
 }
+
+/** Sign out: a door with an arrow leaving through it. */
+export function SignOutIcon(props: IconProps): ReactNode {
+  return (
+    <Svg {...props}>
+      <path d="M14.5 3.5H4.5v17h10" />
+      <path d="M11 12h9" />
+      <path d="m16.5 7.5 4.5 4.5-4.5 4.5" />
+    </Svg>
+  );
+}
