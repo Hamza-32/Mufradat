@@ -173,11 +173,11 @@ export async function Landing({
         {/* --- Decks ------------------------------------------------------ */}
         <section className="border-layl-line/60 border-t bg-[linear-gradient(180deg,rgb(18_50_76/.52),rgb(7_26_41/.22))]">
           <div className="mx-auto w-full max-w-[80rem] px-4 py-16 md:px-6 lg:py-24">
-            <div className="flex flex-col gap-6 border-b border-layl-line/70 pb-8 sm:flex-row sm:items-end sm:justify-between">
+            <div className="border-layl-line/70 flex flex-col gap-6 border-b pb-8 sm:flex-row sm:items-end sm:justify-between">
               <div className="max-w-2xl space-y-4">
                 <p className="text-taj flex items-center gap-3 text-xs font-semibold tracking-[0.2em] uppercase">
-                  <span aria-hidden className="h-px w-8 bg-taj/70" />
-                  {locale === 'bn' ? 'শেখার পথ' : 'A guided collection'}
+                  <span aria-hidden className="bg-taj/70 h-px w-8" />
+                  {home('collectionLabel')}
                 </p>
                 <h2 className="text-subh text-3xl font-semibold tracking-tight lg:text-4xl">
                   {home('decksHeading')}
@@ -187,7 +187,7 @@ export async function Landing({
                 </p>
               </div>
               <span className="text-subh-soft shrink-0 text-sm" data-numeric>
-                {locale === 'bn' ? `${decks.length}টি সংগ্রহ` : `${decks.length} collections`}
+                {home('collectionCount', { count: decks.length })}
               </span>
             </div>
 
@@ -199,35 +199,29 @@ export async function Landing({
                     <Link
                       href={`/review?deck=${deck.id}`}
                       className={cn(
-                        'group relative isolate flex h-full min-h-56 flex-col overflow-hidden rounded-sheet border p-5 transition duration-300 sm:p-6',
+                        'group rounded-sheet relative isolate flex h-full min-h-56 flex-col overflow-hidden border p-5 transition duration-300 sm:p-6',
                         featured
                           ? 'border-nahar-blue/50 bg-[radial-gradient(ellipse_at_100%_0%,rgb(71_166_223/.19),transparent_48%),linear-gradient(135deg,rgb(18_48_74/.98),rgb(7_26_41/.96))] lg:min-h-64 lg:p-8'
-                          : 'border-layl-line/80 bg-layl-deep/65 hover:-translate-y-1 hover:border-nahar-blue/60 hover:bg-layl-deep',
+                          : 'border-layl-line/80 bg-layl-deep/65 hover:border-nahar-blue/60 hover:bg-layl-deep hover:-translate-y-1',
                         'focus-visible:outline-nahar-blue',
                       )}
                     >
                       <span
                         aria-hidden
                         className={cn(
-                          'pointer-events-none absolute -end-4 -top-10 -z-10 select-none font-arabic leading-none text-white/[0.035]',
+                          'font-arabic pointer-events-none absolute -end-4 -top-10 -z-10 leading-none text-white/[0.035] select-none',
                           featured ? 'text-[15rem] lg:-top-16 lg:text-[20rem]' : 'text-[10rem]',
                         )}
                       >
                         ع
                       </span>
-                      <div className="flex items-center justify-between gap-3">
+                      <div className="flex flex-wrap items-center justify-between gap-3">
                         <span className="text-subh-soft flex items-center gap-2 text-[0.68rem] font-semibold tracking-[0.16em] uppercase">
                           <span className="text-nahar-blue" data-numeric>
                             {String(index + 1).padStart(2, '0')}
                           </span>
-                          <span aria-hidden className="h-px w-5 bg-layl-line" />
-                          {featured
-                            ? locale === 'bn'
-                              ? 'শুরু করুন'
-                              : 'Start here'
-                            : locale === 'bn'
-                              ? 'শব্দের সংগ্রহ'
-                              : 'Word collection'}
+                          <span aria-hidden className="bg-layl-line h-px w-5" />
+                          {home(featured ? 'featuredCollection' : 'wordCollection')}
                         </span>
                         <span
                           className={cn(
@@ -244,7 +238,8 @@ export async function Landing({
 
                       <div className="mt-7 max-w-2xl space-y-2">
                         <GlossText
-                          script="bn"
+                          as="h3"
+                          script={locale === 'bn' ? 'bn' : 'en'}
                           className={cn(
                             'text-subh font-semibold tracking-tight',
                             featured ? 'text-xl sm:text-2xl lg:text-3xl' : 'text-lg',
@@ -253,7 +248,8 @@ export async function Landing({
                           {deck.title}
                         </GlossText>
                         <GlossText
-                          script="bn"
+                          as="p"
+                          script={locale === 'bn' ? 'bn' : 'en'}
                           className={cn(
                             'text-subh-soft leading-relaxed',
                             featured ? 'max-w-xl text-sm sm:text-base' : 'text-sm',
@@ -264,7 +260,7 @@ export async function Landing({
                       </div>
 
                       <div className="text-nahar-blue mt-auto flex items-center gap-2 pt-6 text-sm font-semibold">
-                        <span>{locale === 'bn' ? 'শেখা শুরু করুন' : 'Begin learning'}</span>
+                        <span>{home('beginLearning')}</span>
                         <span
                           aria-hidden
                           className="inline-block transition-transform duration-300 group-hover:translate-x-1"

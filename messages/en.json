@@ -34,6 +34,11 @@
     "greetingNote": "\"Ahlan wa sahlan\", the old Arabic greeting, meaning: \"you have arrived among your own family, and may your path be easy.\"",
     "headline": "<brand>Mufradat</brand> is the straightforward way for Bengali speakers to learn Arabic vocabulary.",
     "decksHeading": "Where to begin",
+    "collectionLabel": "A guided collection",
+    "collectionCount": "{count, number} collections",
+    "featuredCollection": "Start here",
+    "wordCollection": "Word collection",
+    "beginLearning": "Begin learning",
     "decksBody": "Each deck is its own world — the words of the Quran, the words of the market, the names for family. Start with whichever you need.",
     "closingHeading": "Give it ten minutes today. Tomorrow the verse reads a little further.",
     "closingNote": "No sign-in needed to start."
