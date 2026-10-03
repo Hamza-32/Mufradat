@@ -171,39 +171,111 @@ export async function Landing({
         </section>
 
         {/* --- Decks ------------------------------------------------------ */}
-        <section className="border-layl-line/60 bg-layl-soft/35 border-t">
-          <div className="mx-auto w-full max-w-[80rem] px-4 py-14 md:px-6 lg:py-20">
-            <div className="max-w-2xl space-y-3">
-              <h2 className="text-subh text-2xl font-semibold lg:text-3xl">
-                {home('decksHeading')}
-              </h2>
-              <p className="text-subh-soft text-base">{home('decksBody')}</p>
+        <section className="border-layl-line/60 border-t bg-[linear-gradient(180deg,rgb(18_50_76/.52),rgb(7_26_41/.22))]">
+          <div className="mx-auto w-full max-w-[80rem] px-4 py-16 md:px-6 lg:py-24">
+            <div className="flex flex-col gap-6 border-b border-layl-line/70 pb-8 sm:flex-row sm:items-end sm:justify-between">
+              <div className="max-w-2xl space-y-4">
+                <p className="text-taj flex items-center gap-3 text-xs font-semibold tracking-[0.2em] uppercase">
+                  <span aria-hidden className="h-px w-8 bg-taj/70" />
+                  {locale === 'bn' ? 'শেখার পথ' : 'A guided collection'}
+                </p>
+                <h2 className="text-subh text-3xl font-semibold tracking-tight lg:text-4xl">
+                  {home('decksHeading')}
+                </h2>
+                <p className="text-subh-soft max-w-xl text-base leading-relaxed">
+                  {home('decksBody')}
+                </p>
+              </div>
+              <span className="text-subh-soft shrink-0 text-sm" data-numeric>
+                {locale === 'bn' ? `${decks.length}টি সংগ্রহ` : `${decks.length} collections`}
+              </span>
             </div>
 
-            <ul className="mt-9 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-              {decks.map((deck) => (
-                <li key={deck.id}>
-                  <Link
-                    href={`/review?deck=${deck.id}`}
-                    className={cn(
-                      'rounded-sheet border-layl-line bg-layl-deep/60 flex h-full flex-col gap-3 border p-5',
-                      'hover:border-nahar-blue/70 hover:bg-layl-deep transition-colors',
-                    )}
-                  >
-                    <div className="flex items-baseline justify-between gap-3">
-                      <GlossText script="bn" className="text-subh text-base font-semibold">
-                        {deck.title}
-                      </GlossText>
-                      <span className="text-taj shrink-0 text-xs" data-numeric>
-                        {t('home.statWords', { count: deck.wordCount })}
+            <ul className="mt-6 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+              {decks.map((deck, index) => {
+                const featured = index === 0;
+                return (
+                  <li key={deck.id} className={featured ? 'sm:col-span-2' : undefined}>
+                    <Link
+                      href={`/review?deck=${deck.id}`}
+                      className={cn(
+                        'group relative isolate flex h-full min-h-56 flex-col overflow-hidden rounded-sheet border p-5 transition duration-300 sm:p-6',
+                        featured
+                          ? 'border-nahar-blue/50 bg-[radial-gradient(ellipse_at_100%_0%,rgb(71_166_223/.19),transparent_48%),linear-gradient(135deg,rgb(18_48_74/.98),rgb(7_26_41/.96))] lg:min-h-64 lg:p-8'
+                          : 'border-layl-line/80 bg-layl-deep/65 hover:-translate-y-1 hover:border-nahar-blue/60 hover:bg-layl-deep',
+                        'focus-visible:outline-nahar-blue',
+                      )}
+                    >
+                      <span
+                        aria-hidden
+                        className={cn(
+                          'pointer-events-none absolute -end-4 -top-10 -z-10 select-none font-arabic leading-none text-white/[0.035]',
+                          featured ? 'text-[15rem] lg:-top-16 lg:text-[20rem]' : 'text-[10rem]',
+                        )}
+                      >
+                        ع
                       </span>
-                    </div>
-                    <GlossText script="bn" className="text-subh-soft text-sm leading-relaxed">
-                      {deck.description}
-                    </GlossText>
-                  </Link>
-                </li>
-              ))}
+                      <div className="flex items-center justify-between gap-3">
+                        <span className="text-subh-soft flex items-center gap-2 text-[0.68rem] font-semibold tracking-[0.16em] uppercase">
+                          <span className="text-nahar-blue" data-numeric>
+                            {String(index + 1).padStart(2, '0')}
+                          </span>
+                          <span aria-hidden className="h-px w-5 bg-layl-line" />
+                          {featured
+                            ? locale === 'bn'
+                              ? 'শুরু করুন'
+                              : 'Start here'
+                            : locale === 'bn'
+                              ? 'শব্দের সংগ্রহ'
+                              : 'Word collection'}
+                        </span>
+                        <span
+                          className={cn(
+                            'shrink-0 rounded-full border px-3 py-1 text-xs font-medium',
+                            featured
+                              ? 'border-nahar-blue/35 bg-nahar-blue/10 text-nahar-blue'
+                              : 'border-layl-line text-taj',
+                          )}
+                          data-numeric
+                        >
+                          {t('home.statWords', { count: deck.wordCount })}
+                        </span>
+                      </div>
+
+                      <div className="mt-7 max-w-2xl space-y-2">
+                        <GlossText
+                          script="bn"
+                          className={cn(
+                            'text-subh font-semibold tracking-tight',
+                            featured ? 'text-xl sm:text-2xl lg:text-3xl' : 'text-lg',
+                          )}
+                        >
+                          {deck.title}
+                        </GlossText>
+                        <GlossText
+                          script="bn"
+                          className={cn(
+                            'text-subh-soft leading-relaxed',
+                            featured ? 'max-w-xl text-sm sm:text-base' : 'text-sm',
+                          )}
+                        >
+                          {deck.description}
+                        </GlossText>
+                      </div>
+
+                      <div className="text-nahar-blue mt-auto flex items-center gap-2 pt-6 text-sm font-semibold">
+                        <span>{locale === 'bn' ? 'শেখা শুরু করুন' : 'Begin learning'}</span>
+                        <span
+                          aria-hidden
+                          className="inline-block transition-transform duration-300 group-hover:translate-x-1"
+                        >
+                          →
+                        </span>
+                      </div>
+                    </Link>
+                  </li>
+                );
+              })}
             </ul>
           </div>
         </section>
