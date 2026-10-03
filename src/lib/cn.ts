@@ -15,6 +15,8 @@ const twMerge = extendTailwindMerge({
   extend: {
     classGroups: {
       'font-size': [{ text: ['2xs', 'ar-sm', 'ar-base', 'ar-lg', 'ar-display'] }],
+      // Component radius tokens must also merge with standard overrides.
+      rounded: [{ rounded: ['data', 'ui', 'sheet'] }],
     },
   },
 });

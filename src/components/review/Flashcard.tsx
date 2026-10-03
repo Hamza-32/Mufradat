@@ -93,7 +93,7 @@ export function Flashcard({
           </span>
         </div>
 
-        <div className="relative flex min-h-60 flex-col items-center justify-center gap-4 px-5 py-7 sm:min-h-72 sm:py-9">
+        <div className="relative flex min-h-60 flex-col items-center justify-center gap-3 px-5 py-5 sm:min-h-64 sm:py-6">
           <div
             aria-hidden
             className="border-nil/10 pointer-events-none absolute top-1/2 left-1/2 -z-10 size-56 -translate-x-1/2 -translate-y-1/2 rounded-full border sm:size-64"
@@ -102,13 +102,20 @@ export function Flashcard({
             <span className="bg-taj/50 absolute top-0 left-1/2 size-1 -translate-x-1/2 -translate-y-1/2 rounded-full" />
             <span className="bg-nil/40 absolute bottom-0 left-1/2 size-1 -translate-x-1/2 translate-y-1/2 rounded-full" />
           </div>
-          <ArabicText
-            size="display"
-            as="p"
-            className="text-subh block max-w-full overflow-x-auto px-2 text-[clamp(3rem,9vw,6rem)] leading-[1.7]"
+          <div
+            role="region"
+            aria-label={t('wordLabel')}
+            tabIndex={0}
+            className="relative w-full overflow-x-auto overflow-y-hidden rounded-xl py-2"
           >
-            {item.arabic}
-          </ArabicText>
+            <ArabicText
+              size="display"
+              as="p"
+              className="text-subh mx-auto block w-max px-2 text-[clamp(3rem,7vw,5.25rem)] leading-[2]"
+            >
+              {item.arabic}
+            </ArabicText>
+          </div>
           <div className="border-hairline/80 bg-kagoj/65 relative flex items-center justify-center gap-3 rounded-full border py-1 ps-5 pe-1">
             <span lang="en" className="font-latin text-dawat text-base">
               {item.transliteration}
@@ -126,7 +133,7 @@ export function Flashcard({
             hears the meaning rather than having to hunt for it. */}
         <div
           aria-live="polite"
-          className="border-hairline/80 bg-kagoj/45 flex min-h-32 flex-col items-center justify-center gap-2 border-t px-5 py-5 sm:px-8"
+          className="border-hairline/80 bg-kagoj/45 flex min-h-24 flex-col items-center justify-center gap-2 border-t px-5 py-4 sm:px-8"
         >
           {revealed ? (
             <>

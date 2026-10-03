@@ -131,13 +131,13 @@ export function ReviewSession({
 
   if (status === 'loading') {
     return (
-      <div className="mx-auto flex min-h-dvh w-full max-w-4xl flex-col px-4 py-5 sm:px-6 sm:py-8 lg:py-10">
+      <div className="mx-auto flex min-h-dvh w-full max-w-4xl flex-col px-4 py-5 sm:px-6 sm:py-6">
         <div className="mx-auto mb-6 w-full max-w-3xl space-y-5 pt-1 pb-4">
           <Skeleton className="h-14 w-44 rounded-xl" />
           <Skeleton className="h-7 w-full rounded-full" />
         </div>
         <div className="mx-auto w-full max-w-3xl space-y-5">
-          <Skeleton className="h-[25rem] rounded-[1.75rem] sm:h-[28rem]" />
+          <Skeleton className="h-[24rem] rounded-[1.75rem] sm:h-[26rem]" />
           <Skeleton className="h-16 w-full rounded-2xl" />
         </div>
       </div>
@@ -184,7 +184,7 @@ export function ReviewSession({
   const sessionTotal = Math.max(total.current, seen + remaining);
 
   return (
-    <div className="mx-auto flex min-h-dvh w-full max-w-4xl flex-col px-4 py-5 sm:px-6 sm:py-8 lg:py-10">
+    <div className="mx-auto flex min-h-dvh w-full max-w-4xl flex-col px-4 py-5 sm:px-6 sm:py-6">
       <header className="bg-kagoj/95 sticky top-0 z-10 mx-auto mb-6 w-full max-w-3xl space-y-5 pt-1 pb-4 backdrop-blur-sm">
         <div className="flex items-center justify-between gap-4">
           <div className="space-y-1">
