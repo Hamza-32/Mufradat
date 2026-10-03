@@ -138,6 +138,15 @@
     "addNote": "Write a note"
   },
   "review": {
+    "sessionTitle": "Daily review",
+    "sessionSubtitle": "Arabic → Bengali & English",
+    "sessionProgress": "Session progress",
+    "meaningPrompt": "What does this word mean?",
+    "newWord": "New word",
+    "reviewWord": "Review",
+    "meaningLabel": "The meaning",
+    "recallHint": "Bring the meaning to mind. Reveal it when you're ready.",
+    "gradePrompt": "How well did you remember?",
     "reveal": "Show answer",
     "spaceKey": "(space)",
     "playAudio": "Play pronunciation",

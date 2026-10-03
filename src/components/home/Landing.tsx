@@ -241,7 +241,7 @@ export async function Landing({
                           as="h3"
                           script={locale === 'bn' ? 'bn' : 'en'}
                           className={cn(
-                            'text-subh font-semibold tracking-tight',
+                            'text-subh block font-semibold tracking-tight',
                             featured ? 'text-xl sm:text-2xl lg:text-3xl' : 'text-lg',
                           )}
                         >
@@ -251,7 +251,7 @@ export async function Landing({
                           as="p"
                           script={locale === 'bn' ? 'bn' : 'en'}
                           className={cn(
-                            'text-subh-soft leading-relaxed',
+                            'text-subh-soft block leading-relaxed',
                             featured ? 'max-w-xl text-sm sm:text-base' : 'text-sm',
                           )}
                         >

@@ -4,7 +4,6 @@ import { useCallback, useEffect, useMemo, useRef, useState, type ReactNode } fro
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import { useTranslations } from 'next-intl';
-import { cn } from '@/lib/cn';
 import { Sheet } from '@/components/ui/Sheet';
 import { ButtonLink } from '@/components/ui/Button';
 import { ProgressBar } from '@/components/ui/ProgressBar';
@@ -106,6 +105,7 @@ export function ReviewSession({
       if (target && ['INPUT', 'TEXTAREA'].includes(target.tagName)) return;
 
       if (event.key === ' ' || event.key === 'Enter') {
+        if (target?.closest('button, a, [role="button"]')) return;
         event.preventDefault();
         if (!revealed) setRevealed(true);
         return;
@@ -131,10 +131,15 @@ export function ReviewSession({
 
   if (status === 'loading') {
     return (
-      <div className="mx-auto flex min-h-dvh max-w-2xl flex-col gap-4 p-4">
-        <Skeleton className="h-2 w-full" />
-        <Skeleton className="min-h-64 flex-1" />
-        <Skeleton className="h-16 w-full" />
+      <div className="mx-auto flex min-h-dvh w-full max-w-4xl flex-col px-4 py-5 sm:px-6 sm:py-8 lg:py-10">
+        <div className="mx-auto mb-6 w-full max-w-3xl space-y-5 pt-1 pb-4">
+          <Skeleton className="h-14 w-44 rounded-xl" />
+          <Skeleton className="h-7 w-full rounded-full" />
+        </div>
+        <div className="mx-auto w-full max-w-3xl space-y-5">
+          <Skeleton className="h-[25rem] rounded-[1.75rem] sm:h-[28rem]" />
+          <Skeleton className="h-16 w-full rounded-2xl" />
+        </div>
       </div>
     );
   }
@@ -179,26 +184,35 @@ export function ReviewSession({
   const sessionTotal = Math.max(total.current, seen + remaining);
 
   return (
-    <div className="mx-auto flex min-h-dvh max-w-2xl flex-col p-4 lg:max-w-3xl lg:p-6">
-      {/* Sticky progress: always visible, never taller than it needs to be. */}
-      <header className="bg-kagoj/95 sticky top-0 z-10 -mx-4 mb-4 px-4 pt-1 pb-3 lg:-mx-6 lg:px-6">
-        <div className="flex items-center gap-3">
+    <div className="mx-auto flex min-h-dvh w-full max-w-4xl flex-col px-4 py-5 sm:px-6 sm:py-8 lg:py-10">
+      <header className="bg-kagoj/95 sticky top-0 z-10 mx-auto mb-6 w-full max-w-3xl space-y-5 pt-1 pb-4 backdrop-blur-sm">
+        <div className="flex items-center justify-between gap-4">
+          <div className="space-y-1">
+            <h1 className="text-dawat text-xl font-semibold sm:text-2xl">{t('sessionTitle')}</h1>
+            <p className="text-pathor text-xs sm:text-sm">{t('sessionSubtitle')}</p>
+          </div>
           <Link
             href="/"
             aria-label={t('exit')}
-            className="size-touch rounded-ui text-pathor hover:bg-nil-wash hover:text-nil inline-flex shrink-0 items-center justify-center"
+            className="text-pathor border-hairline hover:border-nil/40 hover:bg-nil-wash hover:text-nil inline-flex min-h-11 shrink-0 items-center justify-center gap-2 rounded-full border px-3 sm:px-4"
           >
-            <CloseIcon width={20} height={20} />
+            <CloseIcon width={16} height={16} />
+            <span className="hidden text-xs font-semibold sm:inline">{t('exit')}</span>
           </Link>
+        </div>
+        <div className="space-y-2">
+          <div className="text-pathor flex items-center justify-between gap-3 text-xs">
+            <span>{t('sessionProgress')}</span>
+            <span className="text-nil" data-numeric>
+              {t('progressCount', { done: seen, total: sessionTotal })}
+            </span>
+          </div>
           <ProgressBar
             value={seen}
             max={sessionTotal}
             label={t('progressLabel', { done: seen, total: sessionTotal })}
-            className="flex-1"
+            className="h-1 rounded-full"
           />
-          <span className="text-pathor shrink-0 text-sm" data-numeric>
-            {t('progressCount', { done: seen, total: sessionTotal })}
-          </span>
         </div>
       </header>
 
@@ -214,9 +228,18 @@ export function ReviewSession({
       />
 
       {/* Desktop only: the shortcut hints, and the overlay behind "?". */}
-      <p className={cn('text-pathor-soft mt-3 hidden text-center text-xs lg:block')}>
-        {t('shortcutHint')}
-      </p>
+      <div className="mt-5 hidden justify-center lg:flex">
+        <button
+          type="button"
+          onClick={() => setShortcutsOpen(true)}
+          className="text-pathor hover:text-nil inline-flex min-h-11 items-center gap-2 rounded-full px-4 text-xs transition-colors"
+        >
+          <span aria-hidden className="font-latin border-hairline rounded-md border px-1.5 py-0.5">
+            ?
+          </span>
+          {t('shortcutsTitle')}
+        </button>
+      </div>
 
       <Sheet
         open={shortcutsOpen}

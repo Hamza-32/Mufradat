@@ -138,6 +138,15 @@
     "addNote": "নোট লিখুন"
   },
   "review": {
+    "sessionTitle": "আজকের পড়া",
+    "sessionSubtitle": "আরবি → বাংলা ও ইংরেজি",
+    "sessionProgress": "পড়ার অগ্রগতি",
+    "meaningPrompt": "এই শব্দের অর্থ কী?",
+    "newWord": "নতুন শব্দ",
+    "reviewWord": "ঝালাই",
+    "meaningLabel": "শব্দের অর্থ",
+    "recallHint": "অর্থটা মনে করার চেষ্টা করুন। তৈরি হলে উত্তর দেখুন।",
+    "gradePrompt": "কতটা মনে ছিল?",
     "reveal": "উত্তর দেখুন",
     "spaceKey": "(স্পেস)",
     "playAudio": "উচ্চারণ শুনুন",
